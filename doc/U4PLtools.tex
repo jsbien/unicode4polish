@@ -1,0 +1,90 @@
+\documentclass[12]{mwart}
+% \usepackage{polyglossia}
+% \setdefaultlanguage{polish}
+
+\usepackage{enumitem}
+\usepackage{draftwatermark}
+
+\usepackage{xltxtra}
+
+\setmainfont[Mapping=tex-text]{TeX Gyre Termes}
+\setsansfont[Mapping=tex-text]{TeX Gyre Adventor}
+%\setmainfont{TeXGyreTermes}
+%\setmainfont{DejaVu Serif}
+%\setmainfont{Bitstream Vera Serif}
+%\setmonofont{TeX Gyre Cursor}
+\setmonofont{DejaVu Sans Mono}
+\usepackage{draftwatermark}
+
+% \usepackage{bibentry,natbib}
+
+\usepackage{graphicx}
+
+\usepackage{hyperref}
+
+\usepackage{soul}
+
+\usepackage{relsize}
+
+\usepackage[style=authoryear,natbib=true]{biblatex}
+%\addbibresource{JSB2013.bib,typografia.bib}
+%\addbibresource{4JSB2014.bib}
+\AtEveryBibitem{\clearfield{note}}
+
+
+
+\newcommand{\program}[1]{\textsf{#1}}
+
+\title{U4PL tools}
+\author{Janusz S. Bień}
+
+\date{\today}
+
+
+\begin{document}
+\maketitle
+% \pagestyle{empty}
+
+% no math
+\catcode`\&=12
+\catcode`\_=12
+
+\section{Unicode Character Database}
+\label{sec:unic-char-datab}
+
+On Debian the tools use by default DCB provided by the package
+\texttt{unicode-data}. The location of DCB should be however
+configurable for portability and for access to earlier versions of the
+standards.
+
+\section{U4PL file indexer}
+\label{sec:u4pl-file-indexer}
+
+The program makes the list of the \texttt{rst} files in the
+subdirectory \texttt{codes} and \texttt{PUA} with the names starting
+with \texttt{U+} (\texttt{codes}) or \texttt{M+} (\texttt{PUA}).
+
+The program makes also the list of the entries in the
+\texttt{Home.rst} file in the current directory. The entries have the form
+of hyperlinks such as
+
+{\relsize{-2}
+\begin{verbatim}
+`'LATIN CAPITAL LETTER O WITH STROKE' (U+00D8) <codes/U+00D8_LATIN_CAPITAL_LETTER_O_WITH_STROKE>`_
+\end{verbatim}
+}
+
+If an entry is missing for a file, the program adds it on the end of the list.
+
+If the file is missing for an entry, the program comments the entry
+out and write a warning message.
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% TeX-engine: xetex
+%%% TeX-PDF-mode: t
+%%% coding: utf-8
+%%% End:
