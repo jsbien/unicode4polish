@@ -2,6 +2,8 @@
 % \usepackage{polyglossia}
 % \setdefaultlanguage{polish}
 
+\usepackage[no-math]{fontspec}
+
 \usepackage{enumitem}
 \usepackage{draftwatermark}
 
@@ -79,7 +81,41 @@ If an entry is missing for a file, the program adds it on the end of the list.
 If the file is missing for an entry, the program comments the entry
 out and write a warning message.
 
+If the program is called with an argument, it performs the operations
+only for the specified file.
+
+\section{U4PL template creator}
+\label{sec:u4pl-templ-creat}
+
+The program takes a hexadecimal code point as an argument. It creates
+a template file for it and, if appropriate, the template for the
+opposite case with the appropriate hyperlinks.
+
+For example, for \texttt{0253} it creates the file
+\texttt{U+0253_LATIN_SMALL_LETTER_B_WITH_HOOK.rst} containing in
+particular:
+
+\begin{itemize}
+\item \texttt{`'LATIN SMALL LETTER B WITH HOOK' (U+0253) <http://www.fileformat.info/info/unicode/char/0253/index.htm>`_
+}
+\item \texttt{Unicode 1.1.0 (June, 1993)}
+from \texttt{DerivedAge.txt}
+\item 
+  \begin{quote}
+    \obeylines
+    	* implosive bilabial stop
+	* Pan-Nigerian alphabet
+	* uppercase is 0181
+  \end{quote}
+from \texttt{NamesList.txt}
+\item Uppre case \texttt{U+0181} from \texttt{UnicodeData.txt}
+\end{itemize}
+
 \end{document}
+
+/usr/share/doc/unicode-data
+
+/usr/share/unicode
 
 %%% Local Variables:
 %%% mode: latex
