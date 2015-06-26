@@ -62,34 +62,43 @@ standards.
 \section{Wiki structure}
 \label{sec:wiki-structure}
 
-At present small and capital letters are described separately. It is
-not clear how to represent conveniently the information common to both
-cases.
+It is yet defined definitively.
 
 \section{U4PL file indexer}
 \label{sec:u4pl-file-indexer}
 
-The program makes the list of the \texttt{rst} files in the
-subdirectory \texttt{codes} and \texttt{PUA} with the names starting
-with \texttt{U+} (\texttt{codes}) or \texttt{M+} (\texttt{PUA}).
+The program scans recursively the \texttt{textels} subdirectory for the
+\texttt{rst} files. For every file its title is extracted,
+cf. \url{https://mercurial.selenic.com/wiki/HelpOnParsers/ReStructuredText/RstPrimer}:
+\begin{quote}
+  The title of the whole document is distinct from section titles and
+  may be formatted somewhat differently (e.g. the HTML writer by
+  default shows it as a centered heading).
 
-The program makes also the list of the entries in the
-\texttt{Home.rst} file in the current directory. The entries have the form
-of hyperlinks such as
+  To indicate the document title in reStructuredText, use a unique
+  adornment style at the beginning of the document.
+\end{quote}
+If a file doesn't contain a title, a warning is issued and the title
+ios assumed to be the name of the file with its path relative to
+\texttt{textels}.
+
+% Extracted titles can be cashed somewhere to speed up next runs of the
+% program.
+
+The titles are used to create entries in the \texttt{Home.rst} file in
+the current directory. The entries have the form of hyperlinks such as
 
 {\relsize{-2}
 \begin{verbatim}
-`'LATIN CAPITAL LETTER O WITH STROKE' (U+00D8) <codes/U+00D8_LATIN_CAPITAL_LETTER_O_WITH_STROKE>`_
+`TITLE <path/file_name>`_
 \end{verbatim}
 }
 
-If an entry is missing for a file, the program adds it on the end of the list.
+By default the order of entries should reflect the directory
+structure; in the future different additional arrangement may appear
+useful.
 
-If the file is missing for an entry, the program comments the entry
-out and write a warning message.
 
-If the program is called with an argument, it performs the operations
-only for the specified file.
 
 \section{U4PL template creator}
 \label{sec:u4pl-templ-creat}
