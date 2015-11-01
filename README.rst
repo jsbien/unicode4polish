@@ -1,1 +1,1 @@
-An attempt to document the characters needed for (old) Polish texts. Work in progress, temporarily suspended. For the time being the development is carried on at https://bitbucket.org/jsbien/parkosz-font/.
+An attempt to document the characters needed for (old) Polish texts in the form of wiki (access available on request). Work in progress, temporarily suspended. For the time being the development is carried on at https://bitbucket.org/jsbien/parkosz-font/.
