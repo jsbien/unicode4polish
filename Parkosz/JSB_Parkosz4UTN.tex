@@ -1,0 +1,105 @@
+% Janusz S. Bień
+% Formal Linguistics Department, University of Warsaw, Dobra 55, 00-312 Warszawa, Poland
+% jsbien@uw.edu.pl
+
+\documentclass{mwart}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setmainlanguage{english}
+\setotherlanguage{polish}
+\usepackage{csquotes}
+\usepackage[style=authoryear,backend=biber]{biblatex}
+%\addbibresource{jsbqed.bib}
+\addbibresource{paleografia.bib}
+\addbibresource{JSB2013.bib}
+\addbibresource{zs_unibipod.bib}
+\addbibresource{jsbquoted.bib}
+\addbibresource{Parkosz.bib}
+
+% http://tex.stackexchange.com/questions/166337/quotation-mark-quotation-sign-xelatex-polyglossia-csquotes
+\DeclareQuoteStyle{polish}% I looked it up on Wikipedia, no idea if it's right
+  {\quotedblbase}
+  {\textquotedblright}
+  [0.05em]
+  {\textquoteleft}
+  {\textquoteright}
+
+
+
+\setmainfont[Mapping=tex-text]{TeX Gyre Termes}
+% \char"EC10 \char"EC11 oraz \char"EC12
+\def\orogate{\char"EC12}
+\usepackage{relsize}
+
+\usepackage{hyperref}
+
+\usepackage{graphicx}
+% [hyphens]: options clash
+\usepackage{url}
+%\usepackage{natbib}
+\newcommand{\uname}[1]{{\relsize{-1}\texttt{#1}}}
+\newcommand{\ucode}[1]{\texttt{#1}}
+\newcommand{\mname}[1]{\texttt{#1}}
+\newcommand{\mcode}[1]{\texttt{#1}}
+\newcommand{\aname}[1]{\texttt{#1}}
+\newcommand{\acode}[1]{\texttt{#1}}
+\newcommand{\prname}[1]{\textsf{#1}}
+%
+
+
+%\usepackage{draftwatermark}
+
+
+
+\begin{document}
+
+% 
+\title{Transcribing old Polish in Unicode.\\ A case study of a 15th century treatise}
+
+\author{Janusz S. Bień}
+
+
+\date{\today}
+
+\maketitle
+
+\begin{abstract}
+
+  At the moment the present document consists just of some loose notes
+  about representing in Unicode the treatise by Jakub Parkosz alias
+  Parkoszowic and its critical editions. It is hoped that it will
+  evaluate towards a Unicode Technical Notes.
+
+  The present author would be happy to discuss the presented ideas on
+  any suitable forum and would welcome any contribution to the present
+  text.
+\end{abstract}
+
+\section{Introduction}
+\label{sec:introduction}
+
+The starting point for the present work are various papers and
+presentations in Polish including \url{http://bc.klf.uw.edu.pl/469/}
+and the results of experiments available at
+\url{https://bitbucket.org/jsbien/parkosz-font/} and
+\url{https://bitbucket.org/jsbien/parkosz-traktat}.
+
+
+
+%\printbibliography
+\end{document}
+
+
+  In 1985 Prof. Kucała published a book on Parkosz’s orthographic
+  treatise containing the facsimile of the manuscript, its Latin text
+  and the polish translation. Later Prof. Kucała agreed to apply to
+  the book the Creative Commons Attribution license. 
+
+
+%%% Local Variables: 
+%%% coding: utf-8-unix
+%%% mode: latex
+%%% TeX-master: t
+%%% TeX-PDF-mode: t
+%%% TeX-engine: xetex
+%%% End: 
