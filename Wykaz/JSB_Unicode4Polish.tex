@@ -36,6 +36,8 @@
 
 \usepackage{longtable}
 
+\usepackage{relsize}
+
 % \usepackage[polish]{varioref}
 % \renewcommand\reftextfaraway[1]{na str.~\pageref{#1}}
 % \def\eob{ę}
@@ -262,8 +264,61 @@ Unicode\\(a case study --- work in progress)}
 \end{frame}
 
 \begin{frame}
+  \frametitle{Autorzy}
+  \begin{enumerate}
+  \item Konrad Górski, zm. 7 kwietnia 1990 w Toruniu
+  \item Władysław Kuraszkiewicz, zm. 10 marca 1997 w Poznaniu
+  \item Franciszek Pepłowski, zm. 2009\\
+    {\relsize{-2}\url{http://www.linguistica.umk.pl/teksty/02_kaminska.pdf}}
+  \item Stefan Saski, zm. 1974\\
+    {\relsize{-2}\url{http://www.archpan.poznan.pl/wp-content/uploads/2015/11/Materia\%C5\%82y-Stefana-Saskiego-P-III-62.pdf}}
+\item Witold Taszycki, zm. 9 sierpnia 1979 w Krakowie
+\item Stanisław Urbanczyk, zm. 23 października 2001 w Krakowie
+\item Stefan [Vrtel-]Wierczynski, zm. 3 lutego 1963 w Poznaniu 
+\item Jerzy Woronczak, zm. 6 marca 2003 we Wrocławiu
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Utwór wspólny (nie zbiorowy)}
+W R O C Ł A W 1955\\
+ZAKŁAD IMIENIA OSSOLINSKICH\\
+WYDAWNICTWO POLSKIE] AKADEMII NAUK
+
+\bigskip
+Redacja naukowa\\
+MARIA RENATA MAYENOWA\\
+przy współudziale\\
+ZOFII FLORCZAK\\
+
+\end{frame}
+
+\begin{frame}
   \frametitle{Zasady s. 27 w. 30}
   \includegraphics[width=\hsize]{img/Zasady27-30}
+
+  OCR:\\
+  \begin{quote}
+  \texttt{Długie s ([ ) oddajemy przez [ , ligaturę [3 przez [z.}
+\end{quote}
+
+  {\stpl{ſ}}
+    \texttt{LATIN SMALL LETTER LONG S}
+
+    {\stpl{ß}}
+    \texttt{LATIN SMALL LETTER SHARP S}
+
+    \url{https://en.wikipedia.org/wiki/https://en.wikipedia.org/wiki/ß}
+    \url{https://pl.wikipedia.org/wiki/ß}
+
+    \begin{block}{Komentarze}
+      Dlaczego \textit{ſz}?
+
+      PESEL, \ldots
+
+      \stpl{ẞ} \texttt{LATIN CAPITAL LETTER SHARP S}
+    \end{block}
+    
 \end{frame}
 
 \begin{frame}
@@ -274,6 +329,10 @@ Unicode\\(a case study --- work in progress)}
 
 
 \end{document}
+echo -n -e "$(echo http://ru.wikipedia.org/wiki/xxx | sed 's/+/ /g;s/%\(..\)/\\x\1/g;')"
+
+
+
 
 %%% Local Variables: 
 %%% coding: utf-8-unix
