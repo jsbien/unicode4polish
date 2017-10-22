@@ -1,7 +1,7 @@
+% xelatex -shell-escape JSB_Parkosz4UTN.tex
 % Janusz S. Bień
 % Formal Linguistics Department, University of Warsaw, Dobra 55, 00-312 Warszawa, Poland
 % jsbien@uw.edu.pl
-
 \documentclass{mwart}
 \usepackage{fontspec}
 \usepackage{polyglossia}
@@ -47,9 +47,9 @@
 %
 
 
-%\usepackage{draftwatermark}
+\usepackage{draftwatermark}
 
-
+% http://tex.stackexchange.com/questions/184672/embedding-mercurial-version-control-information-in-a-tex-document
 
 \begin{document}
 
@@ -63,6 +63,15 @@
 
 \maketitle
 
+\begin{center}
+
+Mercurial changeset and local revision:
+
+\input{"| hg log -v -l 1 \jobname.tex --template '{node}'"}
+
+\input{"| hg log -v -l 1 \jobname.tex --template '{rev}'"}
+
+\end{center}
 \begin{abstract}
 
   At the moment the present document consists just of some loose notes
@@ -84,6 +93,24 @@ and the results of experiments available at
 \url{https://bitbucket.org/jsbien/parkosz-font/} and
 \url{https://bitbucket.org/jsbien/parkosz-traktat}.
 
+\section{Parkosz’s orthographic treatise}
+\label{sec:park-orth-treat}
+
+\subsection{The manuscript}
+\label{sec:manuscript}
+
+\subsection{The first printed edition}
+\label{sec:first-print-edit}
+
+\subsection{The second printed edition}
+\label{sec:second-print-edit}
+
+\subsection{The third printed edition}
+\label{sec:third-print-edit}
+
+\subsection{The electronic edition under consideration}
+\label{sec:electr-edit-under}
+
 
 
 %\printbibliography
@@ -91,10 +118,13 @@ and the results of experiments available at
 
 
   In 1985 Prof. Kucała published a book on Parkosz’s orthographic
-  treatise containing the facsimile of the manuscript, its Latin text
+  treatise
+  containing the facsimile of the manuscript, its Latin text
   and the polish translation. Later Prof. Kucała agreed to apply to
   the book the Creative Commons Attribution license. 
 
+auctex: "TeX-command-extra-option" has no effect
+https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=824945
 
 %%% Local Variables: 
 %%% coding: utf-8-unix
@@ -102,4 +132,5 @@ and the results of experiments available at
 %%% TeX-master: t
 %%% TeX-PDF-mode: t
 %%% TeX-engine: xetex
+%%% TeX-command-extra-options: "-shell-escape"
 %%% End: 
