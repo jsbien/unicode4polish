@@ -10,3 +10,5 @@ The textel names are to be used with unihistext
 
 A similar development was carried also on
 at https://bitbucket.org/jsbien/parkosz-font/.
+
+Previously the repository was located at https://bitbucket.org/jsbien/unicode4polish/.
