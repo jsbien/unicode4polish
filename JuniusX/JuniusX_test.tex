@@ -1,0 +1,205 @@
+% https://apcz.umk.pl/czasopisma/index.php/sztukaedycji/index
+% https://apcz.umk.pl/czasopisma/index.php/sztukaedycji/about/submissions#authorGuidelines
+% Janusz S. Bień
+% Formal Linguistics Department, University of Warsaw, Dobra 55, 00-312 Warszawa, Poland
+% jsbien@uw.edu.pl
+
+\documentclass{mwart}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{etoolbox}
+\setmainlanguage{polish}
+\setotherlanguage{english}
+\usepackage{csquotes}
+\usepackage{wrapfig}
+\usepackage[style=authoryear,backend=biber,backref=true,urldate=short]{biblatex}
+% %\addbibresource{jsbqed.bib}
+%  \addbibresource{4JSB2014.bib}
+%  \addbibresource{2017.bib}
+%  \addbibresource{2018.bib}
+% \addbibresource{2019a.bib}
+% \addbibresource{2019b.bib}
+% \addbibresource{2020.bib}
+% % \addbibresource{2019.bib}
+% \DefineBibliographyStrings{polish}{%
+%   byeditor = {red.},
+%   urlseen = {dostęp},
+% }
+
+% http://tex.stackexchange.com/questions/166337/quotation-mark-quotation-sign-xelatex-polyglossia-csquotes
+\DeclareQuoteStyle{polish}% I looked it up on Wikipedia, no idea if it's right
+  {\quotedblbase}
+  {\textquotedblright}
+  [0.05em]
+  {\textquoteleft}
+  {\textquoteright}
+
+% psuje tytuły???:
+%  \usepackage{ulem}
+\usepackage{metalogo}
+\usepackage[polish]{varioref}
+\usepackage{xcolor}
+
+
+\def\eob{ę}
+
+\setmainfont[Mapping=tex-text]{TeX Gyre Termes}
+% \char"EC10 \char"EC11 oraz \char"EC12
+\def\orogate{\char"EC12}
+\def\medievalcomma{{\fontspec{Unifont}⹌}}
+\def\Hb#1{{\fontspec{Junicode}#1}}
+\def\Htest{{\fontspec{Unifont}M⁹¹}}
+% \newcommand{\J}[1]{{\fontspec[Path=/home/jsbien/Junicode/]{Junicode.ttf}#1}}
+% \def\Sł{{\fontspec[Path=/home/jsbien/Junicode/]{Junicode.ttf}\char"E8DF}}
+
+\newfontfamily\J[Color=green]{JuniusX}
+\newfontfamily\bJ[Color=violet]{Junicode}
+%\newcommand{\J}[1]{{\bJ#1}}
+\def\Sł{{\fontspec{Junicode.ttf}\char"E8DF}}
+% buster: Missing character: There is no  in font [Junicode.ttf]/OT:script=latn;language
+\newfontfamily\bS[Color=violet]{Symbola}
+\newcommand{\Sy}[1]{{\bS#1}}
+\newcommand{\Ju}[1]{{\bJ#1}}
+
+\usepackage{relsize}
+
+\usepackage{hyperref}
+
+\usepackage{graphicx}
+% [hyphens]: options clash
+\usepackage{url}
+%\usepackage{natbib}
+
+% program name
+\newcommand{\pname}[1]{\textsf{#1}}
+
+
+% file name
+\newcommand{\fname}[1]{\texttt{#1}}
+
+\newcommand{\uname}[1]{\texttt{'#1'}}
+\newcommand{\ucode}[1]{\texttt{U+#1}}
+\newcommand{\usi}[1]{\texttt{#1}}
+
+% Aletheia
+\newcommand{\aname}[1]{\texttt{#1}}
+\newcommand{\acode}[1]{\texttt{#1}}
+
+% MUFI
+\newcommand{\mname}[1]{\texttt{'#1 \textsc{<mufi>'}}}
+\newcommand{\mcode}[1]{\texttt{M+#1}}
+
+
+
+\usepackage{draftwatermark}
+\usepackage[doublespacing]{setspace}
+
+\usepackage{xfrac}
+
+% ni edziała:?
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\floatpagefraction}{0.9}	% require fuller float pages
+
+\newcommand{\Jglyph}[1]{{\relsize{2}\J#1}}
+
+
+\begin{document}
+%\gappto\captionslingua{\renewcommand{\chaptername}{Caput}}
+%\gappto\captionspolish{\renewcommand{\figurename}{Ilustracja}}
+
+
+% \newcommand{\uname}[1]{{\relsize{-1}\texttt{#1}}}
+% \newcommand{\ucode}[1]{\texttt{#1}}
+% \newcommand{\mname}[1]{\texttt{#1}}
+% \newcommand{\mcode}[1]{\texttt{#1}}
+% \newcommand{\aname}[1]{\texttt{#1}}
+% \newcommand{\acode}[1]{\texttt{#1}}
+% \newcommand{\prname}[1]{\textsf{#1}}
+
+
+% 
+%\title{Elektroniczna typemiczna transkrypcja traktatu Stanisława Zaborowskiego}
+\title{Textel names proposal for JuniusX plane 15 characters}
+
+\author{Janusz S. Bień}
+
+\date{\today}
+
+\maketitle
+
+\catcode`\&=11
+\catcode`\|=11
+\catcode`\_=11
+
+The names are to be used in particular with Unihistext
+(\url{https://bitbucket.org/jsbien/unihistext})
+
+\begin{description}
+\item[0xF0000] LATIN CAPITAL LETTER A WITH STROKE THROUGH TERMINAL
+  VARIANT [JuniusX]:
+  \Jglyph{󰀀}.\\ Cf. \url{https://github.com/psb1558/Junicode-New/issues/14}. The
+  term \textit{terminal} used after ???.
+\item [0xF0001] LATIN SMALL LETTER A WITH STROKE THROUGH TERMINAL VARIANT [JuniusX]: 
+  \Jglyph{󰀁}.\\ Cf. \url{https://github.com/psb1558/Junicode-New/issues/14}. The
+  term \textit{terminal} used after ???.
+\item [0xF0002] LATIN SMALL LETTER A WITH BENT STROKE THROUGH TERMINAL VARIANT [JuniusX]: 
+  \Jglyph{󰀂}.\\ Cf. \url{https://github.com/psb1558/Junicode-New/issues/14}. The
+  term \textit{terminal} used after ???.
+\end{description}
+
+0xF0003		󰀃	F7B5 LATIN CAPITAL LETTER C WITH HIGH OVERLINE (ABOVE CHARACTER)
+0xF0004		󰀄	LATIN SMALL LETTER D WITH STROKE ROUNDED VARIANT [JuniusX]\\
+0xF0005		󰀅	LATIN SMALL LETTER D INSULAR VARIANT TWO [JuniusX]\\
+0xF0006		󰀆	LATIN SMALL LETTER F VARIANT FIVE [JuniusX]\\
+0xF0007		󰀇	LATIN LETTER GLOTTAL STOP VARIANT [JuniusX]\\
+0xF0008		󰀈	LATIN SMALL LETTER J VARIANT [JuniusX]\\
+0xF0009		󰀉	
+0xF000A		󰀊	LATIN SMALL LETTER E WITH STROKE THROUGH TERMINAL VARIANT [JuniusX]\\
+0xF000B		󰀋	
+0xF000C		󰀌	
+0xF000D		󰀍	??? [JuniusX]\\
+0xF000E		󰀎	??? [JuniusX]\\
+0xF000F		󰀏	??? [JuniusX]\\
+0xF0010		󰀐	??? [JuniusX]\\
+0xF0011		󰀀	LATIN CAPITAL LETTER O WITH STROKE HORNED VARIANT [JuniusX]\\
+0xF0012		󰀑	LATIN CAPITAL LETTER O WITH STROKE SHIFTED VARIANT [JuniusX]\\
+0xF0012		󰀒	??? [JuniusX]\\
+0xF0013		󰀓	LATIN CAPITAL LETTER O WITH STROKE DOWNWARD HORN VARIANT [JuniusX]\\
+0xF0014		󰀔	LATIN CAPITAL LETTER O WITH STROKE UPWARD HORN VARIANT [JuniusX]\\
+0xF0015		󰀕	??? [JuniusX]\\
+0xF0016		󰀖	??? [JuniusX]\\
+0xF0017		󰀗	??? [JuniusX]\\
+0xF0018		󰀘	??? [JuniusX]\\
+0xF0019		󰀙	??? [JuniusX]\\
+0xF001A		󰀚	??? [JuniusX]\\
+0xF001B		󰀛	??? [JuniusX]\\
+0xF001C		󰀜	??? [JuniusX]\\
+0xF001D		󰀝	??? [JuniusX]\\
+
+LATIN SMALL LETTER RUM ROTUNDA VARIANT [JuniusX]\\
+
+xft:-psbk-Junicode-normal-normal-normal-*-15-*-*-*-*-0-iso10646-1:
+
+0x00E8B7  		LATIN SMALL LETTER LONG S WITH FLOURISH [MUFI]\\
+0x00E8BF  		LATIN SMALL LETTER Q LIGATED WITH FINAL ET [MUFI]\\
+0x00EBA6  		LATIN SMALL LIGATURE LONG S LONG S [MUFI]\\
+0x00EEC5  		LATIN SMALL LIGATURE CT [MUFI]\\
+0x00EED6  		LATIN SMALL LIGATURE PP [MUFI]\\
+0x00EED7  		LATIN SMALL LIGATURE PP WITH FLOURISH [MUFI]\\
+
+% (set-fontset-font "fontset-default" '(#xF0000 . #xF000A) (font-spec :size 18 :name "JuniusX"))
+; plane15
+  
+
+
+
+% redundantne:
+\end{document}
+
+%%% Local Variables: 
+%%% coding: utf-8-unix
+%%% mode: latex
+%%% TeX-master: t
+%%% TeX-PDF-mode: t
+%%% TeX-engine: xetex
+%%% End: 
