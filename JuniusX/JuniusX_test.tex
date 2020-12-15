@@ -8,23 +8,12 @@
 \usepackage{fontspec}
 \usepackage{polyglossia}
 \usepackage{etoolbox}
-\setmainlanguage{polish}
-\setotherlanguage{english}
+\setmainlanguage{english}
+%\setotherlanguage{english}
 \usepackage{csquotes}
 \usepackage{wrapfig}
 \usepackage[style=authoryear,backend=biber,backref=true,urldate=short]{biblatex}
-% %\addbibresource{jsbqed.bib}
-%  \addbibresource{4JSB2014.bib}
-%  \addbibresource{2017.bib}
-%  \addbibresource{2018.bib}
-% \addbibresource{2019a.bib}
-% \addbibresource{2019b.bib}
-% \addbibresource{2020.bib}
-% % \addbibresource{2019.bib}
-% \DefineBibliographyStrings{polish}{%
-%   byeditor = {red.},
-%   urlseen = {dostęp},
-% }
+\addbibresource{all.bib}
 
 % http://tex.stackexchange.com/questions/166337/quotation-mark-quotation-sign-xelatex-polyglossia-csquotes
 \DeclareQuoteStyle{polish}% I looked it up on Wikipedia, no idea if it's right
@@ -102,8 +91,6 @@
 
 \newcommand{\Jglyph}[1]{{\relsize{2}\J#1}}
 
-
-\begin{document}
 %\gappto\captionslingua{\renewcommand{\chaptername}{Caput}}
 %\gappto\captionspolish{\renewcommand{\figurename}{Ilustracja}}
 
@@ -116,14 +103,17 @@
 % \newcommand{\acode}[1]{\texttt{#1}}
 % \newcommand{\prname}[1]{\textsf{#1}}
 
+\usepackage[mark]{gitinfo2}
+
+\begin{document}
 
 % 
 %\title{Elektroniczna typemiczna transkrypcja traktatu Stanisława Zaborowskiego}
-\title{Textel names proposal for JuniusX plane 15 characters}
+\title{Textel names proposal for JuniusX\\ Unicode plane 15 characters}
 
 \author{Janusz S. Bień}
 
-\date{\today}
+\date{\today\\\gitAuthorIsoDate}
 
 \maketitle
 
@@ -131,73 +121,171 @@
 \catcode`\|=11
 \catcode`\_=11
 
-The names are to be used in particular with Unihistext
-(\url{https://bitbucket.org/jsbien/unihistext})
+% The notion of textel was proposed ???
+
+% JuniusX ???
+
+% Unicode
+
+The names are to be used in particular with \textsf{Unihistext}
+(\url{https://bitbucket.org/jsbien/unihistext}).  The characters
+themselves are to be used in particular with \textsf{djview4poliqarp}
+(\url{https://bitbucket.org/mrudolf/djview-poliqarp/}), which does not
+support OpenType features, for indexes such as
+\url{https://github.com/jsbien/Zaborowski-index4djview}.
+
+Some principles of the naming policy:
+\begin{itemize}
+\item Comments in brackets are considered as a part of the name by \textsf{Unihistext}, but not necessarily in other circumstances.
+\item Every proper name ends in VARIANT
+\item Names try to follow English Unicode usage. The term
+  \textit{terminal} comes from
+  \autocite{gaskell76:_nomec_letter_roman_type}.
+% \item ; when appropriate, MUFi names are used or adapted. MUFI codes
+%   in comments are prefixed with M+.
+
+\end{itemize}
 
 \begin{description}
 \item[0xF0000] LATIN CAPITAL LETTER A WITH STROKE THROUGH TERMINAL
-  VARIANT [JuniusX]:
-  \Jglyph{󰀀}.\\ Cf. \url{https://github.com/psb1558/Junicode-New/issues/14}. The
-  term \textit{terminal} used after ???.
+  VARIANT [JuniusX]: \Jglyph{󰀀}.\\
+  Cf. \url{https://github.com/psb1558/Junicode-New/issues/14}.
+  % The
+  % term \textit{terminal} used after ???.\\
+  
+  In JuniusX font accessible also as \textit{A} with \texttt{cv02[1]};
+  a slightly different glyph available as \texttt{cv02[2]},
+  cf. \autocite[p. 7]{baker20:_opent_featur_junius_junius}.
+% 
+%  Used in particular in ???, cf. Fig. ???
+
 \item [0xF0001] LATIN SMALL LETTER A WITH STROKE THROUGH TERMINAL VARIANT [JuniusX]: 
-  \Jglyph{󰀁}.\\ Cf. \url{https://github.com/psb1558/Junicode-New/issues/14}. The
-  term \textit{terminal} used after ???.
+  \Jglyph{󰀁}.\\ Cf. \url{https://github.com/psb1558/Junicode-New/issues/14}.
+  % The
+  % term \textit{terminal} used after ???.
+
+  In JuniusX font accessible also as \textit{A} with \texttt{cv02[1]};
+  a slightly different glyph available as \texttt{cv02[2]},
+  cf. \autocite[p. 7]{baker20:_opent_featur_junius_junius}.
+
+
 \item [0xF0002] LATIN SMALL LETTER A WITH BENT STROKE THROUGH TERMINAL VARIANT [JuniusX]: 
-  \Jglyph{󰀂}.\\ Cf. \url{https://github.com/psb1558/Junicode-New/issues/14}. The
-  term \textit{terminal} used after ???.
+  \Jglyph{󰀂}.\\ Cf. \url{https://github.com/psb1558/Junicode-New/issues/14}.
+  % The
+  % term \textit{terminal} used after ???.
+
+  In JuniusX font accessible also as \textit{A} with \texttt{cv02[3]};
+  cf. \autocite[p. 7]{baker20:_opent_featur_junius_junius}.
+
+
+\item [0xF0003] LATIN SMALL LETTER C WITH LOW OVERLINE VARIANT [JuniusX]: 
+  \Jglyph{󰀃}.\\ Cf. \url{https://github.com/psb1558/Junicode-New/discussions/44#discussioncomment-202860}.
+\item [0xF0004] LATIN SMALL LETTER C WITH HIGH OVERLINE VARIANT [JuniusX]: 
+  \Jglyph{󰀄}.\\ Cf. \url{https://github.com/psb1558/Junicode-New/discussions/44#discussioncomment-202860}.
+\item [0xF0005] LATIN SMALL LETTER INSULAR D VARIANT [JuniusX]:\\
+  \Jglyph{󰀅}.%\\ %Cf. \url{https://github.com/psb1558/Junicode-New/issues/14}.
+
+  In JuniusX font accessible also as \textit{d} with \texttt{cv05[2]};
+  cf. \autocite[p. 7]{baker20:_opent_featur_junius_junius}.
+
+  May be considered also as a variant of LATIN SMALL LETTER INSULAR D (U+A77A).
+
+
+\item [0xF0006] LATIN SMALL LETTER ETH VARIANT [JuniusX]: 
+  \Jglyph{󰀆}.\\ Cf. \url{https://github.com/psb1558/Junicode-New/discussions/44#discussioncomment-202860}.
+
+  In JuniusX font accessible also as \textit{ð} (U+00F0) with \texttt{ss01};
+  cf. \autocite[p. 11]{baker20:_opent_featur_junius_junius}.
+
+\item [0xF0007] LATIN SMALL LETTER D WITH STROKE ROUNDED VARIANT [JuniusX]:\\
+  \Jglyph{󰀇}.\\ Cf. \url{https://github.com/psb1558/Junicode-New/issues/??}.
+
+    In JuniusX font accessible also as \textit{đ}  (U+0111) with \texttt{cv06[1]};
+  cf. \autocite[p. 7]{baker20:_opent_featur_junius_junius}.
+
+  
+\item [0xF0008] LATIN SMALL LETTER D WITH HIGH OVERLINE VARIANT:\\
+  \Jglyph{󰀈}.\\ Cf. \url{https://github.com/psb1558/Junicode-New/discussions/44#discussioncomment-202860}.
+\item [0xF0009] LATIN CAPITAL LETTER E WITH STROKE THROUGH TERMINAL VARIANT [JuniusX]:\\
+  \Jglyph{󰀉}.\\ Cf. \url{https://github.com/psb1558/Junicode-New/issues/13}.
+\item [0xF000A] LATIN SMALL LETTER E WITH STROKE THROUGH TERMINAL VARIANT [JuniusX]:\\
+  \Jglyph{󰀊}.\\ Cf. \url{https://github.com/psb1558/Junicode-New/issues/13}.
+\item [0xF000B] LATIN SMALL LETTER F VARIANT [JuniusX]:\\
+  \Jglyph{󰀋}.\\ % Cf. \url{https://github.com/psb1558/Junicode-New/issues/??}.
+  In JuniusX font accessible also as \textit{f} with \texttt{cv09[5]};
+  cf. \autocite[p. 9]{baker20:_opent_featur_junius_junius}.
+
+\item [0xF000C] LATIN SMALL LETTER I WITH HIGH OVERLINE VARIANT [JuniusX]:\\
+  \Jglyph{󰀌}.\\ Cf. \url{https://github.com/psb1558/Junicode-New/discussions/44#discussioncomment-202860}.
+\item [0xF000D] LATIN SMALL LETTER J VARIANT [JuniusX]:\\
+  \Jglyph{󰀍}.\\ % Cf. \url{https://github.com/psb1558/Junicode-New/issues/??}.
+
+  % In JuniusX font accessible also as \textit{đ}  (U+0111) with \texttt{cv06[1]};
+  % cf. \autocite[p. 7]{baker20:_opent_featur_junius_junius}.
+\item [0xF000E] LATIN SMALL LETTER J WITH HIGH OVERLINE  VARIANT [JuniusX]:\\
+  \Jglyph{󰀎}.\\ Cf. \url{https://github.com/psb1558/Junicode-New/discussions/44#discussioncomment-202860}.
+\item [0xF000F] LATIN SMALL LETTER L WITH HIGH ROUNDED STROKE VARIANT [JuniusX]:\\
+  \Jglyph{󰀏}.\\  Cf. \url{https://github.com/psb1558/Junicode-New/issues/4}.
+  In JuniusX font accessible also as \textit{ꝉ} (U+A749) with \texttt{cv17[1]};
+  cf. \autocite[p. 9]{baker20:_opent_featur_junius_junius}.
+
+\item [0xF0010] LATIN SMALL LETTER M WITH HIGH OVERLINE VARIANT [JuniusX]:\\
+  \Jglyph{󰀐}.\\ Cf. \url{https://github.com/psb1558/Junicode-New/discussions/44#discussioncomment-202860}.
+ \item [0xF0011] LATIN CAPITAL LETTER O WITH STROKE HORNED VARIANT [JuniusX]\\
+  \Jglyph{󰀀}.\\  Cf. \url{https://github.com/psb1558/Junicode-New/issues/3}.
+  In JuniusX font accessible also as \textit{ø} (U+00F8) with \texttt{cv21[1]};
+  cf. \autocite[p. 9]{baker20:_opent_featur_junius_junius}.
+\item [0xF0012] LATIN CAPITAL LETTER O WITH SHIFTED STROKE VARIANT [JuniusX]\\:
+  \Jglyph{󰀒}.\\  Cf. \url{https://github.com/psb1558/Junicode-New/issues/3}.
+
+  In JuniusX font accessible also as \textit{ø} (U+00F8) with \texttt{cv21[2]};
+  cf. \autocite[p. 9]{baker20:_opent_featur_junius_junius}.
+\item [0xF0013] LATIN CAPITAL LETTER O WITH STROKE HORN DOWNWARDS VARIANT [JuniusX]\\:
+  \Jglyph{󰀓}.\\  Cf. \url{https://github.com/psb1558/Junicode-New/issues/3}.
+
+  In JuniusX font accessible also as \textit{ø} (U+00F8) with \texttt{cv21[3]};
+  cf. \autocite[p. 9]{baker20:_opent_featur_junius_junius}.
+\item [0xF0014] LATIN CAPITAL LETTER O WITH STROKE HORN UPWARDS VARIANT [JuniusX]\\:
+  \Jglyph{󰀓}.\\  Cf. \url{https://github.com/psb1558/Junicode-New/issues/3}.
+
+  In JuniusX font accessible also as \textit{ø} (U+00F8) with \texttt{cv21[4]};
+  cf. \autocite[p. 9]{baker20:_opent_featur_junius_junius}.
+\item [0xF0015] ???  [JuniusX]\\:
+  \Jglyph{󰀕}.\\%  Cf. \url{https://github.com/psb1558/Junicode-New/issues/3}.
+\item [0xF0016] LATIN SMALL LETTER RUM ROTUNDA VARIANT [JuniusX]\\:
+  \Jglyph{󰀖}.\\%  Cf. \url{https://github.com/psb1558/Junicode-New/issues/3}.
+
+  In JuniusX font accessible also as \textit{ꝝ} (U+A75D) with \texttt{cv41[1]};
+  cf. \autocite[p. 12]{baker20:_opent_featur_junius_junius}.
+\item [0xF0017] LATIN SMALL LETTER V WITH LOW OVERLINE VARIANT [JuniusX]:// 
+  \Jglyph{󰀗}.\\ Cf. \url{https://github.com/psb1558/Junicode-New/discussions/44#discussioncomment-202860}.
+\item [0xF0018] LATIN SMALL LETTER V WITH HIGH OVERLINE VARIANT [JuniusX]:// 
+  \Jglyph{󰀘}.\\ Cf. \url{https://github.com/psb1558/Junicode-New/discussions/44#discussioncomment-202860}.
+\item [0xF0019] LATIN SMALL LETTER X WITH LOW OVERLINE VARIANT [JuniusX]:// 
+  \Jglyph{󰀙}.\\ Cf. \url{https://github.com/psb1558/Junicode-New/discussions/44#discussioncomment-202860}.
+\item [0xF001A] LATIN SMALL LETTER V WITH HIGH OVERLINE VARIANT [JuniusX]:// 
+  \Jglyph{󰀚}.\\ Cf. \url{https://github.com/psb1558/Junicode-New/discussions/44#discussioncomment-202860}.
+\item [0xF001B] LATIN LETTER GLOTTAL STOP VARIANT [JuniusX]\\
+  \Jglyph{󰀛}.\\%  Cf. \url{https://github.com/psb1558/Junicode-New/issues/??}.
+% \\item [0xF001C] LATIN SMALL LETTER RUM ROTUNDA VARIANT [JuniusX]\\:
+\item [0xF001C] TIRONIAN SIGN CAPITAL ET VARIANT [JuniusX]\\:
+\Jglyph{󰀜}.%\\%  Cf. \url{https://github.com/psb1558/Junicode-New/issues/??}.
+
+In JuniusX font accessible also as \textit{⹒} (U+2E52) with \texttt{cv40[1]};
+  cf. \autocite[p. 12]{baker20:_opent_featur_junius_junius}.
+
+\item [0xF001D] TIRONIAN SIGN ET VARIANT [JuniusX]\\:
+  \Jglyph{󰀝}.\\%  Cf. \url{https://github.com/psb1558/Junicode-New/issues/??}.
+  In JuniusX font accessible also as \textit{⁊} (U+2E52) with \texttt{cv40[1]};
+  cf. \autocite[p. 12]{baker20:_opent_featur_junius_junius}.
 \end{description}
 
-0xF0003		󰀃	F7B5 LATIN CAPITAL LETTER C WITH HIGH OVERLINE (ABOVE CHARACTER)
-0xF0004		󰀄	LATIN SMALL LETTER D WITH STROKE ROUNDED VARIANT [JuniusX]\\
-0xF0005		󰀅	LATIN SMALL LETTER D INSULAR VARIANT TWO [JuniusX]\\
-0xF0006		󰀆	LATIN SMALL LETTER F VARIANT FIVE [JuniusX]\\
-0xF0007		󰀇	LATIN LETTER GLOTTAL STOP VARIANT [JuniusX]\\
-0xF0008		󰀈	LATIN SMALL LETTER J VARIANT [JuniusX]\\
-0xF0009		󰀉	
-0xF000A		󰀊	LATIN SMALL LETTER E WITH STROKE THROUGH TERMINAL VARIANT [JuniusX]\\
-0xF000B		󰀋	
-0xF000C		󰀌	
-0xF000D		󰀍	??? [JuniusX]\\
-0xF000E		󰀎	??? [JuniusX]\\
-0xF000F		󰀏	??? [JuniusX]\\
-0xF0010		󰀐	??? [JuniusX]\\
-0xF0011		󰀀	LATIN CAPITAL LETTER O WITH STROKE HORNED VARIANT [JuniusX]\\
-0xF0012		󰀑	LATIN CAPITAL LETTER O WITH STROKE SHIFTED VARIANT [JuniusX]\\
-0xF0012		󰀒	??? [JuniusX]\\
-0xF0013		󰀓	LATIN CAPITAL LETTER O WITH STROKE DOWNWARD HORN VARIANT [JuniusX]\\
-0xF0014		󰀔	LATIN CAPITAL LETTER O WITH STROKE UPWARD HORN VARIANT [JuniusX]\\
-0xF0015		󰀕	??? [JuniusX]\\
-0xF0016		󰀖	??? [JuniusX]\\
-0xF0017		󰀗	??? [JuniusX]\\
-0xF0018		󰀘	??? [JuniusX]\\
-0xF0019		󰀙	??? [JuniusX]\\
-0xF001A		󰀚	??? [JuniusX]\\
-0xF001B		󰀛	??? [JuniusX]\\
-0xF001C		󰀜	??? [JuniusX]\\
-0xF001D		󰀝	??? [JuniusX]\\
-
-LATIN SMALL LETTER RUM ROTUNDA VARIANT [JuniusX]\\
-
-xft:-psbk-Junicode-normal-normal-normal-*-15-*-*-*-*-0-iso10646-1:
-
-0x00E8B7  		LATIN SMALL LETTER LONG S WITH FLOURISH [MUFI]\\
-0x00E8BF  		LATIN SMALL LETTER Q LIGATED WITH FINAL ET [MUFI]\\
-0x00EBA6  		LATIN SMALL LIGATURE LONG S LONG S [MUFI]\\
-0x00EEC5  		LATIN SMALL LIGATURE CT [MUFI]\\
-0x00EED6  		LATIN SMALL LIGATURE PP [MUFI]\\
-0x00EED7  		LATIN SMALL LIGATURE PP WITH FLOURISH [MUFI]\\
-
-% (set-fontset-font "fontset-default" '(#xF0000 . #xF000A) (font-spec :size 18 :name "JuniusX"))
-; plane15
-  
-
-
-
-% redundantne:
+\printbibliography
 \end{document}
 
 %%% Local Variables: 
 %%% coding: utf-8-unix
+%%% eval: (set-fontset-font "fontset-default" '(#xF0000 . #xF000A) (font-spec :size 18 :name "JuniusX"))
 %%% mode: latex
 %%% TeX-master: t
 %%% TeX-PDF-mode: t
