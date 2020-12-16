@@ -35,7 +35,9 @@
 % \setmainfont[Mapping=tex-text]{TeX Gyre Termes}
 %\setmainfont[Mapping=tex-text]{Lato-Regular}
 %\setmainfont[Mapping=tex-text]{GentiumPlus-R}
-\setmainfont[Mapping=tex-text]{LiberationSerif}
+%\setmainfont[Mapping=tex-text]{LiberationSerif}
+\setmainfont[Mapping=tex-text]{JuniusX}
+%\setmainfont[Mapping=tex-text]{FreeSerif}
 % \char"EC10 \char"EC11 oraz \char"EC12
 \def\orogate{\char"EC12}
 \def\medievalcomma{{\fontspec{Unifont}⹌}}
@@ -158,7 +160,7 @@ They can be used also in the future historical corpora of Polish.  In
 the IMPACT corpus \autocite{bc289} the letters \textit{ą} and \textit{ę}
 and their variants with the stroke instead of ogonek occured with
 almost the same frequency. The stroke variants has been represented by
-\textit{ⱥ} (U+2C65) and \textit{ɇ} (U+0247), but this was considered
+{ⱥ} (U+2C65) and {ɇ} (U+0247), but this was considered
  a temporary solution as the glyphs differ significally.
 
 Some principles of the naming policy:
@@ -342,14 +344,12 @@ available for popular browsers.
  May be considered also as a variant of LATIN SMALL LETTER E WITH
   STROKE (U+0247).
 
-\item [0xF000B] LATIN SMALL LETTER F VARIANT [JuniusX]:\\
-  \Jglyph{󰀋}.\\ % Cf. \url{https://github.com/psb1558/Junicode-New/issues/??}.
+\item [0xF000B] LATIN SMALL LETTER F CONTEXTUAL VARIANT [JuniusX]:\\
+  \Jglyph{󰀋}.\\  Cf. \url{https://github.com/psb1558/Junicode-New/discussions/44#discussioncomment-208296}.
+  
   In JuniusX font accessible also as \textit{f} with \texttt{cv09[5]};
-  cf. \autocite[p. 9]{baker20:_opent_featur_junius_junius}.
-
-  For completeness it should be noted that there is also the variant
-  \texttt{cv08[1]} of \textit{ę} intended for the Latin abbreviation
-  of \textit{ae}.
+  cf. \autocite[p. 9]{baker20:_opent_featur_junius_junius}, and used
+  in proper contexts by \texttt{calt} (Contextual Alternates).
   
 \item [0xF000C] LATIN SMALL LETTER I WITH HIGH OVERLINE VARIANT [JuniusX]:\\
   \Jglyph{󰀌}.\\ Cf. \url{https://github.com/psb1558/Junicode-New/discussions/44#discussioncomment-202860}.
@@ -362,9 +362,29 @@ available for popular browsers.
   \Jglyph{󰀎}.\\ Cf. \url{https://github.com/psb1558/Junicode-New/discussions/44#discussioncomment-202860}.
 \item [0xF000F] LATIN SMALL LETTER L WITH HIGH ROUNDED STROKE VARIANT [JuniusX]:\\
   \Jglyph{󰀏}.\\  Cf. \url{https://github.com/psb1558/Junicode-New/issues/4}.
-  In JuniusX font accessible also as \textit{ꝉ} (U+A749) with \texttt{cv17[1]};
+
+  In JuniusX font accessible also as
+  % textit ꝉ
+  LATIN SMALL LETTER L WITH HIGH STROKE
+  (U+A749) with \texttt{cv17[1]};
   cf. \autocite[p. 9]{baker20:_opent_featur_junius_junius}.
 
+  Used in Latin as an abbreviation, cf. \autocite{balbi1460:_cathol},
+  quoted after \autocite[s. 6]{N3027}. 
+  
+  The character occurs in particular in Zaborowski's treatise as the
+  abbreviation, cf. \vref{fig:l}, but also in the function of the
+  present day \textit{ł}.
+
+  \begin{figure}[h]
+    \centering
+    \includegraphics[height=06ex]{img/23-1_Zaborowski_WBC_9_vel}
+    \includegraphics[height=06ex]{img/23-2_Zaborowski_Polona_7_vel}
+    \includegraphics[height=06ex]{img/23-3_Zaborowski_WBC_4_regula}
+    \includegraphics[height=06ex]{img/23-4_Zaborowski_Polona_7_populus}
+    \caption{From the left: \textit{vel} (1514-1515) and 1518), \textit{regula} (1514-1515), \textit{populus} (1518)}
+    \label{fig:l}
+  \end{figure}
   
 \item [0xF0010] LATIN SMALL LETTER M WITH HIGH OVERLINE VARIANT [JuniusX]:\\
   \Jglyph{󰀐}.\\ Cf. \url{https://github.com/psb1558/Junicode-New/discussions/44#discussioncomment-202860}.
@@ -387,8 +407,12 @@ available for popular browsers.
 
   In JuniusX font accessible also as \textit{ø} (U+00F8) with \texttt{cv21[4]};
   cf. \autocite[p. 9]{baker20:_opent_featur_junius_junius}.
-\item [0xF0015] ???  [JuniusX]\\:
-  \Jglyph{󰀕}.\\%  Cf. \url{https://github.com/psb1558/Junicode-New/issues/3}.
+\item [0xF0015] MEDIEVAL SUPERSCRIPT LETTER Q [JuniusX]\\:
+  \Jglyph{󰀕}.\\
+  Cf. \url{https://github.com/psb1558/Junicode-New/discussions/44#discussioncomment-208296}.
+
+  In JuniusX font accessible also as \texttt{sup} (Superscripts).
+
 \item [0xF0016] LATIN SMALL LETTER RUM ROTUNDA VARIANT [JuniusX]\\:
   \Jglyph{󰀖}.\\%  Cf. \url{https://github.com/psb1558/Junicode-New/issues/3}.
 
