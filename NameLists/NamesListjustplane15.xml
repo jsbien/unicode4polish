@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ucd>
+	<title>The Unicode Standard 13.0.0</title>
+	<subtitle>U13M200203.lst</subtitle>
+	<block_header block_end="F00FF" block_start="F0000" name="Supplementary Private Use Area-A">
+		<notice_line>The entire plane is dedicated to private use with the exception of the last two code points.</notice_line>
+		<block_subheader name="Peter Baker's JuniusX assignments, hopefully to be followed by other font creators">
+			<char_entry code_point="F0000" name="LATIN CAPITAL LETTER A WITH STROKE THROUGH TERMINAL VARIANT">
+				<comment_line content="used in old Polish"/>
+				<comment_line content="in JuniusX accessible also as Ą with cv02[1]"/>
+				<cross_ref ref="LATIN CAPITAL LETTER A WITH OGONEK - 0104"/>
+				<cross_ref ref="LATIN CAPITAL LETTER A WITH STROKE - 023A"/>
+			</char_entry>
+			<char_entry code_point="F0001" name="LATIN SMALL LETTER A WITH STROKE THROUGH TERMINAL VARIANT">
+				<comment_line content="used in old Polish"/>
+				<comment_line content="in JuniusX accessible also as ą with cv02[1]"/>
+				<cross_ref ref="LATIN SMALL LETTER A WITH OGONEK - 0105"/>
+				<cross_ref ref="LATIN SMALL LETTER A WITH STROKE - 0265"/>
+			</char_entry>
+			<char_entry code_point="F0002" name="LATIN CAPITAL LETTER A WITH EXTENDED OGONEK VARIANT">
+				<comment_line content="used in old Polish"/>
+				<comment_line content="in JuniusX accessible also as ą with Ą cv02[3]"/>
+				<cross_ref ref="LATIN CAPITAL LETTER A WITH OGONEK - 0104"/>
+				<cross_ref ref="LATIN CAPITAL LETTER A WITH STROKE - 023A"/>
+			</char_entry>
+			<char_entry code_point="F0003" name="LATIN SMALL LETTER C WITH MEDIUM HIGH OVERLINE VARIANT">
+				<comment_line content="used for Roman numbers"/>
+				<comment_line content="in JuniusX accessible also with ss05"/>
+				<cross_ref ref="LATIN SMALL LETTER C - 0063"/>
+			</char_entry>
+			<char_entry code_point="F0004" name="LATIN SMALL LETTER C WITH HIGH OVERLINE VARIANT">
+				<comment_line content="used for Roman numbers"/>
+				<comment_line content="in JuniusX accessible also with ss04"/>
+				<cross_ref ref="LATIN SMALL LETTER C - 0063"/>
+			</char_entry>
+			<char_entry code_point="F0005" name="LATIN SMALL LETTER INSULAR D VARIANT">
+				<comment_line content="in JuniusX accessible also as d with cv05[2]"/>
+				<cross_ref ref="LATIN SMALL LETTER D - 0066"/>
+				<cross_ref ref="LATIN SMALL LETTER INSULAR D - A77A"/>
+			</char_entry>
+			<char_entry code_point="F0006" name="LATIN SMALL LETTER ETH VARIANT">
+				<comment_line content="in JuniusX accessible also as ð with ss01 if loca enabled"/>
+				<cross_ref ref="LATIN SMALL LETTER ETH - 00F0"/>
+			</char_entry>
+			<char_entry code_point="F0007" name="LATIN SMALL LETTER D WITH STROKE ROUNDED VARIANT">
+				<comment_line content="used in Latin in particular in the abbreviation of 'quod'"/>
+				<comment_line content="in JuniusX accessible also as đ with cv06[1]"/>
+				<cross_ref ref="LATIN SMALL LETTER D WITH STROKE - 0111"/>
+			</char_entry>
+			<char_entry code_point="F0008" name="LATIN SMALL LETTER D WITH HIGH OVERLINE VARIANT">
+				<comment_line content="used for Roman numbers"/>
+				<comment_line content="in JuniusX accessible also with ss04"/>
+				<cross_ref ref="LATIN SMALL LETTER D - 0064"/>
+			</char_entry>
+			<char_entry code_point="F0009" name="LATIN CAPITAL LETTER E WITH STROKE THROUGH TERMINAL VARIANT">
+				<comment_line content="used in old Polish"/>
+				<comment_line content="in JuniusX accessible also as Ę with cv08[2]"/>
+				<cross_ref ref="LATIN CAPITAL LETTER E WITH OGONEK - 0118"/>
+				<cross_ref ref="LATIN CAPITAL LETTER E WITH STROKE - 0246"/>
+			</char_entry>
+			<char_entry code_point="F000A" name="LATIN SMALL LETTER E WITH STROKE THROUGH TERMINAL VARIANT">
+				<comment_line content="used in old Polish"/>
+				<comment_line content="in JuniusX accessible also as ę with cv08[2]"/>
+				<cross_ref ref="LATIN SMALL LETTER E WITH OGONEK - 0119"/>
+				<cross_ref ref="LATIN SMALL LETTER E WITH STROKE - 0247"/>
+			</char_entry>
+			<char_entry code_point="F000B" name="LATIN SMALL LETTER F CONTEXTUAL VARIANT">
+				<comment_line content="used e.g. before vowels with dieresis"/>
+				<comment_line content="in JuniusX accessible also as f with cv09[5]"/>
+				<comment_line content="in JuniusX accessible in proper context with calt"/>
+				<cross_ref ref="LATIN SMALL LETTER F - 0066"/>
+			</char_entry>
+			<char_entry code_point="F000C" name="LATIN SMALL LETTER I WITH HIGH OVERLINE VARIANT">
+				<comment_line content="used for Roman numbers"/>
+				<comment_line content="in JuniusX accessible also with ss04"/>
+				<cross_ref ref="LATIN SMALL LETTER I - 0069"/>
+			</char_entry>
+			<char_entry code_point="F000D" name="LATIN SMALL LETTER J CONTEXTUAL VARIANT">
+				<comment_line content="Used when the letter is preceded by g or certain vowels with ogonek"/>
+				<comment_line content="in JuniusX accessible in proper context with calt"/>
+				<cross_ref ref="LATIN SMALL LETTER J - 006A"/>
+			</char_entry>
+			<char_entry code_point="F000E" name="LATIN SMALL LETTER J WITH HIGH OVERLINE VARIANT">
+				<comment_line content="used for Roman numbers"/>
+				<comment_line content="in JuniusX accessible also with ss04"/>
+				<cross_ref ref="LATIN SMALL LETTER I - 006A"/>
+			</char_entry>
+			<char_entry code_point="F000F" name="LATIN SMALL LETTER L WITH HIGH ROUNDED STROKE VARIANT">
+				<comment_line content="used in Latin in particular e.g. as the abbreviation of 'el"/>
+				<comment_line content="used in old Polish in the function of the present day ł"/>
+				<comment_line content="in JuniusX accessible also as ꝉ with cv17[1]"/>
+				<cross_ref ref="LATIN SMALL LETTER L WITH HIGH STROKE - A749"/>
+				<cross_ref ref="LATIN SMALL LETTER L WITH STROKE - 142"/>
+				<cross_ref ref="LATIN SMALL LETTER L - 006C"/>
+			</char_entry>
+			<char_entry code_point="F0010" name="LATIN SMALL LETTER M WITH HIGH OVERLINE VARIANT">
+				<comment_line content="used for Roman numbers"/>
+				<comment_line content="in JuniusX accessible also with ss04"/>
+				<cross_ref ref="LATIN SMALL LETTER M - 006D"/>
+			</char_entry>
+			<char_entry code_point="F0011" name="LATIN SMALL LETTER O WITH STROKE HORNED VARIANT">
+				<comment_line content="used in old Polish"/>
+				<comment_line content="in JuniusX accessible also as ø with Ą cv21[1]"/>
+				<cross_ref ref="LATIN SMALL LETTER O WITH STROKE - 00F8"/>
+			</char_entry>
+			<char_entry code_point="F0012" name="LATIN SMALL LETTER O WITH SHIFTED STROKE VARIANT">
+				<comment_line content="used in old Polish"/>
+				<comment_line content="in JuniusX accessible also as ø with Ą cv21[2]"/>
+				<cross_ref ref="LATIN SMALL LETTER O WITH STROKE - 00F8"/>
+			</char_entry>
+			<char_entry code_point="F0013" name="LATIN SMALL LETTER O WITH STROKE HORN DOWNWARDS VARIANT">
+				<comment_line content="used in old Polish"/>
+				<comment_line content="in JuniusX accessible also as ø with Ą cv21[3]"/>
+				<cross_ref ref="LATIN SMALL LETTER O WITH STROKE - 00F8"/>
+			</char_entry>
+			<char_entry code_point="F0014" name="LATIN SMALL LETTER O WITH STROKE HORN UPWARDS VARIANT">
+				<comment_line content="used in old Polish"/>
+				<comment_line content="in JuniusX accessible also as ø with Ą cv21[4]"/>
+				<cross_ref ref="LATIN SMALL LETTER O WITH STROKE - 00F8"/>
+			</char_entry>
+			<char_entry code_point="F0015" name="MEDIEVAL SUPERSCRIPT LETTER Q">
+				<comment_line content="in JuniusX accessible also as sup"/>
+				<cross_ref ref="LATIN SMALL LETTER Q - 0071"/>
+			</char_entry>
+			<char_entry code_point="F0016" name="LATIN SMALL LETTER RUM ROTUNDA VARIANT">
+				<comment_line content="in JuniusX accessible also as ꝝ with cv41[1]"/>
+				<cross_ref ref="LATIN SMALL LETTER RUM ROTUNDA - A75D"/>
+			</char_entry>
+			<char_entry code_point="F0017" name="LATIN SMALL LETTER V WITH MEDIUM HIGH OVERLINE VARIANT">
+				<comment_line content="used for Roman numbers"/>
+				<comment_line content="in JuniusX accessible also with ss05"/>
+				<cross_ref ref="LATIN SMALL LETTER V - 0076"/>
+			</char_entry>
+			<char_entry code_point="F0018" name="LATIN SMALL LETTER V WITH HIGH OVERLINE VARIANT">
+				<comment_line content="used for Roman numbers"/>
+				<cross_ref ref="LATIN SMALL LETTER V - 0076"/>
+				<comment_line content="in JuniusX accessible also with ss04"/>
+			</char_entry>
+			<char_entry code_point="F0019" name="LATIN SMALL LETTER X WITH MEDIUM HIGH OVERLINE VARIANT">
+				<comment_line content="used for Roman numbers"/>
+				<comment_line content="in JuniusX accessible also with ss05"/>
+				<cross_ref ref="LATIN SMALL LETTER X - 0078"/>
+			</char_entry>
+			<char_entry code_point="F001A" name="LATIN SMALL LETTER X WITH HIGH OVERLINE VARIANT">
+				<comment_line content="used for Roman numbers"/>
+				<comment_line content="in JuniusX accessible also with ss04"/>
+				<cross_ref ref="LATIN SMALL LETTER X - 0078"/>
+			</char_entry>
+			<char_entry code_point="F001B" name="LATIN LETTER GLOTTAL STOP VARIANT">
+				<comment_line content="in JuniusX accessible also ʔ with cv50[1]"/>
+				<cross_ref ref="LATIN LETTER GLOTTAL STOP - 0294"/>
+			</char_entry>
+			<char_entry code_point="F001C" name="TIRONIAN SIGN CAPITAL ET VARIANT">
+				<comment_line content="in JuniusX accessible also as ⹒ with cv40[1]"/>
+				<cross_ref ref="TIRONIAN SIGN CAPITAL ET - 2E52"/>
+			</char_entry>
+			<char_entry code_point="F001D" name="TIRONIAN SIGN ET VARIANT">
+				<comment_line content="in JuniusX accessible also as ⁊ with cv40[1]"/>
+				<cross_ref ref="TIRONIAN SIGN ET - 204A"/>
+			</char_entry>
+			<char_entry code_point="F001E" name="LATIN CAPITAL LETTER A WITH STROKE VARIANT">
+				<comment_line content="used in old Polish"/>
+				<comment_line content="in JuniusX accessible also as Ą with cv02[2]"/>
+				<cross_ref ref="LATIN CAPITAL LETTER A WITH OGONEK - 0104"/>
+				<cross_ref ref="LATIN CAPITAL LETTER A WITH STROKE - 023A"/>
+			</char_entry>
+			<char_entry code_point="F001F" name="LATIN SMALL LETTER A WITH STROKE  VARIANT">
+				<comment_line content="used in old Polish"/>
+				<comment_line content="in JuniusX accessible also as ą with cv02[2]"/>
+				<cross_ref ref="LATIN SMALL LETTER A WITH OGONEK - 0105"/>
+				<cross_ref ref="LATIN SMALL LETTER A WITH STROKE - 0265"/>
+			</char_entry>
+			
+		</block_subheader>
+	</block_header>
+	<block_header block_end="FFFFF" block_start="FFF80" name="Supplementary Private Use Area-A">
+		<notice_line>The entire plane is dedicated to private use with the exception of the last two code points.</notice_line>
+		<block_subheader name="Noncharacters">
+			<notice_line>These codes are intended for process-internal uses.</notice_line>
+			<char_entry code_point="FFFFE" type="not a character"/>
+			<char_entry code_point="FFFFF" type="not a character"/>
+		</block_subheader>
+	</block_header>
+	<block_header block_end="10FFFF" block_start="10FF80" name="Supplementary Private Use Area-B">
+		<notice_line>The entire plane is dedicated to private use with the exception of the last two code points.</notice_line>
+		<block_subheader name="Noncharacters">
+			<notice_line>These codes are intended for process-internal uses.</notice_line>
+			<char_entry code_point="10FFFE" type="not a character"/>
+			<char_entry code_point="10FFFF" type="not a character"/>
+		</block_subheader>
+	</block_header>
+</ucd>
