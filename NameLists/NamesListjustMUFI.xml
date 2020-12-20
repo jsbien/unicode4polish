@@ -1,0 +1,2195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ucd>
+	<title>The Unicode Standard 13.0.0</title>
+	<subtitle>U13M200203.lst</subtitle>
+	<block_header block_end="F8FF" block_start="E000" name=" Private Use Area: Medieval Unicode Font Initiative usage">
+		<block_subheader name="MUFI Latin Extensions">
+<char_entry code_point="E004" name="LATIN CAPITAL LETTER A WITH OGONEK AND ACUTE">
+</char_entry>
+
+<char_entry code_point="E00A" name="LATIN CAPITAL LETTER A WITH MACRON AND ACUTE">
+</char_entry>
+
+<char_entry code_point="E010" name="LATIN CAPITAL LETTER A WITH MACRON AND BREVE">
+</char_entry>
+
+<char_entry code_point="E025" name="LATIN CAPITAL LETTER A WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="E02C" name="LATIN CAPITAL LETTER A WITH LATIN SMALL LETTER E ABOVE">
+</char_entry>
+
+<char_entry code_point="E033" name="LATIN CAPITAL LETTER A WITH CURL">
+</char_entry>
+
+<char_entry code_point="E036" name="LATIN CAPITAL LETTER AE WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="E03A" name="LATIN CAPITAL LETTER AE WITH MACRON AND ACUTE">
+</char_entry>
+
+<char_entry code_point="E03D" name="LATIN CAPITAL LETTER AE WITH MACRON AND BREVE">
+</char_entry>
+
+<char_entry code_point="E03F" name="LATIN CAPITAL LETTER AE WITH BREVE">
+</char_entry>
+
+<char_entry code_point="E040" name="LATIN CAPITAL LETTER AE WITH OGONEK">
+</char_entry>
+
+<char_entry code_point="E041" name="LATIN CAPITAL LETTER AE WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="E042" name="LATIN CAPITAL LETTER AE WITH DIAERESIS">
+</char_entry>
+
+<char_entry code_point="E043" name="LATIN CAPITAL LETTER AE WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="E044" name="LATIN CAPITAL LETTER B WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="E066" name="LATIN CAPITAL LETTER C WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="E076" name="LATIN CAPITAL LETTER C WITH OGONEK">
+</char_entry>
+
+<char_entry code_point="E077" name="LATIN CAPITAL LETTER D WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="E08F" name="LATIN CAPITAL LETTER ETH WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="E099" name="LATIN CAPITAL LETTER E WITH OGONEK AND ACUTE">
+</char_entry>
+
+<char_entry code_point="E0B7" name="LATIN CAPITAL LETTER E WITH MACRON AND BREVE">
+</char_entry>
+
+<char_entry code_point="E0BC" name="LATIN CAPITAL LETTER E WITH OGONEK AND MACRON">
+</char_entry>
+
+<char_entry code_point="E0C8" name="LATIN CAPITAL LETTER E WITH DOT ABOVE AND ACUTE">
+</char_entry>
+
+<char_entry code_point="E0D1" name="LATIN CAPITAL LETTER E WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="E0E1" name="LATIN CAPITAL LETTER E WITH LATIN SMALL LETTER A ABOVE">
+</char_entry>
+
+<char_entry code_point="E0E8" name="LATIN CAPITAL LETTER E WITH OGONEK AND DOT BELOW">
+</char_entry>
+
+<char_entry code_point="E0E9" name="LATIN CAPITAL LETTER E WITH CURL">
+</char_entry>
+
+<char_entry code_point="E0EA" name="LATIN CAPITAL LETTER E WITH OGONEK AND DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="E0EB" name="LATIN CAPITAL LETTER E WITH OGONEK AND DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="E0EC" name="LATIN CAPITAL LETTER E WITH OGONEK AND DOT ABOVE AND ACUTE">
+</char_entry>
+
+<char_entry code_point="E0EE" name="LATIN CAPITAL LETTER F WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="E0F0" name="LATIN CAPITAL LETTER F WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="E101" name="LATIN CAPITAL LETTER G WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="E116" name="LATIN CAPITAL LETTER H WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="E12A" name="LATIN CAPITAL LETTER I WITH CURL">
+</char_entry>
+
+<char_entry code_point="E135" name="LATIN CAPITAL LETTER I WITH MACRON AND ACUTE">
+</char_entry>
+
+<char_entry code_point="E137" name="LATIN CAPITAL LETTER I WITH MACRON AND BREVE">
+</char_entry>
+
+<char_entry code_point="E143" name="LATIN CAPITAL LETTER I WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="E150" name="LATIN CAPITAL LETTER I WITH HIGH OVERLINE">
+</char_entry>
+
+<char_entry code_point="E151" name="LATIN CAPITAL LETTER J WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="E152" name="LATIN CAPITAL LETTER J WITH HIGH OVERLINE">
+</char_entry>
+
+<char_entry code_point="E153" name="LATIN CAPITAL LETTER J WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="E154" name="LATIN CAPITAL LETTER J WITH HIGH MACRON">
+</char_entry>
+
+<char_entry code_point="E15C" name="LATIN CAPITAL LETTER J WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="E162" name="LATIN CAPITAL LETTER J WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="E163" name="LATIN CAPITAL LETTER J WITH CURL">
+</char_entry>
+
+<char_entry code_point="E168" name="LATIN CAPITAL LETTER K WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="E19E" name="LATIN CAPITAL LETTER L WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="E1B8" name="LATIN CAPITAL LETTER M WITH HIGH MACRON">
+</char_entry>
+
+<char_entry code_point="E1D2" name="LATIN CAPITAL LETTER M WITH HIGH OVERLINE">
+</char_entry>
+
+<char_entry code_point="E1DC" name="LATIN CAPITAL LETTER N WITH HIGH MACRON">
+</char_entry>
+
+<char_entry code_point="E208" name="LATIN CAPITAL LETTER O WITH OGONEK AND DOT BELOW">
+</char_entry>
+
+<char_entry code_point="E20C" name="LATIN CAPITAL LETTER O WITH OGONEK AND ACUTE">
+</char_entry>
+
+<char_entry code_point="E21B" name="LATIN CAPITAL LETTER O WITH MACRON AND BREVE">
+</char_entry>
+
+<char_entry code_point="E22D" name="LATIN CAPITAL LETTER O WITH DIAERESIS AND CIRCUMFLEX">
+</char_entry>
+
+<char_entry code_point="E244" name="LATIN CAPITAL LETTER O WITH LATIN SMALL LETTER E ABOVE">
+</char_entry>
+
+<char_entry code_point="E246" name="LATIN CAPITAL LETTER O WITH LATIN SMALL LETTER U ABOVE">
+</char_entry>
+
+<char_entry code_point="E24F" name="LATIN CAPITAL LETTER O WITH OGONEK AND CURL">
+</char_entry>
+
+<char_entry code_point="E252" name="LATIN CAPITAL LETTER O WITH STROKE AND MACRON">
+</char_entry>
+
+<char_entry code_point="E253" name="LATIN CAPITAL LETTER O WITH STROKE AND MACRON AND BREVE">
+</char_entry>
+
+<char_entry code_point="E255" name="LATIN CAPITAL LETTER O WITH STROKE AND OGONEK">
+</char_entry>
+
+<char_entry code_point="E257" name="LATIN CAPITAL LETTER O WITH STROKE AND OGONEK AND ACUTE">
+</char_entry>
+
+<char_entry code_point="E259" name="LATIN CAPITAL LIGATURE OE WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="E25D" name="LATIN CAPITAL LIGATURE OE WITH MACRON">
+</char_entry>
+
+<char_entry code_point="E260" name="LATIN CAPITAL LIGATURE OE WITH MACRON AND BREVE">
+</char_entry>
+
+<char_entry code_point="E262" name="LATIN CAPITAL LIGATURE OE WITH OGONEK">
+</char_entry>
+
+<char_entry code_point="E268" name="LATIN CAPITAL LETTER P WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="E26D" name="LATIN CAPITAL LETTER P WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="E282" name="LATIN CAPITAL LETTER Q WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="E288" name="LATIN CAPITAL LETTER Q WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="E2E2" name="LATIN CAPITAL LETTER T WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="E2EE" name="LATIN CAPITAL LETTER T WITH OGONEK">
+</char_entry>
+
+<char_entry code_point="E309" name="LATIN CAPITAL LETTER U WITH MACRON AND ACUTE">
+</char_entry>
+
+<char_entry code_point="E30B" name="LATIN CAPITAL LETTER U WITH MACRON AND BREVE">
+</char_entry>
+
+<char_entry code_point="E315" name="LATIN CAPITAL LETTER U WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="E317" name="LATIN CAPITAL LETTER U WITH DIAERESIS AND CIRCUMFLEX">
+</char_entry>
+
+<char_entry code_point="E324" name="LATIN CAPITAL LETTER U WITH VERTICAL LINE ABOVE">
+</char_entry>
+
+<char_entry code_point="E32B" name="LATIN CAPITAL LETTER U WITH LATIN SMALL LETTER E ABOVE">
+</char_entry>
+
+<char_entry code_point="E32D" name="LATIN CAPITAL LETTER U WITH LATIN SMALL LETTER O ABOVE">
+</char_entry>
+
+<char_entry code_point="E331" name="LATIN CAPITAL LETTER U WITH CURL">
+</char_entry>
+
+<char_entry code_point="E337" name="LATIN CAPITAL LETTER THORN WITH DIAGONAL STROKE">
+</char_entry>
+
+<char_entry code_point="E33A" name="LATIN CAPITAL LETTER V WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="E33B" name="LATIN CAPITAL LETTER V WITH CIRCUMFLEX">
+</char_entry>
+
+<char_entry code_point="E342" name="LATIN CAPITAL LETTER V WITH DIAERESIS">
+</char_entry>
+
+<char_entry code_point="E34B" name="LATIN CAPITAL LETTER V WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="E34C" name="LATIN CAPITAL LETTER V WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="E34D" name="LATIN CAPITAL LETTER V WITH MACRON">
+</char_entry>
+
+<char_entry code_point="E34E" name="LATIN CAPITAL LETTER V WITH VERTICAL LINE ABOVE">
+</char_entry>
+
+<char_entry code_point="E350" name="LATIN CAPITAL LETTER W WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="E353" name="LATIN CAPITAL LETTER W WITH LATIN SMALL LETTER E ABOVE">
+</char_entry>
+
+<char_entry code_point="E357" name="LATIN CAPITAL LETTER W WITH MACRON">
+</char_entry>
+
+<char_entry code_point="E373" name="LATIN CAPITAL LETTER Y WITH MACRON AND ACUTE">
+</char_entry>
+
+<char_entry code_point="E375" name="LATIN CAPITAL LETTER Y WITH MACRON AND BREVE">
+</char_entry>
+
+<char_entry code_point="E376" name="LATIN CAPITAL LETTER Y WITH BREVE">
+</char_entry>
+
+<char_entry code_point="E37C" name="LATIN CAPITAL LETTER Y WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="E384" name="LATIN CAPITAL LETTER Y WITH DOT ABOVE AND ACUTE">
+</char_entry>
+
+<char_entry code_point="E385" name="LATIN CAPITAL LETTER Y WITH CURL">
+</char_entry>
+
+<char_entry code_point="E39F" name="LATIN CAPITAL LETTER THORN WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="E3D3" name="LATIN CAPITAL LETTER O WITH CURL">
+</char_entry>
+
+<char_entry code_point="E3D4" name="LATIN CAPITAL LETTER O WITH STROKE AND CURL">
+</char_entry>
+
+<char_entry code_point="E3E5" name="LATIN CAPITAL LETTER INSULAR F WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="E3E6" name="LATIN CAPITAL LETTER INSULAR V WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="E3E7" name="LATIN CAPITAL LETTER INSULAR V WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="E404" name="LATIN SMALL LETTER A WITH OGONEK AND ACUTE">
+</char_entry>
+
+<char_entry code_point="E40A" name="LATIN SMALL LETTER A WITH MACRON AND ACUTE">
+</char_entry>
+
+<char_entry code_point="E410" name="LATIN SMALL LETTER A WITH MACRON AND BREVE">
+</char_entry>
+
+<char_entry code_point="E41A" name="LATIN SMALL LETTER A WITH DIAERESIS AND CIRCUMFLEX">
+</char_entry>
+
+<char_entry code_point="E41D" name="LATIN SMALL LETTER A WITH DIAERESIS AND DOT BELOW">
+</char_entry>
+
+<char_entry code_point="E41F" name="LATIN SMALL LETTER A WITH RING ABOVE AND CIRCUMFLEX">
+</char_entry>
+
+<char_entry code_point="E425" name="LATIN SMALL LETTER A WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="E42C" name="LATIN SMALL LETTER A WITH LATIN SMALL LETTER E ABOVE">
+</char_entry>
+
+<char_entry code_point="E42D" name="LATIN SMALL LETTER A WITH LATIN SMALL LETTER O ABOVE">
+</char_entry>
+
+<char_entry code_point="E42E" name="LATIN SMALL LETTER A WITH LATIN SMALL LETTER V ABOVE">
+</char_entry>
+
+<char_entry code_point="E433" name="LATIN SMALL LETTER A WITH CURL">
+</char_entry>
+
+<char_entry code_point="E436" name="LATIN SMALL LETTER AE WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="E43A" name="LATIN SMALL LETTER AE WITH MACRON AND ACUTE">
+</char_entry>
+
+<char_entry code_point="E43D" name="LATIN SMALL LETTER AE WITH MACRON AND BREVE">
+</char_entry>
+
+<char_entry code_point="E43F" name="LATIN SMALL LETTER AE WITH BREVE">
+</char_entry>
+
+<char_entry code_point="E440" name="LATIN SMALL LETTER AE WITH OGONEK">
+</char_entry>
+
+<char_entry code_point="E441" name="LATIN SMALL LETTER AE WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="E442" name="LATIN SMALL LETTER AE WITH DIAERESIS">
+</char_entry>
+
+<char_entry code_point="E443" name="LATIN SMALL LETTER AE WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="E444" name="LATIN SMALL LETTER B WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="E44D" name="LATIN SMALL LETTER B WITH MEDIUM-HIGH OVERLINE">
+</char_entry>
+
+<char_entry code_point="E466" name="LATIN SMALL LETTER C WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="E476" name="LATIN SMALL LETTER C WITH OGONEK">
+</char_entry>
+
+<char_entry code_point="E477" name="LATIN SMALL LETTER D WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="E48F" name="LATIN SMALL LETTER ETH WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="E491" name="LATIN SMALL LETTER D WITH MEDIUM-HIGH OVERLINE">
+</char_entry>
+
+<char_entry code_point="E498" name="LATIN SMALL LETTER E WITH DOT BELOW AND ACUTE">
+</char_entry>
+
+<char_entry code_point="E499" name="LATIN SMALL LETTER E WITH OGONEK AND ACUTE">
+</char_entry>
+
+<char_entry code_point="E49F" name="LATIN SMALL LETTER E WITH OGONEK AND CIRCUMFLEX">
+</char_entry>
+
+<char_entry code_point="E4B7" name="LATIN SMALL LETTER E WITH MACRON AND BREVE">
+</char_entry>
+
+<char_entry code_point="E4BC" name="LATIN SMALL LETTER E WITH OGONEK AND MACRON">
+</char_entry>
+
+<char_entry code_point="E4C8" name="LATIN SMALL LETTER E WITH DOT ABOVE AND ACUTE">
+</char_entry>
+
+<char_entry code_point="E4CD" name="LATIN SMALL LETTER E WITH DIAERESIS AND MACRON">
+</char_entry>
+
+<char_entry code_point="E4CF" name="LATIN SMALL LETTER E WITH RING ABOVE">
+</char_entry>
+
+<char_entry code_point="E4D1" name="LATIN SMALL LETTER E WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="E4E1" name="LATIN SMALL LETTER E WITH LATIN SMALL LETTER A ABOVE">
+</char_entry>
+
+<char_entry code_point="E4E2" name="LATIN SMALL LETTER E WITH LATIN SMALL LETTER I ABOVE">
+</char_entry>
+
+<char_entry code_point="E4E3" name="LATIN SMALL LETTER E WITH LATIN SMALL LETTER V ABOVE">
+</char_entry>
+
+<char_entry code_point="E4E8" name="LATIN SMALL LETTER E WITH OGONEK AND DOT BELOW">
+</char_entry>
+
+<char_entry code_point="E4E9" name="LATIN SMALL LETTER E WITH CURL">
+</char_entry>
+
+<char_entry code_point="E4EA" name="LATIN SMALL LETTER E WITH OGONEK AND DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="E4EB" name="LATIN SMALL LETTER E WITH OGONEK AND DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="E4EC" name="LATIN SMALL LETTER E WITH OGONEK AND DOT ABOVE AND ACUTE">
+</char_entry>
+
+<char_entry code_point="E4EE" name="LATIN SMALL LETTER F WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="E4F0" name="LATIN SMALL LETTER F WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="E501" name="LATIN SMALL LETTER G WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="E516" name="LATIN SMALL LETTER H WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="E517" name="LATIN SMALL LETTER H WITH MEDIUM-HIGH OVERLINE">
+</char_entry>
+
+<char_entry code_point="E52A" name="LATIN SMALL LETTER I WITH CURL">
+</char_entry>
+
+<char_entry code_point="E535" name="LATIN SMALL LETTER I WITH MACRON AND ACUTE">
+</char_entry>
+
+<char_entry code_point="E537" name="LATIN SMALL LETTER I WITH MACRON AND BREVE">
+</char_entry>
+
+<char_entry code_point="E543" name="LATIN SMALL LETTER I WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="E548" name="LATIN SMALL LETTER I WITH INVERTED BREVE BELOW">
+</char_entry>
+
+<char_entry code_point="E54A" name="LATIN SMALL LETTER I WITH LATIN SMALL LETTER E ABOVE">
+</char_entry>
+
+<char_entry code_point="E54B" name="LATIN SMALL LETTER I WITH LATIN SMALL LETTER V ABOVE">
+</char_entry>
+
+<char_entry code_point="E550" name="LATIN SMALL LETTER I WITH MEDIUM-HIGH OVERLINE">
+</char_entry>
+
+<char_entry code_point="E551" name="LATIN SMALL LETTER J WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="E552" name="LATIN SMALL LETTER J WITH MEDIUM-HIGH OVERLINE">
+</char_entry>
+
+<char_entry code_point="E553" name="LATIN SMALL LETTER J WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="E554" name="LATIN SMALL LETTER J WITH MEDIUM-HIGH MACRON">
+</char_entry>
+
+<char_entry code_point="E562" name="LATIN SMALL LETTER J WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="E563" name="LATIN SMALL LETTER J WITH CURL">
+</char_entry>
+
+<char_entry code_point="E568" name="LATIN SMALL LETTER K WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="E58C" name="LATIN SMALL LETTER L WITH HIGH OVERLINE">
+</char_entry>
+
+<char_entry code_point="E596" name="LATIN SMALL LETTER L WITH HIGH MACRON">
+</char_entry>
+
+<char_entry code_point="E59E" name="LATIN SMALL LETTER L WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="E5A4" name="LATIN SMALL LETTER L WITH RING BELOW">
+</char_entry>
+
+<char_entry code_point="E5B1" name="LATIN SMALL LETTER L WITH MEDIUM-HIGH OVERLINE">
+</char_entry>
+
+<char_entry code_point="E5B8" name="LATIN SMALL LETTER M WITH MEDIUM-HIGH MACRON">
+</char_entry>
+
+<char_entry code_point="E5C5" name="LATIN SMALL LETTER M WITH RING BELOW">
+</char_entry>
+
+<char_entry code_point="E5D2" name="LATIN SMALL LETTER M WITH MEDIUM-HIGH OVERLINE">
+</char_entry>
+
+<char_entry code_point="E5D7" name="LATIN SMALL LETTER N WITH CIRCUMFLEX">
+</char_entry>
+
+<char_entry code_point="E5DC" name="LATIN SMALL LETTER N WITH MEDIUM-HIGH MACRON">
+</char_entry>
+
+<char_entry code_point="E5EE" name="LATIN SMALL LETTER N WITH RING BELOW">
+</char_entry>
+
+<char_entry code_point="E608" name="LATIN SMALL LETTER O WITH OGONEK AND DOT BELOW">
+</char_entry>
+
+<char_entry code_point="E60C" name="LATIN SMALL LETTER O WITH OGONEK AND ACUTE">
+</char_entry>
+
+<char_entry code_point="E60E" name="LATIN SMALL LETTER O WITH OGONEK AND CIRCUMFLEX">
+</char_entry>
+
+<char_entry code_point="E61B" name="LATIN SMALL LETTER O WITH MACRON AND BREVE">
+</char_entry>
+
+<char_entry code_point="E62C" name="LATIN SMALL LETTER O WITH DIAERESIS AND ACUTE">
+</char_entry>
+
+<char_entry code_point="E62D" name="LATIN SMALL LETTER O WITH DIAERESIS AND CIRCUMFLEX">
+</char_entry>
+
+<char_entry code_point="E637" name="LATIN SMALL LETTER O WITH RING ABOVE">
+</char_entry>
+
+<char_entry code_point="E643" name="LATIN SMALL LETTER O WITH LATIN SMALL LETTER A ABOVE">
+</char_entry>
+
+<char_entry code_point="E644" name="LATIN SMALL LETTER O WITH LATIN SMALL LETTER E ABOVE">
+</char_entry>
+
+<char_entry code_point="E645" name="LATIN SMALL LETTER O WITH LATIN SMALL LETTER I ABOVE">
+</char_entry>
+
+<char_entry code_point="E646" name="LATIN SMALL LETTER O WITH LATIN SMALL LETTER U ABOVE">
+</char_entry>
+
+<char_entry code_point="E647" name="LATIN SMALL LETTER O WITH LATIN SMALL LETTER V ABOVE">
+</char_entry>
+
+<char_entry code_point="E64F" name="LATIN SMALL LETTER O WITH OGONEK AND CURL">
+</char_entry>
+
+<char_entry code_point="E652" name="LATIN SMALL LETTER O WITH STROKE AND MACRON">
+</char_entry>
+
+<char_entry code_point="E653" name="LATIN SMALL LETTER O WITH STROKE AND MACRON AND BREVE">
+</char_entry>
+
+<char_entry code_point="E655" name="LATIN SMALL LETTER O WITH STROKE AND OGONEK">
+</char_entry>
+
+<char_entry code_point="E657" name="LATIN SMALL LETTER O WITH STROKE AND OGONEK AND ACUTE">
+</char_entry>
+
+<char_entry code_point="E659" name="LATIN SMALL LIGATURE OE WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="E65D" name="LATIN SMALL LIGATURE OE WITH MACRON">
+</char_entry>
+
+<char_entry code_point="E660" name="LATIN SMALL LIGATURE OE WITH MACRON AND BREVE">
+</char_entry>
+
+<char_entry code_point="E662" name="LATIN SMALL LIGATURE OE WITH OGONEK">
+</char_entry>
+
+<char_entry code_point="E665" name="LATIN SMALL LETTER P WITH MACRON">
+</char_entry>
+
+<char_entry code_point="E668" name="LATIN SMALL LETTER P WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="E66D" name="LATIN SMALL LETTER P WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="E681" name="LATIN SMALL LETTER Q WITH MACRON">
+</char_entry>
+
+<char_entry code_point="E682" name="LATIN SMALL LETTER Q WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="E688" name="LATIN SMALL LETTER Q WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="E68B" name="LATIN SMALL LETTER Q WITH STROKE THROUGH DESCENDER AND TILDE">
+</char_entry>
+
+<char_entry code_point="E6A3" name="LATIN SMALL LETTER R WITH RING BELOW">
+</char_entry>
+
+<char_entry code_point="E6E2" name="LATIN SMALL LETTER T WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="E6EE" name="LATIN SMALL LETTER T WITH OGONEK">
+</char_entry>
+
+<char_entry code_point="E709" name="LATIN SMALL LETTER U WITH MACRON AND ACUTE">
+</char_entry>
+
+<char_entry code_point="E70B" name="LATIN SMALL LETTER U WITH MACRON AND BREVE">
+</char_entry>
+
+<char_entry code_point="E715" name="LATIN SMALL LETTER U WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="E717" name="LATIN SMALL LETTER U WITH DIAERESIS AND CIRCUMFLEX">
+</char_entry>
+
+<char_entry code_point="E724" name="LATIN SMALL LETTER U WITH VERTICAL LINE ABOVE">
+</char_entry>
+
+<char_entry code_point="E727" name="LATIN SMALL LETTER U WITH INVERTED BREVE BELOW">
+</char_entry>
+
+<char_entry code_point="E72B" name="LATIN SMALL LETTER U WITH LATIN SMALL LETTER E ABOVE">
+</char_entry>
+
+<char_entry code_point="E72C" name="LATIN SMALL LETTER U WITH LATIN SMALL LETTER I ABOVE">
+</char_entry>
+
+<char_entry code_point="E72D" name="LATIN SMALL LETTER U WITH LATIN SMALL LETTER O ABOVE">
+</char_entry>
+
+<char_entry code_point="E731" name="LATIN SMALL LETTER U WITH CURL">
+</char_entry>
+
+<char_entry code_point="E734" name="LATIN SMALL LIGATURE THORN AND LONG S">
+</char_entry>
+
+<char_entry code_point="E735" name="LATIN SMALL LIGATURE THORN AND LONG S WITH STROKE">
+</char_entry>
+
+<char_entry code_point="E737" name="LATIN SMALL LETTER THORN WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="E73A" name="LATIN SMALL LETTER V WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="E73B" name="LATIN SMALL LETTER V WITH CIRCUMFLEX">
+</char_entry>
+
+<char_entry code_point="E742" name="LATIN SMALL LETTER V WITH DIAERESIS">
+</char_entry>
+
+<char_entry code_point="E743" name="LATIN SMALL LETTER V WITH RING ABOVE">
+</char_entry>
+
+<char_entry code_point="E74B" name="LATIN SMALL LETTER V WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="E74C" name="LATIN SMALL LETTER V WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="E74D" name="LATIN SMALL LETTER V WITH MACRON">
+</char_entry>
+
+<char_entry code_point="E74E" name="LATIN SMALL LETTER V WITH BAR">
+</char_entry>
+
+<char_entry code_point="E74F" name="LATIN SMALL LETTER V WITH VERTICAL LINE ABOVE">
+</char_entry>
+
+<char_entry code_point="E750" name="LATIN SMALL LETTER W WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="E753" name="LATIN SMALL LETTER W WITH LATIN SMALL LETTER E ABOVE">
+</char_entry>
+
+<char_entry code_point="E754" name="LATIN SMALL LETTER W WITH LATIN SMALL LETTER O ABOVE">
+</char_entry>
+
+<char_entry code_point="E757" name="LATIN SMALL LETTER W WITH MACRON">
+</char_entry>
+
+<char_entry code_point="E773" name="LATIN SMALL LETTER Y WITH MACRON AND ACUTE">
+</char_entry>
+
+<char_entry code_point="E775" name="LATIN SMALL LETTER Y WITH MACRON AND BREVE">
+</char_entry>
+
+<char_entry code_point="E776" name="LATIN SMALL LETTER Y WITH BREVE">
+</char_entry>
+
+<char_entry code_point="E77B" name="LATIN SMALL LETTER Y WITH BAR">
+</char_entry>
+
+<char_entry code_point="E77C" name="LATIN SMALL LETTER Y WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="E781" name="LATIN SMALL LETTER Y WITH LATIN SMALL LETTER E ABOVE">
+</char_entry>
+
+<char_entry code_point="E784" name="LATIN SMALL LETTER Y WITH DOT ABOVE AND ACUTE">
+</char_entry>
+
+<char_entry code_point="E785" name="LATIN SMALL LETTER Y WITH CURL">
+</char_entry>
+
+<char_entry code_point="E79E" name="LATIN SMALL LETTER LONG S WITH MEDIUM-HIGH OVERLINE">
+</char_entry>
+
+<char_entry code_point="E79F" name="LATIN SMALL LETTER THORN WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="E7A2" name="LATIN SMALL LETTER THORN WITH MEDIUM-HIGH OVERLINE">
+</char_entry>
+
+<char_entry code_point="E7B2" name="LATIN SMALL LETTER N WITH BAR">
+</char_entry>
+
+<char_entry code_point="E7C1" name="LATIN SMALL LETTER R ROTUNDA WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="E7C2" name="LATIN SMALL LETTER LONG S WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="E7C3" name="LATIN SMALL LETTER K WITH MEDIUM-HIGH OVERLINE">
+</char_entry>
+
+<char_entry code_point="E7C7" name="LATIN SMALL LIGATURE H AND LONG S WITH STROKE">
+</char_entry>
+
+<char_entry code_point="E7C8" name="LATIN SMALL LIGATURE K AND LONG S WITH STROKE">
+</char_entry>
+
+<char_entry code_point="E7CC" name="LATIN SMALL LETTER OPEN O WITH MACRON">
+</char_entry>
+
+<char_entry code_point="E7D3" name="LATIN SMALL LETTER O WITH CURL">
+</char_entry>
+
+<char_entry code_point="E7D4" name="LATIN SMALL LETTER O WITH STROKE AND CURL">
+</char_entry>
+
+<char_entry code_point="E7E4" name="LATIN SMALL LETTER R WITH LONG LEG AND STROKE THROUGH DESCENDER">
+</char_entry>
+
+<char_entry code_point="E7E5" name="LATIN SMALL LETTER INSULAR F WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="E7E6" name="LATIN SMALL LETTER INSULAR V WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="E7E7" name="LATIN SMALL LETTER INSULAR V WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="E8A1" name="LATIN SMALL LETTER I WITH TWO STROKES">
+</char_entry>
+
+<char_entry code_point="E8A2" name="LATIN SMALL LETTER J WITH TWO STROKES">
+</char_entry>
+
+<char_entry code_point="E8A3" name="LATIN ABBREVIATION SIGN AUTEM">
+</char_entry>
+
+<char_entry code_point="E8B3" name="LATIN SMALL LETTER Q LIGATED WITH R ROTUNDA">
+</char_entry>
+
+<char_entry code_point="E8B4" name="LATIN SMALL LETTER Q WITH CENTRAL SLANTED STROKE">
+</char_entry>
+
+<char_entry code_point="E8B7" name="LATIN SMALL LETTER LONG S WITH FLOURISH">
+</char_entry>
+
+<char_entry code_point="E8B8" name="LATIN SMALL LETTER LONG S WITH SLANTED DESCENDING STROKE">
+</char_entry>
+
+<char_entry code_point="E8BA" name="LATIN SMALL LETTER V WITH SHORT SLASH">
+</char_entry>
+
+<char_entry code_point="E8BB" name="LATIN SMALL LETTER V WITH SHORT SLASH ABOVE RIGHT">
+</char_entry>
+
+<char_entry code_point="E8BC" name="LATIN SMALL LETTER V WITH TWO SHORT SLASHES ABOVE RIGHT">
+</char_entry>
+
+<char_entry code_point="E8BD" name="LATIN SMALL LETTER X WITH SHORT SLASH ABOVE LEFT">
+</char_entry>
+
+<char_entry code_point="E8BE" name="LATIN SMALL LETTER X WITH SHORT SLASH BELOW RIGHT">
+</char_entry>
+
+<char_entry code_point="E8BF" name="LATIN SMALL LETTER Q LIGATED WITH FINAL ET">
+</char_entry>
+
+<char_entry code_point="E8C1" name="LATIN SMALL LETTER THORN LIGATED WITH ARM OF LATIN SMALL LETTER R">
+</char_entry>
+
+<char_entry code_point="E8C2" name="LATIN CAPITAL LETTER H LIGATED WITH ARM OF LATIN SMALL LETTER R">
+</char_entry>
+
+<char_entry code_point="E8C3" name="LATIN SMALL LETTER H LIGATED WITH ARM OF LATIN SMALL LETTER R">
+</char_entry>
+
+<char_entry code_point="E8C5" name="LATIN SMALL LETTER K LIGATED WITH ARM OF LATIN SMALL LETTER R">
+</char_entry>
+
+<char_entry code_point="E8C6" name="LATIN CAPITAL LIGATURE UU">
+</char_entry>
+
+<char_entry code_point="E8C7" name="LATIN SMALL LIGATURE UU">
+</char_entry>
+
+<char_entry code_point="E8C8" name="LATIN CAPITAL LIGATURE UE">
+</char_entry>
+
+<char_entry code_point="E8C9" name="LATIN SMALL LIGATURE UE">
+</char_entry>
+
+<char_entry code_point="E8CE" name="LATIN SMALL LETTER X WITH TWO SHORT SLASHES BELOW RIGHT">
+</char_entry>
+
+<char_entry code_point="E8D1" name="LATIN SMALL LETTER AE WITH RING ABOVE">
+</char_entry>
+
+<char_entry code_point="E8D3" name="LATIN SMALL LETTER AE WITH OGONEK AND ACUTE">
+</char_entry>
+
+<char_entry code_point="E8D5" name="LATIN SMALL LETTER A WITH DIAGONAL DIAERESIS">
+</char_entry>
+
+<char_entry code_point="E8D7" name="LATIN SMALL LETTER O WITH DIAGONAL DIAERESIS">
+</char_entry>
+
+<char_entry code_point="E8DD" name="LATIN SMALL LETTER DOTLESS I WITH OGONEK">
+</char_entry>
+
+<char_entry code_point="E8DE" name="LATIN SMALL LIGATURE O R ROTUNDA">
+</char_entry>
+
+<char_entry code_point="E8DF" name="LATIN SMALL LIGATURE LONG S L WITH STROKE">
+</char_entry>
+
+<char_entry code_point="E8E0" name="LATIN SMALL LETTER A WITH LATIN SMALL LETTER I ABOVE">
+</char_entry>
+
+<char_entry code_point="E8E1" name="LATIN SMALL LETTER A WITH LATIN SMALL LETTER U ABOVE">
+</char_entry>
+
+<char_entry code_point="E8E2" name="LATIN SMALL LETTER E WITH LATIN SMALL LETTER E ABOVE">
+</char_entry>
+
+<char_entry code_point="E8E3" name="LATIN SMALL LETTER E WITH LATIN SMALL LETTER O ABOVE">
+</char_entry>
+
+<char_entry code_point="E8E4" name="LATIN SMALL LETTER I WITH LATIN SMALL LETTER A ABOVE">
+</char_entry>
+
+<char_entry code_point="E8E5" name="LATIN SMALL LETTER I WITH LATIN SMALL LETTER O ABOVE">
+</char_entry>
+
+<char_entry code_point="E8E6" name="LATIN SMALL LETTER I WITH LATIN SMALL LETTER U ABOVE">
+</char_entry>
+
+<char_entry code_point="E8E7" name="LATIN SMALL LETTER J WITH LATIN SMALL LETTER E ABOVE">
+</char_entry>
+
+<char_entry code_point="E8E8" name="LATIN SMALL LETTER M WITH LATIN SMALL LETTER E ABOVE">
+</char_entry>
+
+<char_entry code_point="E8E9" name="LATIN SMALL LETTER O WITH LATIN SMALL LETTER O ABOVE">
+</char_entry>
+
+<char_entry code_point="E8EA" name="LATIN SMALL LETTER R WITH LATIN SMALL LETTER E ABOVE">
+</char_entry>
+
+<char_entry code_point="E8EB" name="LATIN SMALL LETTER U WITH LATIN SMALL LETTER A ABOVE">
+</char_entry>
+
+<char_entry code_point="E8EC" name="LATIN SMALL LETTER U WITH LATIN SMALL LETTER V ABOVE">
+</char_entry>
+
+<char_entry code_point="E8ED" name="LATIN SMALL LETTER U WITH LATIN SMALL LETTER W ABOVE">
+</char_entry>
+
+<char_entry code_point="E8F0" name="LATIN SMALL LETTER W WITH LATIN SMALL LETTER A ABOVE">
+</char_entry>
+
+<char_entry code_point="E8F1" name="LATIN SMALL LETTER W WITH LATIN SMALL LETTER I ABOVE">
+</char_entry>
+
+<char_entry code_point="E8F2" name="LATIN SMALL LETTER W WITH LATIN SMALL LETTER U ABOVE">
+</char_entry>
+
+<char_entry code_point="E8F3" name="LATIN SMALL LETTER W WITH LATIN SMALL LETTER V ABOVE">
+</char_entry>
+
+<char_entry code_point="EAD0" name="LATIN SMALL LIGATURE GR">
+</char_entry>
+
+<char_entry code_point="EAD1" name="LATIN SMALL LIGATURE Q INSULAR V">
+</char_entry>
+
+<char_entry code_point="EAD2" name="LATIN SMALL LIGATURE GP">
+</char_entry>
+
+<char_entry code_point="EADA" name="LATIN SMALL LIGATURE LONG S DESCENDING T">
+</char_entry>
+
+<char_entry code_point="EAF0" name="LATIN ENLARGED LETTER SMALL A WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="EAF1" name="LATIN ENLARGED LETTER SMALL LIGATURE AE">
+</char_entry>
+
+<char_entry code_point="EAF2" name="LATIN LIGATURE ENLARGED LETTER SMALL A AND LATIN SMALL LETTER O">
+</char_entry>
+
+<char_entry code_point="EAF3" name="LATIN ENLARGED LETTER SMALL E WITH OGONEK">
+</char_entry>
+
+<char_entry code_point="EBA0" name="LATIN SMALL LIGATURE LONG S A WITH DIAERESIS">
+</char_entry>
+
+<char_entry code_point="EBA1" name="LATIN SMALL LIGATURE LONG S H">
+</char_entry>
+
+<char_entry code_point="EBA2" name="LATIN SMALL LIGATURE LONG S I">
+</char_entry>
+
+<char_entry code_point="EBA3" name="LATIN SMALL LIGATURE LONG S L">
+</char_entry>
+
+<char_entry code_point="EBA4" name="LATIN SMALL LIGATURE LONG S O WITH DIAERESIS">
+</char_entry>
+
+<char_entry code_point="EBA5" name="LATIN SMALL LIGATURE LONG S P">
+</char_entry>
+
+<char_entry code_point="EBA6" name="LATIN SMALL LIGATURE LONG S LONG S">
+</char_entry>
+
+<char_entry code_point="EBA7" name="LATIN SMALL LIGATURE LONG S LONG S I">
+</char_entry>
+
+<char_entry code_point="EBA8" name="LATIN SMALL LIGATURE LONG S LONG S L">
+</char_entry>
+
+<char_entry code_point="EBA9" name="LATIN SMALL LIGATURE LONG S TI">
+</char_entry>
+
+<char_entry code_point="EBAA" name="LATIN SMALL LIGATURE LONG S TR">
+</char_entry>
+
+<char_entry code_point="EBAB" name="LATIN SMALL LIGATURE LONG S U WITH DIAERESIS">
+</char_entry>
+
+<char_entry code_point="EBAC" name="LATIN SMALL LIGATURE LONG S INSULAR V">
+</char_entry>
+
+<char_entry code_point="EBAD" name="LATIN SMALL LIGATURE H AND LONG S">
+</char_entry>
+
+<char_entry code_point="EBAE" name="LATIN SMALL LIGATURE K AND LONG S">
+</char_entry>
+
+<char_entry code_point="EBAF" name="LATIN SMALL LETTER LONG S WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="EBB0" name="LATIN CAPITAL LIGATURE AV WITH STROKE AND ACUTE">
+</char_entry>
+
+<char_entry code_point="EBB1" name="LATIN SMALL LIGATURE AV WITH STROKE AND ACUTE">
+</char_entry>
+
+<char_entry code_point="EBB2" name="LATIN SMALL LETTER D ROTUNDA WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="EBB3" name="LATIN CAPITAL LETTER INSULAR F WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="EBB4" name="LATIN SMALL LETTER INSULAR F WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="EBB5" name="LATIN CAPITAL LETTER M UNCIAL FORM WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="EBB6" name="LATIN MEDIUSCULE LETTER M UNCIAL FORM WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="EBB7" name="LATIN CAPITAL LETTER O WITH CURL AND ACUTE">
+</char_entry>
+
+<char_entry code_point="EBB8" name="LATIN SMALL LETTER O WITH CURL AND ACUTE">
+</char_entry>
+
+<char_entry code_point="EBB9" name="LATIN SMALL LETTER R ROTUNDA WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="EBBA" name="LATIN CAPITAL LETTER INSULAR V WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="EBBB" name="LATIN SMALL LETTER INSULAR V WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="EBBD" name="LATIN SMALL LETTER EA WITH CIRCUMFLEX">
+</char_entry>
+
+<char_entry code_point="EBBE" name="LATIN SMALL LETTER EU WITH CIRCUMFLEX">
+</char_entry>
+
+<char_entry code_point="EBBF" name="LATIN SMALL LETTER U WITH CURLY BAR ABOVE">
+</char_entry>
+
+<char_entry code_point="EBC0" name="LATIN CAPITAL LIGATURE AO WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="EBC1" name="LATIN SMALL LIGATURE AO WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="EBC2" name="LATIN CAPITAL LIGATURE AV WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="EBC3" name="LATIN SMALL LIGATURE AV WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="EBC4" name="LATIN CAPITAL LETTER O WITH OGONEK AND DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="EBC5" name="LATIN SMALL LETTER O WITH OGONEK AND DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="EBC6" name="LATIN CAPITAL LETTER O WITH STROKE AND DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="EBC7" name="LATIN SMALL LETTER O WITH STROKE AND DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="EBC8" name="LATIN CAPITAL LIGATURE OE WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="EBC9" name="LATIN SMALL LIGATURE OE WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="EBCA" name="LATIN CAPITAL LIGATURE YY WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="EBCB" name="LATIN SMALL LIGATURE YY WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="EBCD" name="LATIN CAPITAL LETTER O WITH STROKE AND DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="EBCE" name="LATIN SMALL LETTER O WITH STROKE AND DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="EBCF" name="LATIN LETTER SMALL CAPITAL P WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="EBD0" name="LATIN LETTER SMALL CAPITAL B WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="EBD1" name="LATIN SMALL LETTER D ROTUNDA WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="EBD2" name="LATIN LETTER SMALL CAPITAL D WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="EBD3" name="LATIN CAPITAL LETTER INSULAR F WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="EBD4" name="LATIN SMALL LETTER INSULAR F WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="EBD5" name="LATIN SMALL LETTER SEMI-CLOSED INSULAR F WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="EBD6" name="LATIN SMALL LETTER CLOSED INSULAR F WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="EBD7" name="LATIN LETTER SMALL CAPITAL F WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="EBDA" name="LATIN LETTER SMALL CAPITAL H WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="EBDB" name="LATIN LETTER SMALL CAPITAL K WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="EBDC" name="LATIN LETTER SMALL CAPITAL L WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="EBDD" name="LATIN LETTER SMALL CAPITAL M WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="EBDE" name="LATIN CAPITAL LETTER O WITH OGONEK AND DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="EBDF" name="LATIN SMALL LETTER O WITH OGONEK AND DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="EBE0" name="LATIN CAPITAL LETTER O WITH STROKE AND DOT BELOW">
+</char_entry>
+
+<char_entry code_point="EBE1" name="LATIN SMALL LETTER O WITH STROKE AND DOT BELOW">
+</char_entry>
+
+<char_entry code_point="EBE2" name="LATIN CAPITAL LETTER J WITH DIAERESIS">
+</char_entry>
+
+<char_entry code_point="EBE3" name="LATIN SMALL LETTER J WITH DIAERESIS">
+</char_entry>
+
+<char_entry code_point="EBE4" name="LATIN CAPITAL LIGATURE OO WITH DIAERESIS">
+</char_entry>
+
+<char_entry code_point="EBE5" name="LATIN SMALL LIGATURE OO WITH DIAERESIS">
+</char_entry>
+
+<char_entry code_point="EBE6" name="LATIN CAPITAL LIGATURE PP WITH DIAERESIS">
+</char_entry>
+
+<char_entry code_point="EBE7" name="LATIN SMALL LIGATURE PP WITH DIAERESIS">
+</char_entry>
+
+<char_entry code_point="EBE8" name="LATIN CAPITAL LIGATURE YY WITH DIAERESIS">
+</char_entry>
+
+<char_entry code_point="EBE9" name="LATIN SMALL LIGATURE YY WITH DIAERESIS">
+</char_entry>
+
+<char_entry code_point="EBEA" name="LATIN CAPITAL LETTER AE WITH CURL">
+</char_entry>
+
+<char_entry code_point="EBEB" name="LATIN SMALL LETTER AE WITH CURL">
+</char_entry>
+
+<char_entry code_point="EBEC" name="LATIN CAPITAL LETTER O WITH STROKE AND MACRON AND ACUTE">
+</char_entry>
+
+<char_entry code_point="EBED" name="LATIN SMALL LETTER O WITH STROKE AND MACRON AND ACUTE">
+</char_entry>
+
+<char_entry code_point="EBEE" name="LATIN CAPITAL LETTER O WITH STROKE AND BREVE">
+</char_entry>
+
+<char_entry code_point="EBEF" name="LATIN SMALL LETTER O WITH STROKE AND BREVE">
+</char_entry>
+
+<char_entry code_point="EBF0" name="LATIN CAPITAL LIGATURE AV WITH OGONEK">
+</char_entry>
+
+<char_entry code_point="EBF1" name="LATIN SMALL LIGATURE AV WITH OGONEK">
+</char_entry>
+
+<char_entry code_point="EBF2" name="LATIN CAPITAL LETTER E WITH OGONEK AND CURL">
+</char_entry>
+
+<char_entry code_point="EBF3" name="LATIN SMALL LETTER E WITH OGONEK AND CURL">
+</char_entry>
+
+<char_entry code_point="EBF4" name="LATIN CAPITAL LETTER A WITH DOT ABOVE AND ACUTE">
+</char_entry>
+
+<char_entry code_point="EBF5" name="LATIN SMALL LETTER A WITH DOT ABOVE AND ACUTE">
+</char_entry>
+
+<char_entry code_point="EBF6" name="LATIN CAPITAL LETTER I WITH DOT ABOVE AND ACUTE">
+</char_entry>
+
+<char_entry code_point="EBF7" name="LATIN SMALL LETTER I WITH DOT ABOVE AND ACUTE">
+</char_entry>
+
+<char_entry code_point="EBF8" name="LATIN CAPITAL LETTER O WITH DOT ABOVE AND ACUTE">
+</char_entry>
+
+<char_entry code_point="EBF9" name="LATIN SMALL LETTER O WITH DOT ABOVE AND ACUTE">
+</char_entry>
+
+<char_entry code_point="EBFA" name="LATIN CAPITAL LETTER O WITH OGONEK AND DOT ABOVE AND ACUTE">
+</char_entry>
+
+<char_entry code_point="EBFB" name="LATIN SMALL LETTER O WITH OGONEK AND DOT ABOVE AND ACUTE">
+</char_entry>
+
+<char_entry code_point="EBFC" name="LATIN CAPITAL LETTER O WITH STROKE AND DOT ABOVE AND ACUTE">
+</char_entry>
+
+<char_entry code_point="EBFD" name="LATIN SMALL LETTER O WITH STROKE AND DOT ABOVE AND ACUTE">
+</char_entry>
+
+<char_entry code_point="EBFE" name="LATIN CAPITAL LETTER U WITH DOT ABOVE AND ACUTE">
+</char_entry>
+
+<char_entry code_point="EBFF" name="LATIN SMALL LETTER U WITH DOT ABOVE AND ACUTE">
+</char_entry>
+
+<char_entry code_point="EEC2" name="LATIN SMALL LIGATURE BB">
+</char_entry>
+
+<char_entry code_point="EEC3" name="LATIN SMALL LIGATURE BG">
+</char_entry>
+
+<char_entry code_point="EEC4" name="LATIN SMALL LIGATURE CK">
+</char_entry>
+
+<char_entry code_point="EEC5" name="LATIN SMALL LIGATURE CT">
+</char_entry>
+
+<char_entry code_point="EEC6" name="LATIN SMALL LIGATURE D ROTUNDA D ROTUNDA">
+</char_entry>
+
+<char_entry code_point="EEC7" name="LATIN SMALL LIGATURE EY">
+</char_entry>
+
+<char_entry code_point="EEC8" name="LATIN SMALL LIGATURE F A WITH DIAERESIS">
+</char_entry>
+
+<char_entry code_point="EEC9" name="LATIN SMALL LIGATURE FJ">
+</char_entry>
+
+<char_entry code_point="EECA" name="LATIN SMALL LIGATURE FR">
+</char_entry>
+
+<char_entry code_point="EECB" name="LATIN SMALL LIGATURE FT">
+</char_entry>
+
+<char_entry code_point="EECC" name="LATIN SMALL LIGATURE F U WITH DIAERESIS">
+</char_entry>
+
+<char_entry code_point="EECD" name="LATIN SMALL LIGATURE FY">
+</char_entry>
+
+<char_entry code_point="EECE" name="LATIN SMALL LIGATURE FFT">
+</char_entry>
+
+<char_entry code_point="EECF" name="LATIN SMALL LIGATURE FFY">
+</char_entry>
+
+<char_entry code_point="EED0" name="LATIN SMALL LIGATURE FTY">
+</char_entry>
+
+<char_entry code_point="EED1" name="LATIN SMALL LIGATURE GG">
+</char_entry>
+
+<char_entry code_point="EED2" name="LATIN SMALL LIGATURE GD">
+</char_entry>
+
+<char_entry code_point="EED3" name="LATIN SMALL LIGATURE G D ROTUNDA">
+</char_entry>
+
+<char_entry code_point="EED4" name="LATIN SMALL LIGATURE G ETH">
+</char_entry>
+
+<char_entry code_point="EED5" name="LATIN SMALL LIGATURE SMALL CAPITAL N LONG S">
+</char_entry>
+
+<char_entry code_point="EED6" name="LATIN SMALL LIGATURE PP">
+</char_entry>
+
+<char_entry code_point="EED7" name="LATIN SMALL LIGATURE PP WITH FLOURISH">
+</char_entry>
+
+<char_entry code_point="EED8" name="LATIN SMALL LIGATURE TR">
+</char_entry>
+
+<char_entry code_point="EED9" name="LATIN SMALL LIGATURE TT">
+</char_entry>
+
+<char_entry code_point="EEDA" name="LATIN SMALL LIGATURE T ROTUNDA T ROTUNDA">
+</char_entry>
+
+<char_entry code_point="EEDB" name="LATIN SMALL LIGATURE TY">
+</char_entry>
+
+<char_entry code_point="EEDC" name="LATIN SMALL LIGATURE TZ">
+</char_entry>
+
+<char_entry code_point="EEDD" name="LATIN CAPITAL LIGATURE PP">
+</char_entry>
+
+<char_entry code_point="EEDE" name="LATIN SMALL LIGATURE GO">
+</char_entry>
+
+<char_entry code_point="EEDF" name="LATIN ENLARGED LETTER SMALL LONG S">
+</char_entry>
+
+<char_entry code_point="EEE0" name="LATIN ENLARGED LETTER SMALL A">
+</char_entry>
+
+<char_entry code_point="EEE1" name="LATIN ENLARGED LETTER SMALL B">
+</char_entry>
+
+<char_entry code_point="EEE2" name="LATIN ENLARGED LETTER SMALL C">
+</char_entry>
+
+<char_entry code_point="EEE3" name="LATIN ENLARGED LETTER SMALL D">
+</char_entry>
+
+<char_entry code_point="EEE4" name="LATIN ENLARGED LETTER D ROTUNDA">
+</char_entry>
+
+<char_entry code_point="EEE5" name="LATIN ENLARGED LETTER SMALL ETH">
+</char_entry>
+
+<char_entry code_point="EEE6" name="LATIN ENLARGED LETTER SMALL E">
+</char_entry>
+
+<char_entry code_point="EEE7" name="LATIN ENLARGED LETTER SMALL F">
+</char_entry>
+
+<char_entry code_point="EEE8" name="LATIN ENLARGED LETTER SMALL G">
+</char_entry>
+
+<char_entry code_point="EEE9" name="LATIN ENLARGED LETTER SMALL H">
+</char_entry>
+
+<char_entry code_point="EEEA" name="LATIN ENLARGED LETTER SMALL I">
+</char_entry>
+
+<char_entry code_point="EEEB" name="LATIN ENLARGED LETTER SMALL J">
+</char_entry>
+
+<char_entry code_point="EEEC" name="LATIN ENLARGED LETTER SMALL K">
+</char_entry>
+
+<char_entry code_point="EEED" name="LATIN ENLARGED LETTER SMALL L">
+</char_entry>
+
+<char_entry code_point="EEEE" name="LATIN ENLARGED LETTER SMALL M">
+</char_entry>
+
+<char_entry code_point="EEEF" name="LATIN ENLARGED LETTER SMALL N">
+</char_entry>
+
+<char_entry code_point="EEF0" name="LATIN ENLARGED LETTER SMALL O">
+</char_entry>
+
+<char_entry code_point="EEF1" name="LATIN ENLARGED LETTER SMALL P">
+</char_entry>
+
+<char_entry code_point="EEF2" name="LATIN ENLARGED LETTER SMALL Q">
+</char_entry>
+
+<char_entry code_point="EEF3" name="LATIN ENLARGED LETTER SMALL R">
+</char_entry>
+
+<char_entry code_point="EEF4" name="LATIN ENLARGED LETTER SMALL S">
+</char_entry>
+
+<char_entry code_point="EEF5" name="LATIN ENLARGED LETTER SMALL T">
+</char_entry>
+
+<char_entry code_point="EEF6" name="LATIN ENLARGED LETTER SMALL THORN">
+</char_entry>
+
+<char_entry code_point="EEF7" name="LATIN ENLARGED LETTER SMALL U">
+</char_entry>
+
+<char_entry code_point="EEF8" name="LATIN ENLARGED LETTER SMALL V">
+</char_entry>
+
+<char_entry code_point="EEF9" name="LATIN ENLARGED LETTER SMALL W">
+</char_entry>
+
+<char_entry code_point="EEFA" name="LATIN ENLARGED LETTER SMALL X">
+</char_entry>
+
+<char_entry code_point="EEFB" name="LATIN ENLARGED LETTER SMALL Y">
+</char_entry>
+
+<char_entry code_point="EEFC" name="LATIN ENLARGED LETTER SMALL Z">
+</char_entry>
+
+<char_entry code_point="EEFD" name="LATIN ENLARGED LETTER SMALL DOTLESS I">
+</char_entry>
+
+<char_entry code_point="EEFE" name="LATIN ENLARGED LETTER SMALL DOTLESS J">
+</char_entry>
+
+<char_entry code_point="EEFF" name="LATIN ENLARGED LETTER SMALL INSULAR F">
+</char_entry>
+
+<char_entry code_point="EF0C" name="LATIN LETTER SMALL CAPITAL Q">
+</char_entry>
+
+<char_entry code_point="EF11" name="LATIN LETTER SMALL CAPITAL X">
+</char_entry>
+
+<char_entry code_point="EF15" name="LATIN LETTER SMALL CAPITAL THORN">
+</char_entry>
+
+<char_entry code_point="EF20" name="LATIN LETTER SMALL CAPITAL G WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="EF21" name="LATIN LETTER SMALL CAPITAL N WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="EF22" name="LATIN LETTER SMALL CAPITAL R WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="EF23" name="LATIN LETTER SMALL CAPITAL S WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="EF24" name="LATIN LETTER SMALL CAPITAL T WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="EF25" name="LATIN LETTER SMALL CAPITAL B WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="EF26" name="LATIN LETTER SMALL CAPITAL D WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="EF27" name="LATIN LETTER SMALL CAPITAL G WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="EF28" name="LATIN LETTER SMALL CAPITAL L WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="EF29" name="LATIN LETTER SMALL CAPITAL M WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="EF2A" name="LATIN LETTER SMALL CAPITAL N WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="EF2B" name="LATIN LETTER SMALL CAPITAL R WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="EF2C" name="LATIN LETTER SMALL CAPITAL S WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="EF2D" name="LATIN LETTER SMALL CAPITAL T WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="EFA0" name="LATIN SMALL LIGATURE AA CLOSED FORM">
+</char_entry>
+
+<char_entry code_point="EFA1" name="LATIN SMALL LIGATURE NECKLESS A E">
+</char_entry>
+
+<char_entry code_point="EFA2" name="LATIN SMALL LIGATURE NECKLESS AV">
+</char_entry>
+
+<char_entry code_point="EFA3" name="LATIN SMALL LIGATURE AF">
+</char_entry>
+
+<char_entry code_point="EFA4" name="LATIN SMALL LIGATURE A INSULAR F">
+</char_entry>
+
+<char_entry code_point="EFA5" name="LATIN SMALL LIGATURE AG">
+</char_entry>
+
+<char_entry code_point="EFA6" name="LATIN SMALL LIGATURE AL">
+</char_entry>
+
+<char_entry code_point="EFA7" name="LATIN SMALL LIGATURE AN">
+</char_entry>
+
+<char_entry code_point="EFA8" name="LATIN SMALL LIGATURE A SMALL CAPITAL N">
+</char_entry>
+
+<char_entry code_point="EFA9" name="LATIN SMALL LIGATURE AP">
+</char_entry>
+
+<char_entry code_point="EFAA" name="LATIN SMALL LIGATURE AR">
+</char_entry>
+
+<char_entry code_point="EFAB" name="LATIN SMALL LIGATURE A SMALL CAPITAL R">
+</char_entry>
+
+<char_entry code_point="EFAC" name="LATIN SMALL LIGATURE A THORN">
+</char_entry>
+
+<char_entry code_point="EFAD" name="LATIN SMALL LIGATURE OC">
+</char_entry>
+
+<char_entry code_point="EFAE" name="LATIN CAPITAL LIGATURE NECKLESS A E">
+</char_entry>
+
+<char_entry code_point="EFD8" name="LATIN SMALL LIGATURE UU WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="EFD9" name="LATIN CAPITAL LIGATURE UU WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="EFDB" name="LATIN CAPITAL LETTER AE WITH DOT ABOVE AND ACUTE">
+</char_entry>
+
+<char_entry code_point="EFDC" name="LATIN SMALL LETTER AE WITH DOT ABOVE AND ACUTE">
+</char_entry>
+
+<char_entry code_point="EFDD" name="LATIN ENLARGED LETTER SMALL LIGATURE OE">
+</char_entry>
+
+<char_entry code_point="EFDE" name="LATIN ENLARGED LETTER SMALL LIGATURE AO">
+</char_entry>
+
+<char_entry code_point="EFDF" name="LATIN ENLARGED LETTER SMALL LIGATURE AA">
+</char_entry>
+
+<char_entry code_point="EFE0" name="LATIN CAPITAL LIGATURE AA WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="EFE1" name="LATIN SMALL LIGATURE AA WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="EFE2" name="LATIN CAPITAL LIGATURE AO WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="EFE3" name="LATIN SMALL LIGATURE AO WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="EFE4" name="LATIN CAPITAL LIGATURE AU WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="EFE5" name="LATIN SMALL LIGATURE AU WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="EFE6" name="LATIN CAPITAL LIGATURE AV WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="EFE7" name="LATIN SMALL LIGATURE AV WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="EFE8" name="LATIN CAPITAL LIGATURE OO WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="EFE9" name="LATIN SMALL LIGATURE OO WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="EFEA" name="LATIN CAPITAL LIGATURE AA WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="EFEB" name="LATIN SMALL LIGATURE AA WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="EFEC" name="LATIN CAPITAL LIGATURE OO WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="EFED" name="LATIN SMALL LIGATURE OO WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="EFEE" name="LATIN CAPITAL LIGATURE AA WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="EFEF" name="LATIN SMALL LIGATURE AA WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="EFF0" name="LATIN CAPITAL LIGATURE AY WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="EFF1" name="LATIN SMALL LIGATURE AY WITH DOT ABOVE">
+</char_entry>
+
+<char_entry code_point="EFF2" name="LATIN CAPITAL LIGATURE AA WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="EFF3" name="LATIN SMALL LIGATURE AA WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="EFF4" name="LATIN CAPITAL LIGATURE AO WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="EFF5" name="LATIN SMALL LIGATURE AO WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="EFF6" name="LATIN CAPITAL LIGATURE AU WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="EFF7" name="LATIN SMALL LIGATURE AU WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="EFF8" name="LATIN CAPITAL LIGATURE AV WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="EFF9" name="LATIN SMALL LIGATURE AV WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="EFFA" name="LATIN CAPITAL LIGATURE AY WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="EFFB" name="LATIN SMALL LIGATURE AY WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="EFFC" name="LATIN CAPITAL LIGATURE OO WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="EFFD" name="LATIN SMALL LIGATURE OO WITH DOT BELOW">
+</char_entry>
+
+<char_entry code_point="EFFE" name="LATIN CAPITAL LIGATURE AA WITH DIAERESIS">
+</char_entry>
+
+<char_entry code_point="EFFF" name="LATIN SMALL LIGATURE AA WITH DIAERESIS">
+</char_entry>
+
+<char_entry code_point="F00A" name="COMBINING HIGH MACRON WITH FIXED HEIGHT">
+</char_entry>
+
+<char_entry code_point="F00B" name="COMBINING MEDIUM-HIGH MACRON WITH FIXED HEIGHT">
+</char_entry>
+
+<char_entry code_point="F00C" name="COMBINING HIGH OVERLINE WITH FIXED HEIGHT">
+</char_entry>
+
+<char_entry code_point="F00D" name="COMBINING MEDIUM-HIGH OVERLINE WITH FIXED HEIGHT">
+</char_entry>
+
+<char_entry code_point="F012" name="COMBINING LATIN SMALL LETTER B">
+</char_entry>
+
+<char_entry code_point="F013" name="COMBINING LATIN LETTER SMALL CAPITAL B">
+</char_entry>
+
+<char_entry code_point="F016" name="COMBINING LATIN LETTER SMALL CAPITAL D">
+</char_entry>
+
+<char_entry code_point="F017" name="COMBINING LATIN SMALL LETTER F">
+</char_entry>
+
+<char_entry code_point="F01C" name="COMBINING LATIN LETTER SMALL CAPITAL K">
+</char_entry>
+
+<char_entry code_point="F025" name="COMBINING LATIN SMALL LETTER P">
+</char_entry>
+
+<char_entry code_point="F02A" name="COMBINING LATIN LETTER SMALL CAPITAL T">
+</char_entry>
+
+<char_entry code_point="F02B" name="COMBINING LATIN SMALL LETTER Y">
+</char_entry>
+
+<char_entry code_point="F02F" name="COMBINING LATIN SMALL LETTER DOTLESS I">
+</char_entry>
+
+<char_entry code_point="F030" name="COMBINING LATIN SMALL LETTER J">
+</char_entry>
+
+<char_entry code_point="F031" name="COMBINING LATIN SMALL LETTER DOTLESS J">
+</char_entry>
+
+<char_entry code_point="F032" name="COMBINING LATIN SMALL LETTER O WITH STROKE">
+</char_entry>
+
+<char_entry code_point="F033" name="COMBINING LATIN SMALL LETTER Q">
+</char_entry>
+
+<char_entry code_point="F036" name="COMBINING LATIN SMALL LIGATURE AN">
+</char_entry>
+
+<char_entry code_point="F038" name="COMBINING LATIN SMALL LIGATURE AR">
+</char_entry>
+
+<char_entry code_point="F03A" name="COMBINING LATIN SMALL LIGATURE A SMALL CAPITAL N">
+</char_entry>
+
+<char_entry code_point="F03B" name="COMBINING LATIN LETTER T ROTUNDA">
+</char_entry>
+
+<char_entry code_point="F03C" name="COMBINING LATIN SMALL LETTER W">
+</char_entry>
+
+<char_entry code_point="F03D" name="COMBINING LATIN SMALL LETTER THORN">
+</char_entry>
+
+<char_entry code_point="F03E" name="COMBINING LATIN SMALL LETTER O R ROTUNDA">
+</char_entry>
+
+<char_entry code_point="F03F" name="COMBINING LATIN SMALL LETTER O RUM">
+</char_entry>
+
+<char_entry code_point="F040" name="COMBINING LATIN SMALL LETTER RUM">
+</char_entry>
+
+<char_entry code_point="F106" name="LATIN CAPITAL LETTER C SQUARE FORM">
+</char_entry>
+
+<char_entry code_point="F10A" name="LATIN CAPITAL LETTER E UNCIAL FORM">
+</char_entry>
+
+<char_entry code_point="F10E" name="LATIN CAPITAL LETTER G SQUARE FORM">
+</char_entry>
+
+<char_entry code_point="F110" name="LATIN CAPITAL LETTER H UNCIAL FORM">
+</char_entry>
+
+<char_entry code_point="F11A" name="LATIN CAPITAL LETTER M UNCIAL FORM">
+</char_entry>
+
+<char_entry code_point="F126" name="LATIN CAPITAL LETTER S CLOSED FORM">
+</char_entry>
+
+<char_entry code_point="F127" name="LATIN SMALL LETTER LONG S DESCENDING">
+</char_entry>
+
+<char_entry code_point="F128" name="LATIN SMALL LETTER S CLOSED FORM">
+</char_entry>
+
+<char_entry code_point="F130" name="COMBINING LATIN SMALL LIGATURE A SMALL CAPITAL R">
+</char_entry>
+
+<char_entry code_point="F135" name="COMBINING LATIN SMALL LETTER E WITH OGONEK">
+</char_entry>
+
+<char_entry code_point="F136" name="COMBINING LATIN SMALL LETTER E WITH MACRON">
+</char_entry>
+
+<char_entry code_point="F13A" name="LATIN CAPITAL LETTER A SQUARE FORM">
+</char_entry>
+
+<char_entry code_point="F13E" name="COMBINING LATIN SMALL LETTER O WITH OGONEK">
+</char_entry>
+
+<char_entry code_point="F13F" name="COMBINING LATIN SMALL LETTER O WITH MACRON">
+</char_entry>
+
+<char_entry code_point="F142" name="LATIN ABBREVIATION SIGN CAPITAL ET">
+</char_entry>
+
+<char_entry code_point="F149" name="LATIN SMALL LETTER THORN WITH DIAGONAL STROKE">
+</char_entry>
+
+<char_entry code_point="F153" name="COMBINING ABBREVIATION MARK SUPERSCRIPT UR ROUND R FORM">
+</char_entry>
+
+<char_entry code_point="F158" name="LATIN ABBREVIATION SIGN SMALL ET WITH STROKE">
+</char_entry>
+
+<char_entry code_point="F159" name="LATIN ABBREVIATION SIGN SMALL DE">
+</char_entry>
+
+<char_entry code_point="F160" name="PUNCTUS INTERROGATIVUS">
+</char_entry>
+
+<char_entry code_point="F161" name="PUNCTUS ELEVATUS">
+</char_entry>
+
+<char_entry code_point="F193" name="LATIN SMALL LETTER D WITH CURL">
+</char_entry>
+
+<char_entry code_point="F194" name="LATIN SMALL LETTER F WITH CURL">
+</char_entry>
+
+<char_entry code_point="F195" name="LATIN SMALL LETTER K WITH CURL">
+</char_entry>
+
+<char_entry code_point="F196" name="LATIN SMALL LETTER G WITH CURL">
+</char_entry>
+
+<char_entry code_point="F198" name="LATIN SMALL LETTER C WITH CURL">
+</char_entry>
+
+<char_entry code_point="F199" name="LATIN SMALL LETTER T WITH CURL">
+</char_entry>
+
+<char_entry code_point="F19A" name="LATIN SMALL LETTER N WITH FLOURISH">
+</char_entry>
+
+<char_entry code_point="F19B" name="LATIN SMALL LETTER R WITH FLOURISH">
+</char_entry>
+
+<char_entry code_point="F1A5" name="LATIN ABBREVIATION SIGN SPACING BASE-LINE CAPITAL US">
+</char_entry>
+
+<char_entry code_point="F1A6" name="LATIN ABBREVIATION SIGN SPACING BASE-LINE SMALL US">
+</char_entry>
+
+<char_entry code_point="F1A7" name="LATIN ABBREVIATION SIGN CAPITAL ET WITH STROKE">
+</char_entry>
+
+<char_entry code_point="F1AC" name="LATIN ABBREVIATION SIGN SEMICOLON">
+</char_entry>
+
+<char_entry code_point="F1BB" name="LATIN SMALL LIGATURE CH">
+</char_entry>
+
+<char_entry code_point="F1BC" name="LATIN SMALL LIGATURE F O WITH DIAERESIS">
+</char_entry>
+
+<char_entry code_point="F1BD" name="SMALL BASE LINE ZERO SIGN">
+</char_entry>
+
+<char_entry code_point="F1BF" name="MODIFIER CAPITAL LETTER X">
+</char_entry>
+
+<char_entry code_point="F1C0" name="COMBINING ABBREVIATION MARK BAR ABOVE WITH DOT">
+</char_entry>
+
+<char_entry code_point="F1C1" name="COMBINING ABBREVIATION MARK SUPERSCRIPT RA OPEN A FORM WITH BAR ABOVE">
+</char_entry>
+
+<char_entry code_point="F1C2" name="COMBINING ABBREVIATION MARK SUPERSCRIPT UR LEMNISKATE FORM">
+</char_entry>
+
+<char_entry code_point="F1C5" name="COMBINING CURL HIGH POSITION">
+</char_entry>
+
+<char_entry code_point="F1C7" name="COMBINING ABBREVIATION MARK ZIGZAG ABOVE ANGLE FORM">
+</char_entry>
+
+<char_entry code_point="F1C8" name="COMBINING ABBREVIATION MARK ZIGZAG ABOVE CURLY FORM">
+</char_entry>
+
+<char_entry code_point="F1CA" name="COMBINING DOT ABOVE HIGH POSITION">
+</char_entry>
+
+<char_entry code_point="F1CC" name="COMBINING CURLY BAR ABOVE">
+</char_entry>
+
+<char_entry code_point="F1D2" name="TRIPLE DAGGER">
+</char_entry>
+
+<char_entry code_point="F1DA" name="MIDDLE RING">
+</char_entry>
+
+<char_entry code_point="F1E0" name="MEDIEVAL COMMA">
+</char_entry>
+
+<char_entry code_point="F1E1" name="PARAGRAPHUS">
+</char_entry>
+
+<char_entry code_point="F1E2" name="COMMA POSITURA">
+</char_entry>
+
+<char_entry code_point="F1E3" name="HIGH COMMA POSITURA">
+</char_entry>
+
+<char_entry code_point="F1E4" name="PUNCTUS WITH COMMA POSITURA">
+</char_entry>
+
+<char_entry code_point="F1E5" name="COLON WITH MIDDLE COMMA POSITURA">
+</char_entry>
+
+<char_entry code_point="F1E6" name="THREE DOTS WITH COMMA POSITURA">
+</char_entry>
+
+<char_entry code_point="F1E7" name="PUNCTUS EXCLAMATIVUS">
+</char_entry>
+
+<char_entry code_point="F1E8" name="PUNCTUS INTERROGATIVUS HORIZONTAL TILDE">
+</char_entry>
+
+<char_entry code_point="F1EA" name="PUNCTUS VERSUS">
+</char_entry>
+
+<char_entry code_point="F1EC" name="SIGNE DE RENVOI">
+</char_entry>
+
+<char_entry code_point="F1F0" name="PUNCTUS ELEVATUS DIAGONAL STROKE">
+</char_entry>
+
+<char_entry code_point="F1F1" name="PUNCTUS INTERROGATIVUS LEMNISKATE FORM">
+</char_entry>
+
+<char_entry code_point="F1F2" name="TWO DOTS OVER COMMA POSITURA">
+</char_entry>
+
+<char_entry code_point="F1F4" name="VIRGULA SUSPENSIVA">
+</char_entry>
+
+<char_entry code_point="F1F5" name="PUNCTUS FLEXUS">
+</char_entry>
+
+<char_entry code_point="F1F7" name="SHORT VIRGULA">
+</char_entry>
+
+<char_entry code_point="F1F8" name="DISTINCTIO">
+</char_entry>
+
+<char_entry code_point="F1F9" name="WAVY LINE">
+</char_entry>
+
+<char_entry code_point="F1FA" name="PUNCTUS ELEVATUS WITH HIGH BACK">
+</char_entry>
+
+<char_entry code_point="F1FB" name="PUNCTUS ELEVATUS WITH HACKLE">
+</char_entry>
+
+<char_entry code_point="F1FC" name="COMBINING TRIPLE BREVE BELOW">
+</char_entry>
+
+<char_entry code_point="F200" name="LATIN SMALL LETTER A INSULAR FORM">
+</char_entry>
+
+<char_entry code_point="F201" name="LATIN CAPITAL LETTER A INSULAR FORM">
+</char_entry>
+
+<char_entry code_point="F202" name="LATIN SMALL LETTER OPEN A CAROLINGIAN FORM">
+</char_entry>
+
+<char_entry code_point="F203" name="LATIN SMALL LETTER CLOSED A GOTHIC FORM">
+</char_entry>
+
+<char_entry code_point="F204" name="LATIN SMALL LETTER AE WITH RIGHT UPPER LOOP">
+</char_entry>
+
+<char_entry code_point="F205" name="LATIN CAPITAL LIGATURE AO NECKLESS">
+</char_entry>
+
+<char_entry code_point="F206" name="LATIN SMALL LIGATURE AO NECKLESS">
+</char_entry>
+
+<char_entry code_point="F207" name="LATIN SMALL LETTER CLOSED INSULAR F">
+</char_entry>
+
+<char_entry code_point="F208" name="LATIN SMALL LETTER K UNCIAL FORM">
+</char_entry>
+
+<char_entry code_point="F209" name="LATIN SMALL LETTER K CLOSED FORM">
+</char_entry>
+
+<char_entry code_point="F214" name="LATIN SMALL LETTER A UNCIAL FORM">
+</char_entry>
+
+<char_entry code_point="F215" name="LATIN SMALL LETTER NECKLESS A">
+</char_entry>
+
+<char_entry code_point="F217" name="LATIN CAPITAL LETTER CLOSED E UNCIAL FORM">
+</char_entry>
+
+<char_entry code_point="F218" name="LATIN SMALL LETTER E UNCIAL FORM">
+</char_entry>
+
+<char_entry code_point="F219" name="LATIN SMALL LETTER E EXTENDED BAR FORM">
+</char_entry>
+
+<char_entry code_point="F21A" name="LATIN SMALL LETTER E TALL FORM">
+</char_entry>
+
+<char_entry code_point="F21B" name="LATIN SMALL LETTER SEMI-CLOSED INSULAR F">
+</char_entry>
+
+<char_entry code_point="F21C" name="LATIN SMALL LETTER INSULAR F WITH DOTTED HOOKS">
+</char_entry>
+
+<char_entry code_point="F21D" name="LATIN SMALL LETTER G WITH SEPARATE LOOPS">
+</char_entry>
+
+<char_entry code_point="F21E" name="LATIN SMALL LETTER CLOSED G WITH LARGE LOWER LOOP">
+</char_entry>
+
+<char_entry code_point="F21F" name="LATIN SMALL LETTER CLOSED G WITH SMALL LOWER LOOP">
+</char_entry>
+
+<char_entry code_point="F220" name="LATIN SMALL LETTER LONG I">
+</char_entry>
+
+<char_entry code_point="F221" name="LATIN SMALL LETTER K SEMI-CLOSED FORM">
+</char_entry>
+
+<char_entry code_point="F222" name="LATIN SMALL LETTER L DESCENDING">
+</char_entry>
+
+<char_entry code_point="F223" name="LATIN SMALL LETTER M WITH RIGHT DESCENDER">
+</char_entry>
+
+<char_entry code_point="F224" name="LATIN CAPITAL LETTER M UNCIAL FORM WITH RIGHT DESCENDER">
+</char_entry>
+
+<char_entry code_point="F225" name="LATIN MEDIUSCULE LETTER M UNCIAL FORM">
+</char_entry>
+
+<char_entry code_point="F226" name="LATIN MEDIUSCULE LETTER M UNCIAL FORM WITH RIGHT DESCENDER">
+</char_entry>
+
+<char_entry code_point="F228" name="LATIN SMALL LETTER N WITH RIGHT DESCENDER">
+</char_entry>
+
+<char_entry code_point="F229" name="LATIN CAPITAL LETTER N WITH RIGHT DESCENDER">
+</char_entry>
+
+<char_entry code_point="F22A" name="LATIN LETTER SMALL CAPITAL N WITH RIGHT DESCENDER">
+</char_entry>
+
+<char_entry code_point="F22B" name="LATIN LETTER SMALL CAPITAL N WITH LEFT DESCENDER">
+</char_entry>
+
+<char_entry code_point="F22C" name="LATIN CAPITAL LETTER Q WITH STEM">
+</char_entry>
+
+<char_entry code_point="F233" name="LATIN SMALL LETTER Y WITH RIGHT MAIN STROKE">
+</char_entry>
+
+<char_entry code_point="F23A" name="LATIN SMALL LETTER H WITH RIGHT DESCENDER">
+</char_entry>
+
+<char_entry code_point="F23C" name="LATIN SMALL LETTER M UNCIAL FORM">
+</char_entry>
+
+<char_entry code_point="F23D" name="LATIN SMALL LETTER M UNCIAL FORM WITH RIGHT DESCENDER">
+</char_entry>
+
+<char_entry code_point="F23E" name="LATIN SMALL LETTER M UNCIAL FORM WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="F23F" name="ROMAN NUMERAL REVERSED ONE HUNDRED WITH OVERLINE">
+</char_entry>
+
+<char_entry code_point="F2E0" name="ROMAN AS LIBRALIS SIGN">
+</char_entry>
+
+<char_entry code_point="F2E2" name="LATIN SMALL CAPITAL LETTER X WITH BAR">
+</char_entry>
+
+<char_entry code_point="F2E3" name="LATIN SMALL CAPITAL LETTER Y WITH BAR">
+</char_entry>
+
+<char_entry code_point="F2E4" name="LATIN SMALL CAPITAL LETTER D WITH SLASH">
+</char_entry>
+
+<char_entry code_point="F2E6" name="PHARMACEUTICAL DRAM SIGN">
+</char_entry>
+
+<char_entry code_point="F2E7" name="ECU SIGN">
+</char_entry>
+
+<char_entry code_point="F2E8" name="FLOREN SIGN WITH LOOP">
+</char_entry>
+
+<char_entry code_point="F2E9" name="GROSCHEN SIGN">
+</char_entry>
+
+<char_entry code_point="F2EA" name="DUTCH LIBRA SIGN">
+</char_entry>
+
+<char_entry code_point="F2EB" name="FRENCH LIBRA SIGN">
+</char_entry>
+
+<char_entry code_point="F2EC" name="ITALIAN LIBRA SIGN">
+</char_entry>
+
+<char_entry code_point="F2ED" name="FLEMISH LIBRA SIGN">
+</char_entry>
+
+<char_entry code_point="F2EE" name="LIRA NUOVA SIGN">
+</char_entry>
+
+<char_entry code_point="F2EF" name="LIRA STERLINA SIGN">
+</char_entry>
+
+<char_entry code_point="F2F0" name="OLD MARK SIGN">
+</char_entry>
+
+<char_entry code_point="F2F1" name="OLD FLOURISH MARK SIGN">
+</char_entry>
+
+<char_entry code_point="F2F2" name="MARKED SMALL LETTER M SIGN">
+</char_entry>
+
+<char_entry code_point="F2F3" name="FLOURISHED SMALL LETTER M SIGN">
+</char_entry>
+
+<char_entry code_point="F2F4" name="PHARMACEUTICAL OBOLUS SIGN">
+</char_entry>
+
+<char_entry code_point="F2F5" name="PENNING SIGN">
+</char_entry>
+
+<char_entry code_point="F2F6" name="OLD REICHSTALER SIGN">
+</char_entry>
+
+<char_entry code_point="F2F7" name="GERMAN SCHILLING SIGN">
+</char_entry>
+
+<char_entry code_point="F2F8" name="GERMAN SCRIPT SCHILLING SIGN">
+</char_entry>
+
+<char_entry code_point="F2F9" name="SCUDI SIGN">
+</char_entry>
+
+<char_entry code_point="F2FA" name="KRONE SIGN">
+</char_entry>
+
+<char_entry code_point="F2FB" name="HELBING SIGN">
+</char_entry>
+
+<char_entry code_point="F2FD" name="SCRIPT OUNCE SIGN">
+</char_entry>
+
+<char_entry code_point="F2FE" name="ROMAN NUMERAL CAPITAL C WITH TWO BARS">
+</char_entry>
+
+<char_entry code_point="F2FF" name="ROMAN NUMERAL SMALL C WITH TWO BARS">
+</char_entry>
+
+<char_entry code_point="F4F9" name="LATIN SMALL LIGATURE LL">
+</char_entry>
+
+<char_entry code_point="F4FA" name="LATIN SMALL LIGATURE LONG S CH">
+</char_entry>
+
+<char_entry code_point="F4FB" name="LATIN SMALL LIGATURE LONG S J">
+</char_entry>
+
+<char_entry code_point="F4FC" name="LATIN SMALL LIGATURE LONG S K">
+</char_entry>
+
+<char_entry code_point="F4FD" name="LATIN SMALL LIGATURE LONG S S">
+</char_entry>
+
+<char_entry code_point="F4FE" name="LATIN SMALL LIGATURE LONG S LONG S K">
+</char_entry>
+
+<char_entry code_point="F4FF" name="LATIN SMALL LIGATURE LONG S LONG S T">
+</char_entry>
+
+<char_entry code_point="F704" name="METRICAL SYMBOL LONGUM WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="F705" name="METRICAL SYMBOL LONGUM WITH GRAVE">
+</char_entry>
+
+<char_entry code_point="F706" name="METRICAL SYMBOL BREVE WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="F707" name="METRICAL SYMBOL BREVE WITH GRAVE">
+</char_entry>
+
+<char_entry code_point="F708" name="METRICAL SYMBOL BREVE ABOVE LONGUM WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="F709" name="METRICAL SYMBOL BREVE ABOVE LONGUM WITH GRAVE">
+</char_entry>
+
+<char_entry code_point="F70B" name="METRICAL SYMBOL ANCEPS WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="F70C" name="METRICAL SYMBOL ANCEPS WITH GRAVE">
+</char_entry>
+
+<char_entry code_point="F715" name="METRICAL SYMBOL LONGUM WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="F716" name="METRICAL SYMBOL LONGUM WITH DOUBLE GRAVE">
+</char_entry>
+
+<char_entry code_point="F717" name="METRICAL SYMBOL BREVE WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="F718" name="METRICAL SYMBOL BREVE WITH DOUBLE GRAVE">
+</char_entry>
+
+<char_entry code_point="F719" name="METRICAL SYMBOL ANCEPS WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="F71A" name="METRICAL SYMBOL ANCEPS WITH DOUBLE GRAVE">
+</char_entry>
+
+<char_entry code_point="F71B" name="METRICAL SYMBOL RESOLVED LIFT WITH ACUTE">
+</char_entry>
+
+<char_entry code_point="F71C" name="METRICAL SYMBOL RESOLVED LIFT WITH DOUBLE ACUTE">
+</char_entry>
+
+<char_entry code_point="F7B2" name="LATIN CAPITAL LETTER V WITH HIGH OVERLINE">
+</char_entry>
+
+<char_entry code_point="F7B3" name="LATIN CAPITAL LETTER X WITH HIGH OVERLINE">
+</char_entry>
+
+<char_entry code_point="F7B4" name="LATIN CAPITAL LETTER L WITH HIGH OVERLINE">
+</char_entry>
+
+<char_entry code_point="F7B5" name="LATIN CAPITAL LETTER C WITH HIGH OVERLINE">
+</char_entry>
+
+<char_entry code_point="F7B6" name="LATIN CAPITAL LETTER D WITH HIGH OVERLINE">
+</char_entry>
+	</block_subheader>
+	</block_header>
+</ucd>
