@@ -13,3 +13,7 @@ A similar development was carried also on
 at https://bitbucket.org/jsbien/parkosz-font/.
 
 Previously the repository was located at https://bitbucket.org/jsbien/unicode4polish/.
+
+.. image:: Emacs-MUFI/doc/insertMUFI.png
+  :width: 200
+  :alt: Inserting a MUFI character by name
