@@ -1,4 +1,5 @@
 An attempt to document the characters needed for (old) Polish texts.
+Also some tools more or less related to the task.
 Work in progress. Volunteers help is welcome.
 
 The primary idea was to use the form of wiki, but it appeared
