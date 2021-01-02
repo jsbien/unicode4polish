@@ -1,0 +1,18 @@
+# emacs -batch --no-site-file --no-site-lisp -L . -l mufidata-gen   -f mufidata-gen-file ../lisp/mufi-bidi.el . 
+# emacs -batch --no-site-file --no-site-lisp -L . -l mufidata-gen   -f mufidata-gen-file ../lisp/mufi-brackets.el . 
+# emacs -batch --no-site-file --no-site-lisp -L . -l mufidata-gen   -f mufidata-gen-file ../lisp/mufi-category.el . 
+# emacs -batch --no-site-file --no-site-lisp -L . -l mufidata-gen   -f mufidata-gen-file ../lisp/mufi-combining.el . 
+# emacs -batch --no-site-file --no-site-lisp -L . -l mufidata-gen   -f mufidata-gen-file ../lisp/mufi-comment.el . 
+# emacs -batch --no-site-file --no-site-lisp -L . -l mufidata-gen   -f mufidata-gen-file ../lisp/mufi-decimal.el . 
+# emacs -batch --no-site-file --no-site-lisp -L . -l mufidata-gen   -f mufidata-gen-file ../lisp/mufi-decomposition.el . 
+# emacs -batch --no-site-file --no-site-lisp -L . -l mufidata-gen   -f mufidata-gen-file ../lisp/mufi-digit.el . 
+# emacs -batch --no-site-file --no-site-lisp -L . -l mufidata-gen   -f mufidata-gen-file ../lisp/mufi-lowercase.el . 
+# emacs -batch --no-site-file --no-site-lisp -L . -l mufidata-gen   -f mufidata-gen-file ../lisp/mufi-mirrored.el . 
+emacs -batch --no-site-file --no-site-lisp -L . -l mufidata-gen   -f mufidata-gen-file ../lisp/mufi-name.el . 
+# emacs -batch --no-site-file --no-site-lisp -L . -l mufidata-gen   -f mufidata-gen-file ../lisp/mufi-numeric.el . 
+# emacs -batch --no-site-file --no-site-lisp -L . -l mufidata-gen   -f mufidata-gen-file ../lisp/mufi-old-name.el . 
+# emacs -batch --no-site-file --no-site-lisp -L . -l mufidata-gen   -f mufidata-gen-file ../lisp/mufi-special-lowercase.el . 
+# emacs -batch --no-site-file --no-site-lisp -L . -l mufidata-gen   -f mufidata-gen-file ../lisp/mufi-special-titlecase.el . 
+# emacs -batch --no-site-file --no-site-lisp -L . -l mufidata-gen   -f mufidata-gen-file ../lisp/mufi-special-uppercase.el . 
+# emacs -batch --no-site-file --no-site-lisp -L . -l mufidata-gen   -f mufidata-gen-file ../lisp/mufi-titlecase.el . 
+# emacs -batch --no-site-file --no-site-lisp -L . -l mufidata-gen   -f mufidata-gen-file ../lisp/mufi-uppercase.el . 

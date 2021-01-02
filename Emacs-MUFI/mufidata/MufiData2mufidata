@@ -1,0 +1,1 @@
+sed -e 's/\([^;]*\);\(.*\)/(#x\1 "\2")/' -e 's/;/" "/g'  < MufiData.txt > mufidata.txt
