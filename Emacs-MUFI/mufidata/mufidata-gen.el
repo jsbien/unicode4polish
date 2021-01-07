@@ -1401,6 +1401,25 @@ Property value is a symbol `o' (Open), `c' (Close), or `n' (None)."
 ;; The entry functions.  They generate files described in the header
 ;; comment of this file.
 
+;; To circumvent the bug/feature of
+;; define-char-code-property "mufidata.tx" has to contain the
+;; description of all the characters without duplications. It means
+;; that from "UnicodeData.txt" the lines
+
+;; E000;<Private Use, First>;Co;0;L;;;;;N;;;;;
+;; F8FF;<Private Use, Last>;Co;0;L;;;;;N;;;;;
+
+;; are to be removed.
+
+;; On the other hand to the original "MufiData.txt" appropriate
+;; lines should be added describing the characters not assigned by
+;; MUFI. As this is cumbersome if done by hand, now it is done only
+;; for characters preceeding and following the MUFI assignments, the
+;; resulting file is named "PUAData.txt".
+
+;; Finally "MufiData.txt" is created by concatenating the two files.
+
+
 (defun mufidata-gen-file (&optional file data-dir unidata-text-file)
   "Generate lisp file FILE from MUFI data."
   (or file
