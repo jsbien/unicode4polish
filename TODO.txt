@@ -2,3 +2,256 @@ Describe the site (automatically translated charater names and other info into P
 https://unicode-table.com/
 https://www.facebook.com/unicodetable/
 https://twitter.com/unicodetable
+
+https://debbugs.gnu.org/cgi/bugreport.cgi?bug=32599
+
+To: Lars Ingebrigtsen <larsi@gnus.org>
+Cc: 32599@debbugs.gnu.org
+Subject: Re: bug#32599: 25.2; Feature request: input PUA characters by name
+From: "Janusz S. Bień" <jsbien@mimuw.edu.pl>
+Gcc: nnfolder+archive:sent.2022-04
+Reply-to: jsbien@mimuw.edu.pl
+Bcc: jsbien@mimuw.edu.pl
+--text follows this line--
+On Tue, Apr 26 2022 at 15:09 +02, Lars Ingebrigtsen wrote:
+> jsbien@mimuw.edu.pl (Janusz S. Bień) writes:
+>
+>> You are missing "PUA" in the topic and in the text of my feature
+>> request. PUA is Private Use Area. Cf. e.g.
+>
+> (I'm going through old bug reports that unfortunately weren't resolved
+> at the time.)
+>
+> If I understand correctly, you just want to be able to extend the range
+> of characters you get when saying `C-x 8 RET TAB'?  That can be done
+> today by just adding elements to the `ucs-names' hash table.
+>
+> Is that not sufficient for your needs?
+
+On Tue, Apr 26 2022 at 15:30 +02, Janusz S. Bień wrote:
+> On Tue, Apr 26 2022 at 15:09 +02, Lars Ingebrigtsen wrote:
+>> jsbien@mimuw.edu.pl (Janusz S. Bień) writes:
+>>
+>>> You are missing "PUA" in the topic and in the text of my feature
+>>> request. PUA is Private Use Area. Cf. e.g.
+>>
+>> (I'm going through old bug reports that unfortunately weren't resolved
+>> at the time.)
+>>
+>> If I understand correctly, you just want to be able to extend the range
+>> of characters you get when saying `C-x 8 RET TAB'?
+>
+> Yes. I've solved it in a quick and dirty way, but it was very cumbersome
+> and usable only in a specific verion of Emacs:
+> https://github.com/jsbien/unicode4polish/tree/master/Emacs-MUFI
+>
+>
+>> That can be done today by just adding elements to the `ucs-names' hash
+>> table.
+>
+> Which Emacs version do you mean by "today"?
+>
+> What do you mean by "just adding"?
+>
+> What about an example, e.g. U+F159 LATIN ABBREVIATION SIGN SMALL DE?
+>
+>> Is that not sufficient for your needs?
+>
+> Perhaps, but I'm not sure yet.
+>
+> Best regards
+>
+> Janusz
+
+On Tue, Apr 26 2022 at 15:37 +02, Lars Ingebrigtsen wrote:
+> Janusz S. Bień <jsbien@mimuw.edu.pl> writes:
+>
+>>> That can be done today by just adding elements to the `ucs-names' hash
+>>> table.
+>>
+>> Which Emacs version do you mean by "today"?
+>
+> Since about 2008.
+>
+>> What do you mean by "just adding"?
+>>
+>> What about an example, e.g. U+F159 LATIN ABBREVIATION SIGN SMALL DE?
+>
+> (unless ucs-names
+>   (ucs-names))
+> (setf (gethash "LATIN ABBREVIATION SIGN SMALL DE" ucs-names) #xF159)
+
+On Tue, Apr 26 2022 at 15:44 +02, Janusz S. Bień wrote:
+> On Tue, Apr 26 2022 at 15:37 +02, Lars Ingebrigtsen wrote:
+>> Janusz S. Bień <jsbien@mimuw.edu.pl> writes:
+>>
+>>>> That can be done today by just adding elements to the `ucs-names' hash
+>>>> table.
+>>>
+>>> Which Emacs version do you mean by "today"?
+>>
+>> Since about 2008.
+>>
+>>> What do you mean by "just adding"?
+>>>
+>>> What about an example, e.g. U+F159 LATIN ABBREVIATION SIGN SMALL DE?
+>>
+>> (unless ucs-names
+>>   (ucs-names))
+>> (setf (gethash "LATIN ABBREVIATION SIGN SMALL DE" ucs-names) #xF159)
+>
+> Debugger entered--Lisp error: (wrong-type-argument hash-table-p nil)
+>   puthash("LATIN ABBREVIATION SIGN SMALL DE" 61785 nil)
+>   (let* ((v ucs-names)) (puthash "LATIN ABBREVIATION SIGN SMALL DE" 61785 v))
+>   (progn (let* ((v ucs-names)) (puthash "LATIN ABBREVIATION SIGN SMALL DE" 61785 v)))
+>   eval((progn (let* ((v ucs-names)) (puthash "LATIN ABBREVIATION SIGN SMALL DE" 61785 v))) t)
+>   elisp--eval-last-sexp(t)
+>   eval-last-sexp(t)
+>   eval-print-last-sexp(nil)
+>   funcall-interactively(eval-print-last-sexp nil)
+>   call-interactively(eval-print-last-sexp nil nil)
+>   command-execute(eval-print-last-sexp)
+>
+> GNU Emacs 28.1 (build 1, x86_64-pc-linux-gnu, GTK+ Version 3.24.24,
+> cairo version 1.16.0) compiled locally.
+>
+> JSB
+
+On Tue, Apr 26 2022 at 15:45 +02, Lars Ingebrigtsen wrote:
+> Janusz S. Bień <jsbien@mimuw.edu.pl> writes:
+>
+>>> (unless ucs-names
+>>>   (ucs-names))
+>>> (setf (gethash "LATIN ABBREVIATION SIGN SMALL DE" ucs-names) #xF159)
+>>
+>> Debugger entered--Lisp error: (wrong-type-argument hash-table-p nil)
+>>   puthash("LATIN ABBREVIATION SIGN SMALL DE" 61785 nil)
+>
+> Did you eval the `unless' form first?
+
+On Tue, Apr 26 2022 at 17:33 +02, Janusz S. Bień wrote:
+> On Tue, Apr 26 2022 at 15:45 +02, Lars Ingebrigtsen wrote:
+>> Janusz S. Bień <jsbien@mimuw.edu.pl> writes:
+>>
+>>>> (unless ucs-names
+>>>>   (ucs-names))
+>>>> (setf (gethash "LATIN ABBREVIATION SIGN SMALL DE" ucs-names) #xF159)
+>>>
+>>> Debugger entered--Lisp error: (wrong-type-argument hash-table-p nil)
+>>>   puthash("LATIN ABBREVIATION SIGN SMALL DE" 61785 nil)
+>>
+>> Did you eval the `unless' form first?
+>
+> I thought I did but I used the wrong command :-(
+>
+> Thank you very much for your solution.
+>
+> So yes, my original problem is solved and you can close the bug report.
+>
+> This is however not the end of the story. I would like describe-char to
+> produce the correct name of the PUA character instead of "the
+> character’s canonical name and other properties defined by the Unicode
+> Data Base;". I understand this should posted as a separate feature
+> request.
+>
+> Best regards
+>
+> Janusz
+
+On Tue, Apr 26 2022 at 17:49 +02, Robert Pluim wrote:
+>>>>>> On Tue, 26 Apr 2022 17:33:37 +0200, Janusz S. Bień <jsbien@mimuw.edu.pl> said:
+>
+>     Janusz> On Tue, Apr 26 2022 at 15:45 +02, Lars Ingebrigtsen wrote:
+>     >> Janusz S. Bień <jsbien@mimuw.edu.pl> writes:
+>     >> 
+>     >>>> (unless ucs-names
+>     >>>> (ucs-names))
+>     >>>> (setf (gethash "LATIN ABBREVIATION SIGN SMALL DE" ucs-names) #xF159)
+>     >>> 
+>     >>> Debugger entered--Lisp error: (wrong-type-argument hash-table-p nil)
+>     >>> puthash("LATIN ABBREVIATION SIGN SMALL DE" 61785 nil)
+>     >> 
+>     >> Did you eval the `unless' form first?
+>
+>     Janusz> I thought I did but I used the wrong command :-(
+>
+>     Janusz> Thank you very much for your solution.
+>
+>     Janusz> So yes, my original problem is solved and you can close the bug report.
+>
+>     Janusz> This is however not the end of the story. I would like describe-char to
+>     Janusz> produce the correct name of the PUA character instead of "the
+>     Janusz> character’s canonical name and other properties defined by the Unicode
+>     Janusz> Data Base;". I understand this should posted as a separate feature
+>     Janusz> request.
+>
+> (put-char-code-property #xf159 'name "LATIN ABBREVIATION SIGN SMALL DE")
+>
+> (PUA characters donʼt have canonical names).
+>
+> Robert
+
+On Tue, Apr 26 2022 at 18:09 +02, Janusz S. Bień wrote:
+> On Tue, Apr 26 2022 at 17:49 +02, Robert Pluim wrote:
+>
+> [...]
+>
+>>     Janusz> This is however not the end of the story. I would like describe-char to
+>>     Janusz> produce the correct name of the PUA character instead of "the
+>>     Janusz> character’s canonical name and other properties defined by the Unicode
+>>     Janusz> Data Base;". I understand this should posted as a separate feature
+>>     Janusz> request.
+>>
+>> (put-char-code-property #xf159 'name "LATIN ABBREVIATION SIGN SMALL DE")
+>
+> Great, thank you very much!
+>
+>> (PUA characters donʼt have canonical names).
+>
+> I know, I'm interested only in Medieval Unicode Font Initiative names.
+>
+> But this is not the end of the story :-)
+>
+> What is needed to treat the character as a letter? To be precise, I
+> would forward-word to go to the end of ahb, now it stops after a.
+>
+> Best regards
+>
+> Janusz
+
+On Tue, Apr 26 2022 at 19:44 +03, Eli Zaretskii wrote:
+>> From: Janusz S. Bień <jsbien@mimuw.edu.pl>
+>> Date: Tue, 26 Apr 2022 18:09:53 +0200
+>> Cc: 32599@debbugs.gnu.org, Lars Ingebrigtsen <larsi@gnus.org>
+>> 
+>> What is needed to treat the character as a letter? To be precise, I
+>> would forward-word to go to the end of ahb, now it stops after a.
+>
+> You need to manually assign that character its properties.  See
+> characters.el.  You may also need to manually assign some Unicode
+> properties using put-char-code-property.
+
+On Tue, Apr 26 2022 at 20:22 +02, Janusz S. Bień wrote:
+> On Tue, Apr 26 2022 at 19:44 +03, Eli Zaretskii wrote:
+>>> From: Janusz S. Bień <jsbien@mimuw.edu.pl>
+>>> Date: Tue, 26 Apr 2022 18:09:53 +0200
+>>> Cc: 32599@debbugs.gnu.org, Lars Ingebrigtsen <larsi@gnus.org>
+>>> 
+>>> What is needed to treat the character as a letter? To be precise, I
+>>> would forward-word to go to the end of ahb, now it stops after a.
+>>
+>> You need to manually assign that character its properties.  See
+>> characters.el.  You may also need to manually assign some Unicode
+>> properties using put-char-code-property.
+>
+> Thanks for the advice.
+>
+> Best regards
+>
+> Janusz
+
+-- 
+             ,   
+Janusz S. Bien
+emeryt (emeritus)
+https://sites.google.com/view/jsbien
