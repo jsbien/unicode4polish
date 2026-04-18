@@ -1,0 +1,1277 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{Cassetin2003}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=e7ebb19c8fe7b3ebf2ddd29f11fe43f8}{%
+           family={Andr{é}},
+           familyi={A\bibinitperiod},
+           given={Jacques},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e7ebb19c8fe7b3ebf2ddd29f11fe43f8}
+      \strng{fullhash}{e7ebb19c8fe7b3ebf2ddd29f11fe43f8}
+      \strng{bibnamehash}{e7ebb19c8fe7b3ebf2ddd29f11fe43f8}
+      \strng{authorbibnamehash}{e7ebb19c8fe7b3ebf2ddd29f11fe43f8}
+      \strng{authornamehash}{e7ebb19c8fe7b3ebf2ddd29f11fe43f8}
+      \strng{authorfullhash}{e7ebb19c8fe7b3ebf2ddd29f11fe43f8}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{TUGboat}
+      \field{number}{3}
+      \field{title}{The Cassetin Project – Towards an Inventory of Ancient Types and the Relate Standardised Encoding}
+      \field{urlday}{28}
+      \field{urlmonth}{12}
+      \field{urlyear}{2020}
+      \field{volume}{24}
+      \field{year}{2003}
+      \field{urldateera}{ce}
+      \field{pages}{314\bibrangedash 318}
+      \range{pages}{5}
+      \verb{urlraw}
+      \verb http://www.tug.org/TUGboat/tb24-3/andre.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.tug.org/TUGboat/tb24-3/andre.pdf
+      \endverb
+    \endentry
+    \entry{andre:halshs-00983575}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=e7ebb19c8fe7b3ebf2ddd29f11fe43f8}{%
+           family={Andr{é}},
+           familyi={A\bibinitperiod},
+           given={Jacques},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2628e1785f10b6aa26b26462fe5bd6bf}{%
+           family={Jimenes},
+           familyi={J\bibinitperiod},
+           given={R{é}mi},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Lavoisier}%
+      }
+      \strng{namehash}{79c0db1faa7232ca91216feaa5773651}
+      \strng{fullhash}{79c0db1faa7232ca91216feaa5773651}
+      \strng{bibnamehash}{79c0db1faa7232ca91216feaa5773651}
+      \strng{authorbibnamehash}{79c0db1faa7232ca91216feaa5773651}
+      \strng{authornamehash}{79c0db1faa7232ca91216feaa5773651}
+      \strng{authorfullhash}{79c0db1faa7232ca91216feaa5773651}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{Revue des Sciences et Technologies de l'Information - S{é}rie Document Num{é}rique}}
+      \field{number}{3}
+      \field{title}{{Transcription et codage des imprim{é}s de la Renaissance.}}
+      \field{urlday}{28}
+      \field{urlmonth}{12}
+      \field{urlyear}{2020}
+      \field{volume}{16}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{113\bibrangedash 139}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.3166/DN.16.3.113-139
+      \endverb
+      \verb{urlraw}
+      \verb https://halshs.archives-ouvertes.fr/halshs-00983575
+      \endverb
+      \verb{url}
+      \verb https://halshs.archives-ouvertes.fr/halshs-00983575
+      \endverb
+    \endentry
+    \entry{titlo2013}{report}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=de33112c0b4f3507f145060aff391d08}{%
+           family={Andreev},
+           familyi={A\bibinitperiod},
+           given={Aleksandr},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ffe6a725c20d6e135784a295c06f2c82}{%
+           family={Shardt},
+           familyi={S\bibinitperiod},
+           given={Yuri},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=86de167698a3e7d797e0b2ea49d74c3b}{%
+           family={Simmons},
+           familyi={S\bibinitperiod},
+           given={Nikita},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {ISO/IEC JTC 1/SC 2/WG 2}%
+      }
+      \strng{namehash}{6a8a0aa1aa063bb4e9a4cd1c342a11ce}
+      \strng{fullhash}{6a8a0aa1aa063bb4e9a4cd1c342a11ce}
+      \strng{bibnamehash}{6a8a0aa1aa063bb4e9a4cd1c342a11ce}
+      \strng{authorbibnamehash}{6a8a0aa1aa063bb4e9a4cd1c342a11ce}
+      \strng{authornamehash}{6a8a0aa1aa063bb4e9a4cd1c342a11ce}
+      \strng{authorfullhash}{6a8a0aa1aa063bb4e9a4cd1c342a11ce}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{L2/13-139}
+      \field{title}{Proposal to Encode Combining Half Marks Used for Cyrillic Supralineation}
+      \field{type}{techreport}
+      \field{urlday}{28}
+      \field{urlmonth}{9}
+      \field{urlyear}{2020}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://std.dkuug.dk/jtc1/sc2/wg2/docs/n4475.pdf
+      \endverb
+      \verb{url}
+      \verb http://std.dkuug.dk/jtc1/sc2/wg2/docs/n4475.pdf
+      \endverb
+    \endentry
+    \entry{Becker1984}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=833c0f2ec25d46402fdf65c3ed708bee}{%
+           family={Becker},
+           familyi={B\bibinitperiod},
+           given={Joseph\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{833c0f2ec25d46402fdf65c3ed708bee}
+      \strng{fullhash}{833c0f2ec25d46402fdf65c3ed708bee}
+      \strng{bibnamehash}{833c0f2ec25d46402fdf65c3ed708bee}
+      \strng{authorbibnamehash}{833c0f2ec25d46402fdf65c3ed708bee}
+      \strng{authornamehash}{833c0f2ec25d46402fdf65c3ed708bee}
+      \strng{authorfullhash}{833c0f2ec25d46402fdf65c3ed708bee}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific American}
+      \field{note}{Dostęp ograniczony}
+      \field{number}{1}
+      \field{title}{Multilingual word processing}
+      \field{volume}{251}
+      \field{year}{1984}
+      \field{pages}{96\bibrangedash 107}
+      \range{pages}{12}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/24969416
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/24969416
+      \endverb
+    \endentry
+    \entry{bc286}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d45d6fecb21e879fdc0cbdd875d7caa6}{%
+           family={Bie{ń}},
+           familyi={B\bibinitperiod},
+           given={Janusz\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Szko{ł}a Języka i Kultury Polskiej, Uniwersytet {Ś}ląski w Katowicach}%
+      }
+      \strng{namehash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{fullhash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{bibnamehash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{authorbibnamehash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{authornamehash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{authorfullhash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Postscriptum}
+      \field{number}{27-29}
+      \field{title}{Kodowanie tekst{ó}w polskich w systemach komputerowych}
+      \field{urlday}{28}
+      \field{urlmonth}{9}
+      \field{urlyear}{2020}
+      \field{year}{1999}
+      \field{urldateera}{ce}
+      \field{pages}{4\bibrangedash 27}
+      \range{pages}{24}
+      \verb{urlraw}
+      \verb https://bc.klf.uw.edu.pl/286/
+      \endverb
+      \verb{url}
+      \verb https://bc.klf.uw.edu.pl/286/
+      \endverb
+    \endentry
+    \entry{bc114}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d45d6fecb21e879fdc0cbdd875d7caa6}{%
+           family={Bie{ń}},
+           familyi={B\bibinitperiod},
+           given={Janusz\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Grupa U{ż}ytkownik{ó}w Systemu TeX}%
+      }
+      \strng{namehash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{fullhash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{bibnamehash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{authorbibnamehash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{authornamehash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{authorfullhash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{XIII Og{ó}lnopolska Konferencja TeX-owa}
+      \field{journaltitle}{Biuletyn GUST}
+      \field{number}{20}
+      \field{title}{Standard Unicode 4.0. Wybrane poj{ę}cia i terminy}
+      \field{urlday}{28}
+      \field{urlmonth}{9}
+      \field{urlyear}{2020}
+      \field{year}{2004}
+      \field{urldateera}{ce}
+      \field{pages}{9\bibrangedash 14}
+      \range{pages}{6}
+      \verb{urlraw}
+      \verb http://bc.klf.uw.edu.pl/114/
+      \endverb
+      \verb{url}
+      \verb http://bc.klf.uw.edu.pl/114/
+      \endverb
+    \endentry
+    \entry{bien_dygitalizacja_2010}{incollection}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d45d6fecb21e879fdc0cbdd875d7caa6}{%
+           family={Bień},
+           familyi={B\bibinitperiod},
+           given={Janusz\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=d01cd3fca4d39b4fab89ea5fac7ea902}{%
+           family={Czopek-Kopciuch},
+           familyi={C\bibinithyphendelim K\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod}}}%
+        {{hash=2fd722ae658533d54fbe51eec237f65c}{%
+           family={Żmigrodzki},
+           familyi={Ż\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Kraków}%
+      }
+      \list{publisher}{1}{%
+        {Instytut Języka Polskiego {PAN} i Wydawnictwo {LEXIS}}%
+      }
+      \strng{namehash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{fullhash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{bibnamehash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{authorbibnamehash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{authornamehash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{authorfullhash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{editorbibnamehash}{3919fab9b5c91b57186de50fa13a6d5b}
+      \strng{editornamehash}{3919fab9b5c91b57186de50fa13a6d5b}
+      \strng{editorfullhash}{3919fab9b5c91b57186de50fa13a6d5b}
+      \field{extraname}{3}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Digitalization and computerization of dictionaries (exemplified by the dictionary of the 16th century Polish) For simple digitalization the recommended format is {DjVu}, which is produced in particular by the free pdf2djvu program. It is demonstrated that the {OCR} programs used by Kujawsko-Pomorska Digital Library are not adequate for the text of the dictionary, which contains many 16th century quotations. It is also stressed that scanning printed editions of digitally-born publications makes no sense from a user point of view, because the quality of {OCRed} scans will be always lower that that of an electronic document. More sophisticated digitalization, called computerization, is only briefly mentioned, as the topic is discussed in details in Krzysztof Szafran's book. The possibility of treating the dictionary as a corpus is illustrated by searching the 32th volume of the dictionary with Poliqarp corpus tool.}
+      \field{booktitle}{Język polski - wczoraj, dziś, jutro}
+      \field{title}{Dygitalizacja i komputeryzacja słowników na przykładzie Słownika polszczyzny {XVI} wieku}
+      \field{urlday}{28}
+      \field{urlmonth}{9}
+      \field{urlyear}{2020}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{131\bibrangedash 138}
+      \range{pages}{8}
+      \verb{file}
+      \verb JSB_JP-09s.pdf:/mnt/MyBookT2/mojePDF/JSB_JP-09s.pdf:application/pdf;SpXVIw_JSB_JP-09u.pdf:/mnt/MyBookT2/mojePDF/SpXVIw_JSB_JP-09u.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://bc.klf.uw.edu.pl/165/
+      \endverb
+      \verb{url}
+      \verb http://bc.klf.uw.edu.pl/165/
+      \endverb
+    \endentry
+    \entry{bc381}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d45d6fecb21e879fdc0cbdd875d7caa6}{%
+           family={Bie{ń}},
+           familyi={B\bibinitperiod},
+           given={Janusz\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Institute of Slavic Studies of the Polish Academy of Sciences}%
+      }
+      \strng{namehash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{fullhash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{bibnamehash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{authorbibnamehash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{authornamehash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{authorfullhash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \field{extraname}{4}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cognitive Studies {\ensuremath{|}} {É}tudes Cognitives}
+      \field{number}{14}
+      \field{title}{The IMPACT project Polish Ground-Truth texts as a DjVu corpus}
+      \field{urlday}{28}
+      \field{urlmonth}{12}
+      \field{urlyear}{2020}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{75\bibrangedash 84}
+      \range{pages}{10}
+      \verb{urlraw}
+      \verb https://ispan.waw.pl/journals/index.php/cs-ec/article/view/cs.2014.008
+      \endverb
+      \verb{url}
+      \verb https://ispan.waw.pl/journals/index.php/cs-ec/article/view/cs.2014.008
+      \endverb
+    \endentry
+    \entry{bc390}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d45d6fecb21e879fdc0cbdd875d7caa6}{%
+           family={Bie{ń}},
+           familyi={B\bibinitperiod},
+           given={Janusz\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{fullhash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{bibnamehash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{authorbibnamehash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{authornamehash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{authorfullhash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \field{extraname}{5}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{W artykule przedstawione s{ą} pewne innowacje terminologiczne (ca{ł}ostka, fleksem prosty i z{ł}o{ż}ony) na tle innych poj{ę}{ć} morfologii taksonomicznej, dok{ł}adniej opisanych gdzie indziej. Pokazane s{ą} te{ż} problemy, jakie sprawia {ś}cis{ł}a definicja znaku pi{ś}miennego.}
+      \field{journaltitle}{Poradnik J{ę}zykowy}
+      \field{note}{Także w CEEOL.}
+      \field{number}{2}
+      \field{title}{O poj{ę}ciach znaku, s{ł}owa i fleksemu}
+      \field{urlday}{28}
+      \field{urlmonth}{9}
+      \field{urlyear}{2020}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{66\bibrangedash 72}
+      \range{pages}{7}
+      \verb{urlraw}
+      \verb http://bc.klf.uw.edu.pl/390/
+      \endverb
+      \verb{url}
+      \verb http://bc.klf.uw.edu.pl/390/
+      \endverb
+    \endentry
+    \entry{bc480}{incollection}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d45d6fecb21e879fdc0cbdd875d7caa6}{%
+           family={Bie{ń}},
+           familyi={B\bibinitperiod},
+           given={Janusz\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=478a9251ac9a0448b5403fc747cb6bfa}{%
+           family={Roszko},
+           familyi={R\bibinitperiod},
+           given={Danuta},
+           giveni={D\bibinitperiod}}}%
+        {{hash=1795c433a8ae713112b2a4306f3e699a}{%
+           family={Sato{ł}a-Sta{ś}kowiak},
+           familyi={S\bibinithyphendelim S\bibinitperiod},
+           given={Joanna},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Warszawa}%
+      }
+      \list{publisher}{1}{%
+        {Instytut Slawistyki PAN}%
+      }
+      \strng{namehash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{fullhash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{bibnamehash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{authorbibnamehash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{authornamehash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{authorfullhash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{editorbibnamehash}{968c42155d24bba7e40cd0b0171b2942}
+      \strng{editornamehash}{968c42155d24bba7e40cd0b0171b2942}
+      \strng{editorfullhash}{968c42155d24bba7e40cd0b0171b2942}
+      \field{extraname}{6}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Semantyka a konfrontacja j{ę}zykowa}
+      \field{title}{Problemy kodowania znak{ó}w w korpusach historycznych}
+      \field{urlday}{28}
+      \field{urlmonth}{12}
+      \field{urlyear}{2020}
+      \field{volume}{5}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{67\bibrangedash 76}
+      \range{pages}{10}
+      \verb{urlraw}
+      \verb http://bc.klf.uw.edu.pl/480/
+      \endverb
+      \verb{url}
+      \verb http://bc.klf.uw.edu.pl/480/
+      \endverb
+    \endentry
+    \entry{bien_parkoszPSP}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d45d6fecb21e879fdc0cbdd875d7caa6}{%
+           family={Bień},
+           familyi={B\bibinitperiod},
+           given={Janusz\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{fullhash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{bibnamehash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{authorbibnamehash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{authornamehash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \strng{authorfullhash}{d45d6fecb21e879fdc0cbdd875d7caa6}
+      \field{extraname}{7}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Poznańskie Studia Polonistyczne. Seria Językoznawcza}
+      \field{number}{1}
+      \field{title}{Traktat Parkosza. Eksperymentalna edycja elektroniczna}
+      \field{urlday}{28}
+      \field{urlmonth}{12}
+      \field{urlyear}{2020}
+      \field{volume}{26}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{27\bibrangedash 69}
+      \range{pages}{43}
+      \verb{doi}
+      \verb 10.14746/pspsj.2019.26.1.2
+      \endverb
+      \verb{urlraw}
+      \verb http://pressto.amu.edu.pl/index.php/pspsj/article/view/19852
+      \endverb
+      \verb{url}
+      \verb http://pressto.amu.edu.pl/index.php/pspsj/article/view/19852
+      \endverb
+    \endentry
+    \entry{Blewitt16}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=b87dec30b75ea5a8a76dfc5e63128ec2}{%
+           family={Blewitt},
+           familyi={B\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \strng{namehash}{b87dec30b75ea5a8a76dfc5e63128ec2}
+      \strng{fullhash}{b87dec30b75ea5a8a76dfc5e63128ec2}
+      \strng{bibnamehash}{b87dec30b75ea5a8a76dfc5e63128ec2}
+      \strng{authorbibnamehash}{b87dec30b75ea5a8a76dfc5e63128ec2}
+      \strng{authornamehash}{b87dec30b75ea5a8a76dfc5e63128ec2}
+      \strng{authorfullhash}{b87dec30b75ea5a8a76dfc5e63128ec2}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Docklands.JLC}
+      \field{title}{A brief history of Unicode}
+      \field{urlday}{28}
+      \field{urlmonth}{9}
+      \field{urlyear}{2020}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.infoq.com/presentations/unicode-history/
+      \endverb
+      \verb{url}
+      \verb https://www.infoq.com/presentations/unicode-history/
+      \endverb
+    \endentry
+    \entry{Górski_Konrad__Zasady}{book}{}
+      \name{editor}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=0155c552f5e27817d4ba8604c88e338c}{%
+           family={Górski},
+           familyi={G\bibinitperiod},
+           given={Konrad},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Wrocław}%
+      }
+      \list{publisher}{1}{%
+        {Zakład im. Ossolińskich - Wydaw. Polskiej Akademii Nauk}%
+      }
+      \strng{namehash}{0155c552f5e27817d4ba8604c88e338c}
+      \strng{fullhash}{0155c552f5e27817d4ba8604c88e338c}
+      \strng{bibnamehash}{0155c552f5e27817d4ba8604c88e338c}
+      \strng{editorbibnamehash}{0155c552f5e27817d4ba8604c88e338c}
+      \strng{editornamehash}{0155c552f5e27817d4ba8604c88e338c}
+      \strng{editorfullhash}{0155c552f5e27817d4ba8604c88e338c}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{note}{Do wersji elektronicznej dostęp ograniczony}
+      \field{title}{Zasady wydawania tekstów staropolskich: projekt}
+      \field{type}{book}
+      \field{year}{1955}
+      \verb{urlraw}
+      \verb http://ebuw.uw.edu.pl/publication/1334
+      \endverb
+      \verb{url}
+      \verb http://ebuw.uw.edu.pl/publication/1334
+      \endverb
+    \endentry
+    \entry{haralambous02:_unicod}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d4fd18c5f9e6aaa43201a39a2dd3e94d}{%
+           family={Haralambous},
+           familyi={H\bibinitperiod},
+           given={Yannis},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d4fd18c5f9e6aaa43201a39a2dd3e94d}
+      \strng{fullhash}{d4fd18c5f9e6aaa43201a39a2dd3e94d}
+      \strng{bibnamehash}{d4fd18c5f9e6aaa43201a39a2dd3e94d}
+      \strng{authorbibnamehash}{d4fd18c5f9e6aaa43201a39a2dd3e94d}
+      \strng{authornamehash}{d4fd18c5f9e6aaa43201a39a2dd3e94d}
+      \strng{authorfullhash}{d4fd18c5f9e6aaa43201a39a2dd3e94d}
+      \field{extraname}{1}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Document numérique}
+      \field{number}{3}
+      \field{title}{Unicode et typographie : un amour impossible}
+      \field{urlday}{28}
+      \field{urlmonth}{9}
+      \field{urlyear}{2020}
+      \field{volume}{6}
+      \field{year}{2002}
+      \field{urldateera}{ce}
+      \field{pages}{105\bibrangedash 137}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.3166/dn.6.3-4.105-137
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cairn.info/revue-document-numerique-2002-3-page-105.htm
+      \endverb
+      \verb{url}
+      \verb https://www.cairn.info/revue-document-numerique-2002-3-page-105.htm
+      \endverb
+    \endentry
+    \entry{haralambous07:_fonts_encod}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d4fd18c5f9e6aaa43201a39a2dd3e94d}{%
+           family={Haralambous},
+           familyi={H\bibinitperiod},
+           given={Yannis},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {O'Reilly Media}%
+      }
+      \strng{namehash}{d4fd18c5f9e6aaa43201a39a2dd3e94d}
+      \strng{fullhash}{d4fd18c5f9e6aaa43201a39a2dd3e94d}
+      \strng{bibnamehash}{d4fd18c5f9e6aaa43201a39a2dd3e94d}
+      \strng{authorbibnamehash}{d4fd18c5f9e6aaa43201a39a2dd3e94d}
+      \strng{authornamehash}{d4fd18c5f9e6aaa43201a39a2dd3e94d}
+      \strng{authorfullhash}{d4fd18c5f9e6aaa43201a39a2dd3e94d}
+      \field{extraname}{2}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Fonts \& Encodings. From Advanced Typography to Unicode and Everything in Between}
+      \field{year}{2007}
+    \endentry
+    \entry{einar13:_dealin}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=a84fc1ee4eb3f08068e841e602d8a6e2}{%
+           family={Haugen},
+           familyi={H\bibinitperiod},
+           given={Odd\bibnamedelima Einar},
+           giveni={O\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a84fc1ee4eb3f08068e841e602d8a6e2}
+      \strng{fullhash}{a84fc1ee4eb3f08068e841e602d8a6e2}
+      \strng{bibnamehash}{a84fc1ee4eb3f08068e841e602d8a6e2}
+      \strng{authorbibnamehash}{a84fc1ee4eb3f08068e841e602d8a6e2}
+      \strng{authornamehash}{a84fc1ee4eb3f08068e841e602d8a6e2}
+      \strng{authorfullhash}{a84fc1ee4eb3f08068e841e602d8a6e2}
+      \field{extraname}{1}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Document numérique}
+      \field{number}{3}
+      \field{title}{Dealing with glyphs and characters. Challenges in encoding medieval scripts}
+      \field{urlday}{29}
+      \field{urlmonth}{9}
+      \field{urlyear}{2020}
+      \field{volume}{16}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{97\bibrangedash 111}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.3166/DN.16.3.97-111
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cairn.info/revue-document-numerique-2013-3-page-97.htm
+      \endverb
+      \verb{url}
+      \verb https://www.cairn.info/revue-document-numerique-2013-3-page-97.htm
+      \endverb
+    \endentry
+    \entry{haugen15:_mufi}{book}{}
+      \name{editor}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=a84fc1ee4eb3f08068e841e602d8a6e2}{%
+           family={Haugen},
+           familyi={H\bibinitperiod},
+           given={Odd\bibnamedelima Einar},
+           giveni={O\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Medieval Unicode Font Initiative}%
+      }
+      \strng{namehash}{a84fc1ee4eb3f08068e841e602d8a6e2}
+      \strng{fullhash}{a84fc1ee4eb3f08068e841e602d8a6e2}
+      \strng{bibnamehash}{a84fc1ee4eb3f08068e841e602d8a6e2}
+      \strng{editorbibnamehash}{a84fc1ee4eb3f08068e841e602d8a6e2}
+      \strng{editornamehash}{a84fc1ee4eb3f08068e841e602d8a6e2}
+      \strng{editorfullhash}{a84fc1ee4eb3f08068e841e602d8a6e2}
+      \field{extraname}{2}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-82-8088-411-4}
+      \field{title}{MUFI character recommendation version 4.0}
+      \field{urlday}{28}
+      \field{urlmonth}{9}
+      \field{urlyear}{2020}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://hdl.handle.net/1956/10699
+      \endverb
+      \verb{url}
+      \verb http://hdl.handle.net/1956/10699
+      \endverb
+    \endentry
+    \entry{hojdis_problemy_2016}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=4aaff3156ef6935b744b92245bd1143d}{%
+           family={Hojdis},
+           familyi={H\bibinitperiod},
+           given={Bogdan},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4aaff3156ef6935b744b92245bd1143d}
+      \strng{fullhash}{4aaff3156ef6935b744b92245bd1143d}
+      \strng{bibnamehash}{4aaff3156ef6935b744b92245bd1143d}
+      \strng{authorbibnamehash}{4aaff3156ef6935b744b92245bd1143d}
+      \strng{authornamehash}{4aaff3156ef6935b744b92245bd1143d}
+      \strng{authorfullhash}{4aaff3156ef6935b744b92245bd1143d}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2391-7903}
+      \field{journaltitle}{Sztuka Edycji}
+      \field{number}{2}
+      \field{title}{Problemy krojów pisma w edycji sejmowej dzieł Jana Kochanowskiego}
+      \field{urlday}{28}
+      \field{urlmonth}{9}
+      \field{urlyear}{2020}
+      \field{volume}{10}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{7\bibrangedash 14}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.12775/SE.2016.013
+      \endverb
+      \verb{urlraw}
+      \verb https://apcz.umk.pl/czasopisma/index.php/sztukaedycji/article/view/SE.2016.013
+      \endverb
+      \verb{url}
+      \verb https://apcz.umk.pl/czasopisma/index.php/sztukaedycji/article/view/SE.2016.013
+      \endverb
+    \endentry
+    \entry{boguslaw_jackowski_piotr_pianowski_piotr_strzelczyk_kolekcja_2018}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=46b84f362a3d24b28c06139847f9eb11}{%
+           family={Jackowski},
+           familyi={J\bibinitperiod},
+           given={Bogusław},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2b0c4a52f3ee7fe25ec2bb287f3e2b18}{%
+           family={Pianowski},
+           familyi={P\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e4fab0772f21b8a11c49403fec1c43da}{%
+           family={Strzelczyk},
+           familyi={S\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c4b1686e3ad16f2257a65a5a6f0df416}
+      \strng{fullhash}{c4b1686e3ad16f2257a65a5a6f0df416}
+      \strng{bibnamehash}{c4b1686e3ad16f2257a65a5a6f0df416}
+      \strng{authorbibnamehash}{c4b1686e3ad16f2257a65a5a6f0df416}
+      \strng{authornamehash}{c4b1686e3ad16f2257a65a5a6f0df416}
+      \strng{authorfullhash}{c4b1686e3ad16f2257a65a5a6f0df416}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Acta Poligraphica}
+      \field{title}{Kolekcja fontów TeX Gyre: kolejna odsłona}
+      \field{urlday}{28}
+      \field{urlmonth}{9}
+      \field{urlyear}{2020}
+      \field{volume}{12}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{17\bibrangedash 30}
+      \range{pages}{14}
+      \verb{urlraw}
+      \verb http://www.cobrpp.com.pl/actapoligraphica/uploads/pdf/AP2018_2_Jackowski.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.cobrpp.com.pl/actapoligraphica/uploads/pdf/AP2018_2_Jackowski.pdf
+      \endverb
+    \endentry
+    \entry{kierkowicz10:_zasad}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=14eef2dec2f94cac004a99ecfaa6f1ef}{%
+           family={Kierkowicz},
+           familyi={K\bibinitperiod},
+           given={Magdalena},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{14eef2dec2f94cac004a99ecfaa6f1ef}
+      \strng{fullhash}{14eef2dec2f94cac004a99ecfaa6f1ef}
+      \strng{bibnamehash}{14eef2dec2f94cac004a99ecfaa6f1ef}
+      \strng{authorbibnamehash}{14eef2dec2f94cac004a99ecfaa6f1ef}
+      \strng{authornamehash}{14eef2dec2f94cac004a99ecfaa6f1ef}
+      \strng{authorfullhash}{14eef2dec2f94cac004a99ecfaa6f1ef}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1895-4901}
+      \field{issue}{2}
+      \field{journaltitle}{Podteksty}
+      \field{number}{20}
+      \field{title}{Zasady wydawania tekstów staropolskich wobec wiedzy o fonetyce historycznej i najnowszej praktyki wydawniczej - rekonesans}
+      \field{urlday}{4}
+      \field{urlmonth}{10}
+      \field{urlyear}{2014}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://podteksty.amu.edu.pl/
+      \endverb
+      \verb{url}
+      \verb http://podteksty.amu.edu.pl/
+      \endverb
+    \endentry
+    \entry{korpela_unicode_2006}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=3feb143172140b4bfea3f08ea6837297}{%
+           family={Korpela},
+           familyi={K\bibinitperiod},
+           given={Jukka\bibnamedelima K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Shroff Publishers \& Distributors}%
+      }
+      \strng{namehash}{3feb143172140b4bfea3f08ea6837297}
+      \strng{fullhash}{3feb143172140b4bfea3f08ea6837297}
+      \strng{bibnamehash}{3feb143172140b4bfea3f08ea6837297}
+      \strng{authorbibnamehash}{3feb143172140b4bfea3f08ea6837297}
+      \strng{authornamehash}{3feb143172140b4bfea3f08ea6837297}
+      \strng{authorfullhash}{3feb143172140b4bfea3f08ea6837297}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-81-8404-160-6}
+      \field{month}{1}
+      \field{title}{Unicode {Explained}}
+      \field{year}{2006}
+    \endentry
+    \entry{opaliński07:_probl_xvi}{incollection}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=2362d177138319750f3dbf7198f026f8}{%
+           family={Opaliński},
+           familyi={O\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=b902263ad333a24de4fe7e8ad7910901}{%
+           family={Kamper-Warejko},
+           familyi={K\bibinithyphendelim W\bibinitperiod},
+           given={Joanna},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2e4c2b4ce92ea040916bdb98f3e93bee}{%
+           family={Kaproń-Charzyńska},
+           familyi={K\bibinithyphendelim C\bibinitperiod},
+           given={Iwona},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wydawnictwo Naukowe Uniwersytetu Mikołaja Kopernika}%
+      }
+      \strng{namehash}{2362d177138319750f3dbf7198f026f8}
+      \strng{fullhash}{2362d177138319750f3dbf7198f026f8}
+      \strng{bibnamehash}{2362d177138319750f3dbf7198f026f8}
+      \strng{authorbibnamehash}{2362d177138319750f3dbf7198f026f8}
+      \strng{authornamehash}{2362d177138319750f3dbf7198f026f8}
+      \strng{authorfullhash}{2362d177138319750f3dbf7198f026f8}
+      \strng{editorbibnamehash}{6d914c19cdbbf11af46a49a4ddc25bbe}
+      \strng{editornamehash}{6d914c19cdbbf11af46a49a4ddc25bbe}
+      \strng{editorfullhash}{6d914c19cdbbf11af46a49a4ddc25bbe}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Z zagadnień leksykologii i leksykografii języków słowiańskich}
+      \field{title}{Problemy kodowania korpusów historycznych (na przykładzie tekstów XVI-wiecznych)}
+      \field{year}{2007}
+      \field{pages}{107\bibrangedash 114}
+      \range{pages}{8}
+    \endentry
+    \entry{pest15:_t_t}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=b8db9e597bc0f44c69f244f7d036d4d1}{%
+           family={Pest},
+           familyi={P\bibinitperiod},
+           given={Monika},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b8db9e597bc0f44c69f244f7d036d4d1}
+      \strng{fullhash}{b8db9e597bc0f44c69f244f7d036d4d1}
+      \strng{bibnamehash}{b8db9e597bc0f44c69f244f7d036d4d1}
+      \strng{authorbibnamehash}{b8db9e597bc0f44c69f244f7d036d4d1}
+      \strng{authornamehash}{b8db9e597bc0f44c69f244f7d036d4d1}
+      \strng{authorfullhash}{b8db9e597bc0f44c69f244f7d036d4d1}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2299-9981}
+      \field{issue}{6}
+      \field{journaltitle}{Acta Poligraphica}
+      \field{title}{T \& T, czyli jak typografia jest interfejsem tekstologii}
+      \field{urlday}{28}
+      \field{urlmonth}{9}
+      \field{urlyear}{2020}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{71\bibrangedash 84}
+      \range{pages}{14}
+      \verb{urlraw}
+      \verb http://www.cobrpp.com.pl/actapoligraphica/uploads/pdf/AP2015_02_Pest.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.cobrpp.com.pl/actapoligraphica/uploads/pdf/AP2015_02_Pest.pdf
+      \endverb
+    \endentry
+    \entry{Pike93}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=93ef763b27739841ef3b85d235621787}{%
+           family={Pike},
+           familyi={P\bibinitperiod},
+           given={Rob},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0738a39ce7d754134211fbb089ce3a15}{%
+           family={Thompson},
+           familyi={T\bibinitperiod},
+           given={Ken},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {San Diego}%
+      }
+      \strng{namehash}{5e24b4d455eb2463dbf214b62895e0f2}
+      \strng{fullhash}{5e24b4d455eb2463dbf214b62895e0f2}
+      \strng{bibnamehash}{5e24b4d455eb2463dbf214b62895e0f2}
+      \strng{authorbibnamehash}{5e24b4d455eb2463dbf214b62895e0f2}
+      \strng{authornamehash}{5e24b4d455eb2463dbf214b62895e0f2}
+      \strng{authorfullhash}{5e24b4d455eb2463dbf214b62895e0f2}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Winter 1993 USENIX Conference}
+      \field{title}{Hello World or {\fontspec{Gentium Plus}Καλημέρα κόσμε} or {\fontspec{TakaoMincho}こんにちは 世界}}
+      \field{urlday}{28}
+      \field{urlmonth}{9}
+      \field{urlyear}{2020}
+      \field{year}{1993}
+      \field{urldateera}{ce}
+      \field{pages}{43\bibrangedash 50}
+      \range{pages}{8}
+      \verb{urlraw}
+      \verb http://doc.cat-v.org/plan_9/4th_edition/papers/utf
+      \endverb
+      \verb{url}
+      \verb http://doc.cat-v.org/plan_9/4th_edition/papers/utf
+      \endverb
+    \endentry
+    \entry{Strzelczyk_2013}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=e4fab0772f21b8a11c49403fec1c43da}{%
+           family={Strzelczyk},
+           familyi={S\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e4fab0772f21b8a11c49403fec1c43da}
+      \strng{fullhash}{e4fab0772f21b8a11c49403fec1c43da}
+      \strng{bibnamehash}{e4fab0772f21b8a11c49403fec1c43da}
+      \strng{authorbibnamehash}{e4fab0772f21b8a11c49403fec1c43da}
+      \strng{authornamehash}{e4fab0772f21b8a11c49403fec1c43da}
+      \strng{authorfullhash}{e4fab0772f21b8a11c49403fec1c43da}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Acta Poligraphica}
+      \field{title}{Standard Unicode w typografii}
+      \field{urlday}{28}
+      \field{urlmonth}{9}
+      \field{urlyear}{2020}
+      \field{volume}{1}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{41\bibrangedash 50}
+      \range{pages}{10}
+      \verb{urlraw}
+      \verb http://www.cobrpp.com.pl/actapoligraphica/uploads/pdf/AP2013_01_Strzelczyk.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.cobrpp.com.pl/actapoligraphica/uploads/pdf/AP2013_01_Strzelczyk.pdf
+      \endverb
+    \endentry
+    \entry{anna_wielunska_digitalizacja_2018}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=50920d2b85b06b9272ec13431156ad28}{%
+           family={Wieluńska},
+           familyi={W\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{50920d2b85b06b9272ec13431156ad28}
+      \strng{fullhash}{50920d2b85b06b9272ec13431156ad28}
+      \strng{bibnamehash}{50920d2b85b06b9272ec13431156ad28}
+      \strng{authorbibnamehash}{50920d2b85b06b9272ec13431156ad28}
+      \strng{authornamehash}{50920d2b85b06b9272ec13431156ad28}
+      \strng{authorfullhash}{50920d2b85b06b9272ec13431156ad28}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2299-9981}
+      \field{journaltitle}{Acta Poligraphica}
+      \field{number}{12}
+      \field{title}{Digitalizacja karakteru ukośnego Jana Januszowskiego – studium procesu}
+      \field{urlday}{28}
+      \field{urlmonth}{9}
+      \field{urlyear}{2020}
+      \field{volume}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{31\bibrangedash 50}
+      \range{pages}{20}
+      \verb{urlraw}
+      \verb https://www.cobrpp.com.pl/actapoligraphica/uploads/pdf/AP2018_2_Wieluńska.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.cobrpp.com.pl/actapoligraphica/uploads/pdf/AP2018_2_Wielu%C5%84ska.pdf
+      \endverb
+    \endentry
+    \entry{wielunska_anna_lazarus:_2018}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=50920d2b85b06b9272ec13431156ad28}{%
+           family={Wieluńska},
+           familyi={W\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Akademia Sztuk Pięknych}%
+      }
+      \list{location}{1}{%
+        {Warszawa}%
+      }
+      \strng{namehash}{50920d2b85b06b9272ec13431156ad28}
+      \strng{fullhash}{50920d2b85b06b9272ec13431156ad28}
+      \strng{bibnamehash}{50920d2b85b06b9272ec13431156ad28}
+      \strng{authorbibnamehash}{50920d2b85b06b9272ec13431156ad28}
+      \strng{authornamehash}{50920d2b85b06b9272ec13431156ad28}
+      \strng{authorfullhash}{50920d2b85b06b9272ec13431156ad28}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Lazarus: Nowy Karakter Polski. Proces dygitalizacji i specimen.}
+      \field{type}{phdthesis}
+      \field{urlday}{28}
+      \field{urlmonth}{9}
+      \field{urlyear}{2020}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://lazarus.wtf/wp-content/uploads/2018/12/LAZARUS_BOOK_WEB.pdf
+      \endverb
+      \verb{url}
+      \verb https://lazarus.wtf/wp-content/uploads/2018/12/LAZARUS_BOOK_WEB.pdf
+      \endverb
+    \endentry
+    \entry{wiki:ISO2022}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=b6aea1a416c89509a7df1cbb69249cb6}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 22-May-2019]}
+      \field{title}{ISO/IEC 2022 --- {Wikipedia}{,} The Free Encyclopedia}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/w/index.php?title=ISO/IEC_2022&oldid=896826507
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?title=ISO/IEC_2022&oldid=896826507
+      \endverb
+    \endentry
+    \entry{wiki:Vform}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=b6aea1a416c89509a7df1cbb69249cb6}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 25-May-2019]}
+      \field{title}{Variant form (Unicode) --- {Wikipedia}{,} The Free Encyclopedia}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/w/index.php?title=Variant_form_(Unicode)&oldid=896012681
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?title=Variant_form_(Unicode)&oldid=896012681
+      \endverb
+    \endentry
+    \entry{wiki:VS}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=b6aea1a416c89509a7df1cbb69249cb6}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \field{extraname}{3}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 25-May-2019]}
+      \field{title}{Variation Selectors (Unicode block) --- {Wikipedia}{,} The Free Encyclopedia}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/w/index.php?title=Variation_Selectors_(Unicode_block)&oldid=891132820
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?title=Variation_Selectors_(Unicode_block)&oldid=891132820
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{microsoft:_charac_glyph_index_mappin_table}
+  \missing{wiki:ISO10646:2020}
+  \missing{wiki:PUA:2020}
+\endrefsection
+\endinput
+

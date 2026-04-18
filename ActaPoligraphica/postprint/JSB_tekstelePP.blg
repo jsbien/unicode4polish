@@ -1,0 +1,33 @@
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is 'JSB_tekstelePP.blg'
+[17] biber:315> INFO - === Sun May 23, 2021, 14:13:40
+[32] Biber.pm:371> INFO - Reading 'JSB_tekstelePP.bcf'
+[72] Biber.pm:889> INFO - Found 33 citekeys in bib section 0
+[82] Biber.pm:4093> INFO - Processing section 0
+[88] Biber.pm:4254> INFO - Looking for bibtex format file 'all.bib' for section 0
+[102] bibtex.pm:1512> INFO - LaTeX decoding ...
+[413] bibtex.pm:1329> INFO - Found BibTeX data source 'all.bib'
+[415] Utils.pm:193> WARN - Duplicate entry key: 'cappelli12:_lexic_abbrev' in file 'all.bib', skipping ...
+[423] Utils.pm:193> WARN - Duplicate entry key: 'bc94' in file 'all.bib', skipping ...
+[426] Utils.pm:193> WARN - Duplicate entry key: 'wiki:brevi' in file 'all.bib', skipping ...
+[427] Utils.pm:193> WARN - Duplicate entry key: 'N3122' in file 'all.bib', skipping ...
+[428] Utils.pm:193> WARN - Duplicate entry key: 'bc326' in file 'all.bib', skipping ...
+[429] Utils.pm:193> WARN - Duplicate entry key: 'bc177' in file 'all.bib', skipping ...
+[430] Utils.pm:193> WARN - Duplicate entry key: 'bc135' in file 'all.bib', skipping ...
+[430] Utils.pm:193> WARN - Duplicate entry key: 'bc136' in file 'all.bib', skipping ...
+[431] Utils.pm:193> WARN - Duplicate entry key: 'bc94' in file 'all.bib', skipping ...
+[525] Utils.pm:193> WARN - BibTeX subsystem: /tmp/Bfsk2kcfq_/all.bib_18390.utf8, line 893, warning: 1 characters of junk seen at toplevel
+[525] Utils.pm:193> WARN - BibTeX subsystem: /tmp/Bfsk2kcfq_/all.bib_18390.utf8, line 903, warning: 1 characters of junk seen at toplevel
+[526] Utils.pm:193> WARN - BibTeX subsystem: /tmp/Bfsk2kcfq_/all.bib_18390.utf8, line 914, warning: 1 characters of junk seen at toplevel
+[526] Utils.pm:193> WARN - BibTeX subsystem: /tmp/Bfsk2kcfq_/all.bib_18390.utf8, line 933, warning: 1 characters of junk seen at toplevel
+[526] Utils.pm:193> WARN - BibTeX subsystem: /tmp/Bfsk2kcfq_/all.bib_18390.utf8, line 943, warning: 1 characters of junk seen at toplevel
+[526] Utils.pm:193> WARN - BibTeX subsystem: /tmp/Bfsk2kcfq_/all.bib_18390.utf8, line 960, warning: 1 characters of junk seen at toplevel
+[526] Utils.pm:193> WARN - I didn't find a database entry for 'wiki:ISO10646:2020' (section 0)
+[526] Utils.pm:193> WARN - I didn't find a database entry for 'microsoft:_charac_glyph_index_mappin_table' (section 0)
+[526] Utils.pm:193> WARN - I didn't find a database entry for 'wiki:PUA:2020' (section 0)
+[554] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[554] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[554] Biber.pm:3921> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pl-PL'
+[576] bbl.pm:636> INFO - Writing 'JSB_tekstelePP.bbl' with encoding 'UTF-8'
+[588] bbl.pm:739> INFO - Output to JSB_tekstelePP.bbl
+[588] Biber.pm:110> INFO - WARNINGS: 18

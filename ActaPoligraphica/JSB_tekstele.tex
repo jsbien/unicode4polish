@@ -1,0 +1,98 @@
+% Janusz S. Bień
+% Formal Linguistics Department, University of Warsaw, Dobra 55, 00-312 Warszawa, Poland
+% jsbien@uw.edu.pl
+
+\documentclass{mwart}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{etoolbox}
+\setmainlanguage{polish}
+\setotherlanguage{english}
+\usepackage{csquotes}
+\usepackage{wrapfig}
+\usepackage[style=authoryear,backend=biber,backref=true,urldate=short]{biblatex}
+%\addbibresource{jsbqed.bib}
+\addbibresource{4JSB2014u.bib}
+\addbibresource{2017.bib}
+\addbibresource{2018.bib}
+\addbibresource{2019a.bib}
+\addbibresource{2019b.bib}
+
+\DefineBibliographyStrings{polish}{%
+  byeditor = {red.},
+  urlseen = {dostęp},
+}
+
+% http://tex.stackexchange.com/questions/166337/quotation-mark-quotation-sign-xelatex-polyglossia-csquotes
+\DeclareQuoteStyle{polish}% I looked it up on Wikipedia, no idea if it's right
+  {\quotedblbase}
+  {\textquotedblright}
+  [0.05em]
+  {\textquoteleft}
+  {\textquoteright}
+
+% psuje tytuły???:
+%  \usepackage{ulem}
+\usepackage{metalogo}
+\usepackage[polish]{varioref}
+
+\def\eob{ę}
+
+\setmainfont[Mapping=tex-text]{TeX Gyre Termes}
+% \char"EC10 \char"EC11 oraz \char"EC12
+\setmonofont{NotoSansMono-Regular}
+
+\def\orogate{\char"EC12}
+\usepackage{relsize}
+
+\usepackage{hyperref}
+
+\usepackage{graphicx}
+% [hyphens]: options clash
+\usepackage{url}
+%\usepackage{natbib}
+\newcommand{\uname}[1]{{\relsize{-1}\texttt{#1}}}
+\newcommand{\ucode}[1]{\texttt{#1}}
+\newcommand{\mname}[1]{\texttt{#1}}
+\newcommand{\mcode}[1]{\texttt{#1}}
+\newcommand{\aname}[1]{\texttt{#1}}
+\newcommand{\acode}[1]{\texttt{#1}}
+\newcommand{\prname}[1]{\textsf{#1}}
+%
+
+
+\usepackage{draftwatermark}
+\usepackage[doublespacing]{setspace}
+
+\usepackage[xetex]{preview}
+
+\begin{document}
+%\gappto\captionslingua{\renewcommand{\chaptername}{Caput}}
+\gappto\captionspolish{\renewcommand{\figurename}{Ilustracja}}
+
+\renewcommand{\topfraction}{0.9}	
+\setcounter{topnumber}{4}
+\setcounter{totalnumber}{4}
+
+% 
+\title{Standard Unicode i dawne teksty polskie}
+
+\author{Janusz S. Bień}
+
+\date{\today}
+
+\maketitle
+
+
+\input JSB_tekstele-tekst
+
+% redundantne:
+\end{document}
+
+%%% Local Variables: 
+%%% coding: utf-8-unix
+%%% mode: latex
+%%% TeX-master: t
+%%% TeX-PDF-mode: t
+%%% TeX-engine: xetex
+%%% End: 
